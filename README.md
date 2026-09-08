@@ -1,56 +1,58 @@
-# LUMEN — Pricing & Go-to-Market Case — Kit de démarrage ATELIA × ESCP
+# LUMEN — Pricing & Go-to-Market Case — ATELIA × ESCP Starter Kit
 
-> Ce repo est votre point de départ. Codex doit lire ce README en premier.
+> This repo is your starting point. Codex should read this README first.
 
-## Le brief
+## How to Get Started
 
-Le brief complet est dans **`LUMEN_Case_Brief.md`** (et une version mise en page dans
-`LUMEN_Case_Brief.pdf`). Les données sont dans le dossier **`data/`**, documentées dans
-`data/README_data.md`.
+This repo is a **template**: click **Fork** (top right), not "Use this template." Fork keeps your copy linked back to the original — that's what lets ATELIA automatically find every team's work, without anyone needing to send a link.
 
-Résumé en une phrase : LUMEN, une marque de boisson fonctionnelle, doit décider **prix,
-positionnement et canal(aux) de lancement** pour entrer sur le marché allemand — sans données de
-ventes allemandes réelles (LUMEN n'y est pas encore), avec un arbitrage réel entre le CMO (positionnement
-premium) et le CFO (retour sur investissement rapide).
+Once you've forked it, add your teammates as collaborators (Settings → Collaborators on your fork), and leave the visibility as **Public** — don't switch it to Private, or we lose access to your work.
 
-## Règle n°1 — Consignez tous vos prompts dans `PROMPTS.md`
+## The Brief
 
-Chaque fois que vous envoyez une instruction à un assistant IA (Codex ou autre) pour écrire, modifier ou corriger du code, ajoutez une entrée dans `PROMPTS.md` **avant** de passer à autre chose. Ne réécrivez pas l'historique après coup.
+The full brief is in `LUMEN_Case_Brief.md` (and a formatted version in `LUMEN_Case_Brief.pdf`). The data is in the `data/` folder, documented in `data/README_data.md`.
 
-**Équipe de 4** : indiquez qui a envoyé chaque prompt, pas juste l'horodatage.
+One-sentence summary: LUMEN, a functional beverage brand, has to decide **price, positioning, and launch channel(s)** to enter the German market — with no real German sales data (LUMEN isn't there yet), and a real trade-off between the CMO (premium positioning) and the CFO (fast return on investment).
 
-Format attendu pour chaque entrée :
+## Rule #1 — Log Every Prompt in `PROMPTS.md`
+
+Every time you send an instruction to an AI assistant (Codex or otherwise) to write, edit, or fix code, add an entry to `PROMPTS.md` **before** moving on to the next thing. Don't rewrite the history afterward.
+
+**Team of 4**: note who sent each prompt, not just the timestamp.
+
+Expected format for each entry:
 
 ```
-## Prompt 3 — Sacha — 14h22
-Objectif : ajouter un filtre par date sur le tableau de résultats
-Prompt envoyé : "..."
-Résultat : a marché du premier coup / a nécessité 2 itérations / n'a pas marché, changé d'approche
+Prompt 3 — Sacha — 14h22
+Goal: add a date filter to the results table
+Prompt sent: "..."
+Result: worked first try / took 2 iterations / didn't work, changed approach
 ```
 
-**Pourquoi on vous demande ça** : ce n'est pas pour vous surveiller. C'est ce qui nous permet, à la fin, de comprendre *comment* vous avez raisonné — pas seulement ce que vous avez produit. Un bon résultat obtenu avec un prompt clair dès le départ n'est pas noté comme un bon résultat obtenu après quinze essais au hasard.
 
-## Règle n°2 — Avant de coder, posez-vous ces questions
+Why we're asking this: it's not to monitor you. It's what lets us understand, at the end, *how* you reasoned — not just what you produced. A good result reached with a clear prompt from the start isn't scored the same as a good result reached after fifteen random attempts.
 
-Cochez chaque case dans ce README au fur et à mesure — pas à la fin, pendant que vous avancez :
+## Rule #2 — Before You Code, Ask Yourself These Questions
 
-- [ ] **Données** : quelles données mon outil va-t-il manipuler ? Sont-elles sensibles (données personnelles, données client de l'entreprise) ? *`data/customer_survey.csv` contient des colonnes nom/email — les avez-vous utilisées dans votre outil ? Si oui, comment les avez-vous protégées/anonymisées ? Si non, pourquoi avez-vous choisi de ne pas les exposer ?* (Une équipe qui n'y touche pas doit quand même pouvoir répondre — "on a choisi de ne pas les utiliser" est une réponse valable.)
-- [ ] **Clés d'API** : si votre outil appelle une API externe (météo, ou autre), où est stockée la clé ? Jamais codée en dur dans un fichier commité sur GitHub. (Réponse valable : "on n'a utilisé aucune API externe".)
-- [ ] **Déploiement** : si vous avez déployé une démo live, est-ce qu'un endpoint ou une réponse renvoie des données brutes non filtrées (ex. le détail complet du survey avec nom/email) à n'importe quel visiteur ?
-- [ ] **Fichiers générés en cours de route** : si votre outil (ou Codex) a créé de nouveaux fichiers dérivés des données fournies, avez-vous réfléchi à s'ils devaient être commités sur le repo ou non ?
-- [ ] **Stockage** : si je conserve des données, dans quelle structure et pourquoi ce choix plutôt qu'un autre ?
-- [ ] **Robustesse** : que se passe-t-il si l'utilisateur donne une entrée vide, incohérente ou inattendue ?
-- [ ] **Explicabilité** : est-ce que je peux expliquer à quelqu'un du métier — pas technique — pourquoi mon outil fait ce qu'il fait ?
-- [ ] **Pertinence business** : est-ce que mon prototype répond vraiment au problème posé dans le brief, ou est-ce une version technique intéressante mais à côté du sujet ?
+Check each box in this README as you go — not at the end, while you're working:
 
-Ces questions ne sont pas là pour vous ralentir — elles font partie de ce qui est évalué. Une réponse réfléchie à l'une d'entre elles vaut plus qu'une fonctionnalité supplémentaire non demandée.
+- [ ] **Data**: what data will your tool actually handle? Is any of it sensitive (personal data, company customer data)? `data/customer_survey.csv` has name/email columns — did you use them in your tool? If yes, how did you protect/anonymize them? If no, why did you choose not to expose them? (A team that never touches these columns should still be able to answer — "we chose not to use them" is a valid answer.)
+- [ ] **API keys**: if your tool calls an external API (weather, or anything else), where is the key stored? Never hardcoded in a file committed to GitHub. (A valid answer: "we didn't use any external API.")
+- [ ] **Deployment**: if you deployed a live demo, does any endpoint or response return raw, unfiltered data (e.g. the full survey with name/email) to any visitor?
+- [ ] **Files generated along the way**: if your tool (or Codex) created new files derived from the provided data, did you think about whether they should be committed to the repo or not?
+- [ ] **Storage**: if you're keeping any data, in what structure, and why that choice over another?
+- [ ] **Robustness**: what happens if the user gives an empty, inconsistent, or unexpected input?
+- [ ] **Explainability**: can you explain to someone non-technical why your tool does what it does?
+- [ ] **Business relevance**: does your prototype actually answer the problem posed in the brief, or is it an interesting technical build that's off-target?
 
-## Ce qu'on attend à la fin
+These questions aren't here to slow you down — they're part of what's being evaluated. A thoughtful answer to one of them is worth more than an extra feature nobody asked for.
 
-1. Un prototype qui fonctionne, même partiellement, sur le cas LUMEN
-2. `PROMPTS.md` rempli au fil de l'eau, par toute l'équipe
-3. Un court paragraphe ci-dessous, écrit en langage business (pas technique), qui explique ce que vous avez fait et pourquoi
+## What We Expect at the End
 
-### Notre approche
+- A prototype that works, even partially, on the LUMEN case
+- `PROMPTS.md` filled in continuously, by the whole team
+- A short paragraph below, written in business language (not technical), explaining what you did and why
 
-[À remplir par l'équipe en fin de travail.]
+## Our Approach
+
+*[To be filled in by the team at the end.]*
