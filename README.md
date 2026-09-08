@@ -14,23 +14,13 @@ The full brief is in `LUMEN_Case_Brief.md` (and a formatted version in `LUMEN_Ca
 
 One-sentence summary: LUMEN, a functional beverage brand, has to decide **price, positioning, and launch channel(s)** to enter the German market — with no real German sales data (LUMEN isn't there yet), and a real trade-off between the CMO (premium positioning) and the CFO (fast return on investment).
 
-## Rule #1 — Log Every Prompt in `PROMPTS.md`
+## Rule #1 — Prompt Logging Is Automatic
 
-Every time you send an instruction to an AI assistant (Codex or otherwise) to write, edit, or fix code, add an entry to `PROMPTS.md` **before** moving on to the next thing. Don't rewrite the history afterward.
+This repo includes an `AGENTS.md` file, which Codex reads automatically at the start of every task — you don't need to open or edit it. The first time you talk to Codex in a new conversation, it will ask for your **student ID**. Answer it, and from then on Codex logs every prompt you send it — automatically, verbatim — into `prompts/<your-id>/session-*.md`, without you doing anything else.
 
-**Team of 4**: note who sent each prompt, not just the timestamp.
+**You don't fill this in by hand.** Your only job is to make sure that log file gets committed along with your code changes — Codex writes it, but you still need to include it when your pull request is created and merged. If a pull request only has code changes and no updated log file, that's a sign something didn't get logged.
 
-Expected format for each entry:
-
-```
-Prompt 3 — Sacha — 14h22
-Goal: add a date filter to the results table
-Prompt sent: "..."
-Result: worked first try / took 2 iterations / didn't work, changed approach
-```
-
-
-Why we're asking this: it's not to monitor you. It's what lets us understand, at the end, *how* you reasoned — not just what you produced. A good result reached with a clear prompt from the start isn't scored the same as a good result reached after fifteen random attempts.
+Why we're doing this: it's not to monitor you. It's what lets us understand, at the end, how you reasoned — not just what you produced. A good result reached with a clear prompt from the start isn't scored the same as a good result reached after fifteen random attempts.
 
 ## Rule #2 — Before You Code, Ask Yourself These Questions
 
@@ -50,7 +40,7 @@ These questions aren't here to slow you down — they're part of what's being ev
 ## What We Expect at the End
 
 - A prototype that works, even partially, on the LUMEN case
-- `PROMPTS.md` filled in continuously, by the whole team
+- Your prompt log (`prompts/<your-id>/session-*.md`) committed and up to date
 - A short paragraph below, written in business language (not technical), explaining what you did and why
 
 ## Our Approach
