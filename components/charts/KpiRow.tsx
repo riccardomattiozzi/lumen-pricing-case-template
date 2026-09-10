@@ -15,13 +15,13 @@ function KpiTile({
   warn?: boolean;
 }) {
   return (
-    <div className="rounded-lg border border-line bg-surface p-4">
+    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
       <p className="text-xs text-foreground-faint">{label}</p>
-      <p className="mt-1 text-xl font-semibold tabular-nums text-foreground">
+      <p className="font-data mt-1 text-xl font-semibold text-foreground">
         {value}
       </p>
       {sub && (
-        <p className={`mt-1 text-xs ${warn ? "text-cmo" : "text-foreground-faint"}`}>
+        <p className={`mt-1 text-xs ${warn ? "font-medium text-cmo" : "text-foreground-faint"}`}>
           {sub}
         </p>
       )}
