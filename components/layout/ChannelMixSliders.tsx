@@ -43,7 +43,7 @@ export function ChannelMixSliders() {
               <label htmlFor={`mix-${channel}`} className="text-xs text-foreground-soft">
                 {channel}
               </label>
-              <span className="font-mono text-xs tabular-nums">
+              <span className="font-data text-xs">
                 {Math.round(pct * 100)}%
               </span>
             </div>

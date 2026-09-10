@@ -39,7 +39,7 @@ export function CompetitorPositioningChart() {
   const maxDomain = Math.max(3.29, ...data.map((d) => d.range[1])) + 0.2;
 
   return (
-    <div className="rounded-lg border border-line bg-surface p-4">
+    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
       <p className="text-sm font-medium text-foreground">
         LUMEN vs. competitor price bands
       </p>

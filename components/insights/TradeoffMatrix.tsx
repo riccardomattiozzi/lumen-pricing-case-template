@@ -17,7 +17,7 @@ function ScoreBar({
     <div>
       <div className="flex items-baseline justify-between text-xs">
         <span className="font-medium text-foreground">{label}</span>
-        <span className="font-mono tabular-nums text-foreground-soft">{score}/100</span>
+        <span className="font-data text-foreground-soft">{score}/100</span>
       </div>
       <div className="mt-1 h-2 rounded-full bg-line" role="img" aria-label={`${label} score: ${score} out of 100`}>
         <div
@@ -35,7 +35,7 @@ export function TradeoffMatrix() {
   const stress = stressTestAssumption(inputs);
 
   return (
-    <div className="rounded-lg border border-line bg-surface p-4">
+    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
       <p className="text-sm font-medium text-foreground">CFO vs. CMO trade-off</p>
       <div className="mt-3 space-y-3">
         <ScoreBar label="CFO score" score={result.cfoScore} color={colors.cfo} />
@@ -60,7 +60,7 @@ export function TradeoffMatrix() {
           {stress.map(({ multiplier, result: r }) => (
             <div key={multiplier} className="rounded-md border border-line p-2">
               <p className="text-foreground-faint">{multiplier}×</p>
-              <p className="mt-1 font-mono tabular-nums text-foreground">
+              <p className="mt-1 font-data text-foreground">
                 CFO {r.cfoScore} / CMO {r.cmoScore}
               </p>
             </div>
