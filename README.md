@@ -26,14 +26,14 @@ Why we're doing this: it's not to monitor you. It's what lets us understand, at 
 
 Check each box in this README as you go — not at the end, while you're working:
 
-- [ ] **Data**: what data will your tool actually handle? Is any of it sensitive (personal data, company customer data)? `data/customer_survey.csv` has name/email columns — did you use them in your tool? If yes, how did you protect/anonymize them? If no, why did you choose not to expose them? (A team that never touches these columns should still be able to answer — "we chose not to use them" is a valid answer.)
-- [ ] **API keys**: if your tool calls an external API (weather, or anything else), where is the key stored? Never hardcoded in a file committed to GitHub. (A valid answer: "we didn't use any external API.")
-- [ ] **Deployment**: if you deployed a live demo, does any endpoint or response return raw, unfiltered data (e.g. the full survey with name/email) to any visitor?
-- [ ] **Files generated along the way**: if your tool (or Codex) created new files derived from the provided data, did you think about whether they should be committed to the repo or not?
-- [ ] **Storage**: if you're keeping any data, in what structure, and why that choice over another?
-- [ ] **Robustness**: what happens if the user gives an empty, inconsistent, or unexpected input?
-- [ ] **Explainability**: can you explain to someone non-technical why your tool does what it does?
-- [ ] **Business relevance**: does your prototype actually answer the problem posed in the brief, or is it an interesting technical build that's off-target?
+- [x] **Data**: `customer_survey.csv`'s `first_name`/`last_name`/`email` are stripped by `scripts/build-data.ts` before anything is written to `data/processed/` — the deployed app never receives them. Everything it does use (segment, city, spend, awareness, intent) is anonymized aggregate or individually non-identifying. Full answer in-app under "README checklist" (`components/insights/ChecklistPanel.tsx`).
+- [x] **API keys**: no external API is called anywhere in this build — nothing to leak.
+- [x] **Deployment**: the app is fully static, no API routes and no server — the browser only ever receives the pre-built, PII-free JSON under `data/processed/`.
+- [x] **Files generated along the way**: `data/processed/*.json` and `data/processed/DATA_QUALITY.md` are committed on purpose — they're the reproducible, PII-free artifact the deployed app reads and its audit trail, not scratch output.
+- [x] **Storage**: no database, no persistence — every number is recomputed live from `ScenarioInputs` via a pure function. Nothing needs to be shared between visitors or remembered between visits.
+- [x] **Robustness**: empty regions → zero demand, not `NaN`; a channel mix that doesn't sum to 1 is normalized, not rejected; price is clamped; zero marketing budget doesn't divide-by-zero. Covered by tests in `lib/engine/pricingEngine.test.ts` and `lib/recommendationEngine.test.ts`.
+- [x] **Explainability**: the recommendation box states price, channel, timing and the trade-off in one plain paragraph with real numbers. The market-share assumption is labeled explicitly as an assumption, and a "does this hold up?" panel stress-tests it.
+- [x] **Business relevance**: answers the brief's exact closing question (price, channel(s), timing, what's deliberately not optimized for), with every number traceable to a specific CSV column, and flags where the model extrapolates beyond the €1.79–€2.59 range LUMEN actually tested.
 
 These questions aren't here to slow you down — they're part of what's being evaluated. A thoughtful answer to one of them is worth more than an extra feature nobody asked for.
 
@@ -46,4 +46,10 @@ These questions aren't here to slow you down — they're part of what's being ev
 
 ## Our Approach
 
-*[To be filled in by the team at the end.]*
+**Live**: https://lumen-pricing-case-template-nine.vercel.app
+
+We built a simulator, not a single answer, because the honest answer to "what price should LUMEN launch at in Germany" depends on how much you weight Elena's runway against Jonas's brand ambitions — and we didn't think that call was ours to make silently inside a spreadsheet. Move any slider (price, channel mix, launch month, or the one genuinely uncertain number in this whole model — how much of the German market LUMEN could realistically win in year one) and every number on the page recomputes live from the real data room: no hidden Excel tab, no rounding "for simplicity."
+
+One finding surprised us enough that it changed the tool. Our first instinct — like most people's — was that a cheap price sold through mass retail would be the CFO-friendly choice, fast payback, wide reach. Running the actual unit economics said the opposite: Retail/Grocery has the weakest margin of LUMEN's three channels at every price point once the retailer's cut and distributor fee are removed, and total monthly profit actually peaks around €2.19 — both the €1.79 and €2.59 ends of the tested range leave money on the table, just for different reasons (too little margin per can vs. too few people buying). So the real trade-off in this data isn't "cheap vs. premium." Both a finance-first and a brand-first reading of the numbers agree on the channels (DTC Online and Gym & Office, not mass retail); they disagree specifically on how far to push price toward premium positioning once profit has already peaked — and on how much reach to sacrifice by avoiding retail almost entirely.
+
+Because there's no real German sales history — LUMEN has never sold there — every volume estimate rests on one assumption we refused to bury: what share of the addressable category LUMEN could win in its first year. We made that a slider, not a footnote, and we built a one-click stress test that reruns the entire recommendation at half and double that assumption, so a viewer can see for themselves whether a given price/channel call survives a more conservative guess or only looks good at the default. Where the model has no direct evidence — any price outside the €1.79–€2.59 band actually tested — it says so visibly rather than presenting a guess with the same confidence as a measurement.

@@ -8,35 +8,50 @@ import {
 } from "@/lib/types";
 import { computeScenario } from "@/lib/engine/pricingEngine";
 
-// The three illustrative points from the case brief's own trade-off:
-// CFO favors the acceptance-heavy low end with a Retail-weighted mix (best
-// margin/acceptance balance per price_test_results.csv); CMO favors the
-// premium end with brand-building channels (DTC + Gym & Office); Compromise
-// sits at the middle tested price with a blended mix. Exported so
+// The three illustrative points from the case brief's trade-off — recalibrated
+// against the real engine, not assumed. An earlier version put CFO at the
+// low tested price (€1.79) with a Retail-heavy mix on the intuition that
+// "cheap + mass channel = fast payback." Running the actual numbers showed
+// the opposite: Retail/Grocery has the WORST per-unit contribution of the
+// three channels at every tested price (retailer margin + distributor cut),
+// and total monthly profit peaks near €2.19, not at the price extremes —
+// €1.79 undershoots the peak on volume-thin margin, €2.59 overshoots it by
+// sacrificing too much acceptance. So the real CFO-vs-CMO tension here
+// isn't "cheap vs. premium" — both sides prefer DTC Online/Gym & Office
+// over Retail/Grocery — it's specifically about price: CFO wants the
+// profit-maximizing €2.19, CMO wants to push toward the most premium
+// tested price (€2.59) for positioning even though that costs total
+// profit. Compromise keeps a meaningful Retail/Grocery share for the
+// market reach neither pure-margin scenario provides. Exported so
 // components/layout/ScenarioPanel.tsx can display real computed numbers
 // next to each preset, not just apply them.
 export const PRESET_INPUTS: Record<PresetName, ScenarioInputs> = {
   CFO: {
     ...DEFAULT_SCENARIO_INPUTS,
-    priceEur: 1.79,
+    priceEur: 2.19,
     salesChannelMix: {
-      "DTC Online": 0.2,
-      "Retail/Grocery": 0.6,
-      "Gym & Office": 0.2,
+      "DTC Online": 0.45,
+      "Retail/Grocery": 0.1,
+      "Gym & Office": 0.45,
     },
   },
   CMO: {
     ...DEFAULT_SCENARIO_INPUTS,
     priceEur: 2.59,
     salesChannelMix: {
-      "DTC Online": 0.45,
-      "Retail/Grocery": 0.15,
-      "Gym & Office": 0.4,
+      "DTC Online": 0.5,
+      "Retail/Grocery": 0.05,
+      "Gym & Office": 0.45,
     },
   },
   Compromise: {
     ...DEFAULT_SCENARIO_INPUTS,
-    priceEur: 2.19,
+    priceEur: 2.39,
+    salesChannelMix: {
+      "DTC Online": 0.35,
+      "Retail/Grocery": 0.25,
+      "Gym & Office": 0.4,
+    },
   },
 };
 
@@ -55,7 +70,10 @@ interface ScenarioStore {
 }
 
 export const useScenarioStore = create<ScenarioStore>((set) => ({
-  inputs: DEFAULT_SCENARIO_INPUTS,
+  // "Default" IS the Compromise preset — keeps the active-preset label
+  // honest on first load instead of claiming "Compromise" while showing
+  // different numbers than clicking that button would actually set.
+  inputs: PRESET_INPUTS.Compromise,
   activePreset: "Compromise",
   setPriceEur: (priceEur) =>
     set((s) => ({ inputs: { ...s.inputs, priceEur }, activePreset: "Custom" })),
@@ -89,7 +107,7 @@ export const useScenarioStore = create<ScenarioStore>((set) => ({
   applyPreset: (preset) =>
     set({ inputs: PRESET_INPUTS[preset], activePreset: preset }),
   resetToDefault: () =>
-    set({ inputs: DEFAULT_SCENARIO_INPUTS, activePreset: "Compromise" }),
+    set({ inputs: PRESET_INPUTS.Compromise, activePreset: "Compromise" }),
 }));
 
 export function useScenario() {
