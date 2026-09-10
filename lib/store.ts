@@ -8,10 +8,14 @@ import {
 } from "@/lib/types";
 import { computeScenario } from "@/lib/engine/pricingEngine";
 
-// PRESET_INPUTS is a stub set of illustrative values for PR #1 — Member 2
-// should replace these with numbers pulled from the real engine output once
-// PR #2 lands, per the build plan.
-const PRESET_INPUTS: Record<PresetName, ScenarioInputs> = {
+// The three illustrative points from the case brief's own trade-off:
+// CFO favors the acceptance-heavy low end with a Retail-weighted mix (best
+// margin/acceptance balance per price_test_results.csv); CMO favors the
+// premium end with brand-building channels (DTC + Gym & Office); Compromise
+// sits at the middle tested price with a blended mix. Exported so
+// components/layout/ScenarioPanel.tsx can display real computed numbers
+// next to each preset, not just apply them.
+export const PRESET_INPUTS: Record<PresetName, ScenarioInputs> = {
   CFO: {
     ...DEFAULT_SCENARIO_INPUTS,
     priceEur: 1.79,
