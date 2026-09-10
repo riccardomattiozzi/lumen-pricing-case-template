@@ -1,0 +1,386 @@
+[
+  {
+    "competitor": "PulsUp",
+    "month": "2025-09-01",
+    "listPriceEur": 1.1,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.1
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2025-10-01",
+    "listPriceEur": 1.09,
+    "promoActive": true,
+    "promoDiscountPct": 10,
+    "shelfPriceEur": 0.98
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2025-11-01",
+    "listPriceEur": 1.1,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.1
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2025-12-01",
+    "listPriceEur": 1.09,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.09
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-01-01",
+    "listPriceEur": 1.11,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.11
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-02-01",
+    "listPriceEur": 1.09,
+    "promoActive": true,
+    "promoDiscountPct": 20,
+    "shelfPriceEur": 0.87
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-03-01",
+    "listPriceEur": 1.08,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.08
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-04-01",
+    "listPriceEur": 1.1,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.1
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-05-01",
+    "listPriceEur": 1.11,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.11
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-06-01",
+    "listPriceEur": 1.08,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.08
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-07-01",
+    "listPriceEur": 1.08,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.08
+  },
+  {
+    "competitor": "PulsUp",
+    "month": "2026-08-01",
+    "listPriceEur": 1.07,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.07
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2025-09-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2025-10-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2025-11-01",
+    "listPriceEur": 1.57,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.57
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2025-12-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-01-01",
+    "listPriceEur": 1.57,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.57
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-02-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-03-01",
+    "listPriceEur": 1.6,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.6
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-04-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-05-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-06-01",
+    "listPriceEur": 1.58,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.58
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-07-01",
+    "listPriceEur": 1.58,
+    "promoActive": true,
+    "promoDiscountPct": 20,
+    "shelfPriceEur": 1.26
+  },
+  {
+    "competitor": "Mate Libre",
+    "month": "2026-08-01",
+    "listPriceEur": 1.6,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 1.6
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2025-09-01",
+    "listPriceEur": 2.4,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.4
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2025-10-01",
+    "listPriceEur": 2.39,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.39
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2025-11-01",
+    "listPriceEur": 2.38,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.38
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2025-12-01",
+    "listPriceEur": 2.39,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.39
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-01-01",
+    "listPriceEur": 2.38,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.38
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-02-01",
+    "listPriceEur": 2.41,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.41
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-03-01",
+    "listPriceEur": 2.4,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.4
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-04-01",
+    "listPriceEur": 2.38,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.38
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-05-01",
+    "listPriceEur": 2.38,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.38
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-06-01",
+    "listPriceEur": 2.4,
+    "promoActive": true,
+    "promoDiscountPct": 10,
+    "shelfPriceEur": 2.16
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-07-01",
+    "listPriceEur": 2.38,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.38
+  },
+  {
+    "competitor": "VoltFit",
+    "month": "2026-08-01",
+    "listPriceEur": 2.37,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.37
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2025-09-01",
+    "listPriceEur": 2.95,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.95
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2025-10-01",
+    "listPriceEur": 2.93,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.93
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2025-11-01",
+    "listPriceEur": 2.97,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.97
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2025-12-01",
+    "listPriceEur": 2.95,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.95
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-01-01",
+    "listPriceEur": 2.96,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.96
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-02-01",
+    "listPriceEur": 2.94,
+    "promoActive": true,
+    "promoDiscountPct": 15,
+    "shelfPriceEur": 2.5
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-03-01",
+    "listPriceEur": 2.95,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.95
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-04-01",
+    "listPriceEur": 2.97,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.97
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-05-01",
+    "listPriceEur": 2.95,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.95
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-06-01",
+    "listPriceEur": 2.94,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.94
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-07-01",
+    "listPriceEur": 2.94,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.94
+  },
+  {
+    "competitor": "Root & Rise",
+    "month": "2026-08-01",
+    "listPriceEur": 2.95,
+    "promoActive": false,
+    "promoDiscountPct": 0,
+    "shelfPriceEur": 2.95
+  }
+]

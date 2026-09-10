@@ -1,0 +1,62 @@
+[
+  {
+    "segment": "Students & Budget-Conscious",
+    "sentiment": "positive",
+    "quote": "If it's on promo near the exam period I'll grab a pack, otherwise it's a stretch."
+  },
+  {
+    "segment": "Students & Budget-Conscious",
+    "sentiment": "negative",
+    "quote": "Honestly 2,50EUR for a can is a hard no on a student budget, whatever is inside it."
+  },
+  {
+    "segment": "Students & Budget-Conscious",
+    "sentiment": "mixed",
+    "quote": "I like the idea but I'd only buy it if my usual energy drink was sold out."
+  },
+  {
+    "segment": "Urban Wellness Professionals",
+    "sentiment": "positive",
+    "quote": "I switched most of my afternoon coffee runs to something like this, I don't mind paying more for clean ingredients."
+  },
+  {
+    "segment": "Urban Wellness Professionals",
+    "sentiment": "positive",
+    "quote": "The adaptogen angle is what gets me, not the caffeine."
+  },
+  {
+    "segment": "Urban Wellness Professionals",
+    "sentiment": "negative",
+    "quote": "Too many wellness brands taste like medicine, that's the real risk here, not the price."
+  },
+  {
+    "segment": "Fitness & Gym-Goers",
+    "sentiment": "positive",
+    "quote": "If it performs like VoltFit but tastes better I'm switching immediately."
+  },
+  {
+    "segment": "Fitness & Gym-Goers",
+    "sentiment": "mixed",
+    "quote": "I care about the caffeine source but I'm not going to overpay just for a nicer can."
+  },
+  {
+    "segment": "Fitness & Gym-Goers",
+    "sentiment": "negative",
+    "quote": "My gym already sells three energy drinks, it needs a real reason to take shelf space."
+  },
+  {
+    "segment": "On-the-go Commuters",
+    "sentiment": "positive",
+    "quote": "Grab and go is everything for me, if it's not at the kiosk near the station I'll never try it."
+  },
+  {
+    "segment": "On-the-go Commuters",
+    "sentiment": "mixed",
+    "quote": "I'd try it once out of curiosity, repeat purchase depends entirely on taste."
+  },
+  {
+    "segment": "On-the-go Commuters",
+    "sentiment": "negative",
+    "quote": "One more canned drink option at the kiosk doesn't move me, I buy on habit."
+  }
+]
