@@ -2,7 +2,7 @@
 
 import { useScenarioStore, PRESET_INPUTS } from "@/lib/store";
 import { computeScenario } from "@/lib/engine/pricingEngine";
-import { PRESET_COLORS } from "@/lib/theme";
+import { PRESET_COLORS, PRESET_SOFT_COLORS } from "@/lib/theme";
 import type { PresetName } from "@/lib/types";
 
 const PRESETS: PresetName[] = ["CFO", "Compromise", "CMO"];
@@ -61,9 +61,17 @@ export function ScenarioPanel() {
                 onClick={() => applyPreset(preset)}
                 aria-label={`${preset} preset: €${PRESET_INPUTS[preset].priceEur.toFixed(2)}, ${outputs.blendedAcceptancePct.toFixed(0)} percent acceptance`}
                 aria-pressed={active}
-                style={active ? { borderColor: PRESET_COLORS[preset] } : undefined}
-                className={`rounded-lg border px-3 py-2 text-left transition-colors ${
-                  active ? "bg-white" : "border-line hover:border-foreground-faint"
+                style={
+                  active
+                    ? {
+                        borderColor: PRESET_COLORS[preset],
+                        backgroundColor: PRESET_SOFT_COLORS[preset],
+                        boxShadow: `0 2px 10px -4px ${PRESET_COLORS[preset]}66`,
+                      }
+                    : undefined
+                }
+                className={`rounded-lg border px-3 py-2 text-left transition-all ${
+                  active ? "" : "border-line hover:border-foreground-faint"
                 }`}
               >
                 <div className="flex items-center gap-1.5">
@@ -74,7 +82,7 @@ export function ScenarioPanel() {
                   />
                   <span className="text-sm font-semibold">{preset}</span>
                 </div>
-                <p className="mt-1 font-mono text-[11px] text-foreground-faint">
+                <p className="font-data mt-1 text-[11px] text-foreground-faint">
                   {`€${PRESET_INPUTS[preset].priceEur.toFixed(2)} · ${outputs.blendedAcceptancePct.toFixed(0)}% acc.`}
                 </p>
               </button>
@@ -88,7 +96,7 @@ export function ScenarioPanel() {
           <label htmlFor="capture-slider" className="text-sm font-medium text-foreground">
             Year-1 market share assumption
           </label>
-          <span className="font-mono text-sm tabular-nums">
+          <span className="font-data text-sm">
             {(marketShareCapturePct * 100).toFixed(2)}%
           </span>
         </div>
@@ -116,7 +124,7 @@ export function ScenarioPanel() {
           <label htmlFor="budget-slider" className="text-sm font-medium text-foreground">
             Monthly marketing budget
           </label>
-          <span className="font-mono text-sm tabular-nums">
+          <span className="font-data text-sm">
             {`€${monthlyMarketingBudgetEur.toLocaleString("de-DE")}`}
           </span>
         </div>
@@ -141,7 +149,7 @@ export function ScenarioPanel() {
           id="month-select"
           value={launchMonth}
           onChange={(e) => setLaunchMonth(Number(e.target.value))}
-          className="mt-2 w-full rounded-md border border-line bg-white px-2 py-1.5 text-sm"
+          className="mt-2 w-full rounded-md border border-line bg-surface-2 px-2 py-1.5 text-sm"
         >
           {MONTH_NAMES.map((name, i) => (
             <option key={name} value={i + 1}>

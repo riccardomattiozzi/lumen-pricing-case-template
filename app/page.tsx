@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <main className="mx-auto max-w-6xl px-6 py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-[340px_1fr]">
-          <aside className="space-y-8 rounded-xl border border-line bg-surface p-5">
+          <aside className="card-shadow h-fit space-y-8 rounded-2xl border border-line bg-surface p-5 md:sticky md:top-6">
             <div className="space-y-5 border-b border-line pb-6">
               <PriceSlider />
               <ChannelMixSliders />

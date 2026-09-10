@@ -18,7 +18,7 @@ export function PriceSlider() {
         <label htmlFor="price-slider" className="text-sm font-medium text-foreground">
           Price
         </label>
-        <span className="font-mono text-sm tabular-nums">
+        <span className="font-data text-sm">
           {`€${priceEur.toFixed(2)}`}
         </span>
       </div>

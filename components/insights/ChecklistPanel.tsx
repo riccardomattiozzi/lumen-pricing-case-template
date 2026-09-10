@@ -43,7 +43,7 @@ const ITEMS: { question: string; answer: string }[] = [
 
 export function ChecklistPanel() {
   return (
-    <div className="rounded-lg border border-line bg-surface p-4">
+    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
       <p className="text-sm font-medium text-foreground">
         README checklist — answered, not skipped
       </p>
