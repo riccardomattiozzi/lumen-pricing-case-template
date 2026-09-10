@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "component": "Ingredients (green tea caffeine + adaptogens)",
+      "costPerUnitEur": 0.21,
+      "pctOfTotal": 33.9
+    },
+    {
+      "component": "Can & packaging",
+      "costPerUnitEur": 0.14,
+      "pctOfTotal": 22.6
+    },
+    {
+      "component": "Co-packing / production",
+      "costPerUnitEur": 0.15,
+      "pctOfTotal": 24.2
+    },
+    {
+      "component": "Freight & logistics",
+      "costPerUnitEur": 0.07,
+      "pctOfTotal": 11.3
+    },
+    {
+      "component": "Germany import duty & compliance allowance",
+      "costPerUnitEur": 0.05,
+      "pctOfTotal": 8.1
+    }
+  ],
+  "totalCogsPerUnitEur": 0.62,
+  "blendedGrossMarginPctHomeMarkets": 30
+}
