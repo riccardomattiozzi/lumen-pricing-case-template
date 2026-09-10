@@ -1,8 +1,14 @@
 # Prompting notes
 
-Per-student verbatim prompt logs live in `prompts/<student-id>/`. This file is
-different: a short note on the one prompting decision that mattered most for
-each module, and which tool built it — not a transcript.
+The verbatim prompt log for this build is at
+`prompts/e264242/session-20260910-212439-lumen.md`. It states openly that it
+was written in one pass at the end of the session rather than appended
+prompt by prompt — `AGENTS.md`'s automatic logging only fires on Codex, and
+this build ran on Claude Code. The prompts themselves are copied exactly as
+typed, typos included, and no timestamps were invented to fill the gap.
+
+This file is different: a short note on the one prompting decision that
+mattered most for each module, and which tool built it — not a transcript.
 
 ## Tooling
 
