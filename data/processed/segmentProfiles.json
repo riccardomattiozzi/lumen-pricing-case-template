@@ -1,0 +1,106 @@
+[
+  {
+    "segment": "Students & Budget-Conscious",
+    "respondentCount": 135,
+    "avgAge": 21.1,
+    "avgPurchaseFrequencyPerMonth": 5.1,
+    "avgMonthlyBeverageSpendEur": 17.24,
+    "avgPriceSensitivity1To10": 7.9,
+    "preferredChannelShare": {
+      "DTC Online": 0.2222,
+      "Retail/Grocery": 0.5407,
+      "Gym & Office": 0.237
+    },
+    "brandAwareness": {
+      "PulsUp": 0.8519,
+      "Mate Libre": 0.5778,
+      "VoltFit": 0.3704,
+      "Root & Rise": 0.0519
+    },
+    "avgLumenPurchaseIntent1To10": 5.5,
+    "avgVanWestendorp": {
+      "tooCheapEur": 0.69,
+      "cheapEur": 1.09,
+      "expensiveEur": 1.71,
+      "tooExpensiveEur": 2.2
+    }
+  },
+  {
+    "segment": "Fitness & Gym-Goers",
+    "respondentCount": 83,
+    "avgAge": 26.6,
+    "avgPurchaseFrequencyPerMonth": 6.23,
+    "avgMonthlyBeverageSpendEur": 20.11,
+    "avgPriceSensitivity1To10": 5.4,
+    "preferredChannelShare": {
+      "DTC Online": 0.1687,
+      "Retail/Grocery": 0.3855,
+      "Gym & Office": 0.4458
+    },
+    "brandAwareness": {
+      "PulsUp": 0.5301,
+      "Mate Libre": 0.3494,
+      "VoltFit": 0.7711,
+      "Root & Rise": 0.3253
+    },
+    "avgLumenPurchaseIntent1To10": 8,
+    "avgVanWestendorp": {
+      "tooCheapEur": 1,
+      "cheapEur": 1.59,
+      "expensiveEur": 2.5,
+      "tooExpensiveEur": 3.11
+    }
+  },
+  {
+    "segment": "On-the-go Commuters",
+    "respondentCount": 90,
+    "avgAge": 38.1,
+    "avgPurchaseFrequencyPerMonth": 5.87,
+    "avgMonthlyBeverageSpendEur": 19.97,
+    "avgPriceSensitivity1To10": 6,
+    "preferredChannelShare": {
+      "DTC Online": 0.1667,
+      "Retail/Grocery": 0.6,
+      "Gym & Office": 0.2333
+    },
+    "brandAwareness": {
+      "PulsUp": 0.7667,
+      "Mate Libre": 0.4222,
+      "VoltFit": 0.2556,
+      "Root & Rise": 0.1667
+    },
+    "avgLumenPurchaseIntent1To10": 6.7,
+    "avgVanWestendorp": {
+      "tooCheapEur": 0.89,
+      "cheapEur": 1.39,
+      "expensiveEur": 2.08,
+      "tooExpensiveEur": 2.7
+    }
+  },
+  {
+    "segment": "Urban Wellness Professionals",
+    "respondentCount": 112,
+    "avgAge": 32,
+    "avgPurchaseFrequencyPerMonth": 7.56,
+    "avgMonthlyBeverageSpendEur": 21.73,
+    "avgPriceSensitivity1To10": 3.6,
+    "preferredChannelShare": {
+      "DTC Online": 0.5357,
+      "Retail/Grocery": 0.3214,
+      "Gym & Office": 0.1429
+    },
+    "brandAwareness": {
+      "PulsUp": 0.3482,
+      "Mate Libre": 0.4554,
+      "VoltFit": 0.4911,
+      "Root & Rise": 0.6518
+    },
+    "avgLumenPurchaseIntent1To10": 9.1,
+    "avgVanWestendorp": {
+      "tooCheapEur": 1.21,
+      "cheapEur": 1.81,
+      "expensiveEur": 2.75,
+      "tooExpensiveEur": 3.48
+    }
+  }
+]

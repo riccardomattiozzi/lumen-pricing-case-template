@@ -1,0 +1,218 @@
+[
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "DTC Online",
+    "format": "Single can (330ml)",
+    "priceEur": 1.15,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "DTC Online",
+    "format": "4-pack",
+    "priceEur": 1.07,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "DTC Online",
+    "format": "12-pack subscription",
+    "priceEur": 0.98,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "Retail/Grocery",
+    "format": "Single can (330ml)",
+    "priceEur": 1.07,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "Retail/Grocery",
+    "format": "4-pack",
+    "priceEur": 1.06,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "Retail/Grocery",
+    "format": "12-pack subscription",
+    "priceEur": 0.96,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "Gym & Office",
+    "format": "Single can (330ml)",
+    "priceEur": 1.28,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "PulsUp",
+    "positioning": "Mass market",
+    "channel": "Gym & Office",
+    "format": "4-pack",
+    "priceEur": 1.18,
+    "marketingSpendIndex": 100
+  },
+  {
+    "competitor": "Mate Libre",
+    "positioning": "Heritage / loyal niche",
+    "channel": "Retail/Grocery",
+    "format": "Single can (330ml)",
+    "priceEur": 1.59,
+    "marketingSpendIndex": 40
+  },
+  {
+    "competitor": "Mate Libre",
+    "positioning": "Heritage / loyal niche",
+    "channel": "Retail/Grocery",
+    "format": "4-pack",
+    "priceEur": 1.5,
+    "marketingSpendIndex": 40
+  },
+  {
+    "competitor": "Mate Libre",
+    "positioning": "Heritage / loyal niche",
+    "channel": "Retail/Grocery",
+    "format": "12-pack subscription",
+    "priceEur": 1.37,
+    "marketingSpendIndex": 40
+  },
+  {
+    "competitor": "Mate Libre",
+    "positioning": "Heritage / loyal niche",
+    "channel": "Gym & Office",
+    "format": "Single can (330ml)",
+    "priceEur": 1.83,
+    "marketingSpendIndex": 40
+  },
+  {
+    "competitor": "Mate Libre",
+    "positioning": "Heritage / loyal niche",
+    "channel": "Gym & Office",
+    "format": "4-pack",
+    "priceEur": 1.73,
+    "marketingSpendIndex": 40
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "DTC Online",
+    "format": "Single can (330ml)",
+    "priceEur": 2.49,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "DTC Online",
+    "format": "4-pack",
+    "priceEur": 2.42,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "DTC Online",
+    "format": "12-pack subscription",
+    "priceEur": 2.19,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "Retail/Grocery",
+    "format": "Single can (330ml)",
+    "priceEur": 2.37,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "Retail/Grocery",
+    "format": "4-pack",
+    "priceEur": 2.3,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "Retail/Grocery",
+    "format": "12-pack subscription",
+    "priceEur": 2.1,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "Gym & Office",
+    "format": "Single can (330ml)",
+    "priceEur": 2.72,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "VoltFit",
+    "positioning": "Premium performance",
+    "channel": "Gym & Office",
+    "format": "4-pack",
+    "priceEur": 2.66,
+    "marketingSpendIndex": 85
+  },
+  {
+    "competitor": "Root & Rise",
+    "positioning": "Boutique adaptogenic",
+    "channel": "DTC Online",
+    "format": "Single can (330ml)",
+    "priceEur": 3.11,
+    "marketingSpendIndex": 15
+  },
+  {
+    "competitor": "Root & Rise",
+    "positioning": "Boutique adaptogenic",
+    "channel": "DTC Online",
+    "format": "4-pack",
+    "priceEur": 2.96,
+    "marketingSpendIndex": 15
+  },
+  {
+    "competitor": "Root & Rise",
+    "positioning": "Boutique adaptogenic",
+    "channel": "DTC Online",
+    "format": "12-pack subscription",
+    "priceEur": 2.67,
+    "marketingSpendIndex": 15
+  },
+  {
+    "competitor": "Root & Rise",
+    "positioning": "Boutique adaptogenic",
+    "channel": "Retail/Grocery",
+    "format": "Single can (330ml)",
+    "priceEur": 2.98,
+    "marketingSpendIndex": 15
+  },
+  {
+    "competitor": "Root & Rise",
+    "positioning": "Boutique adaptogenic",
+    "channel": "Retail/Grocery",
+    "format": "4-pack",
+    "priceEur": 2.82,
+    "marketingSpendIndex": 15
+  },
+  {
+    "competitor": "Root & Rise",
+    "positioning": "Boutique adaptogenic",
+    "channel": "Retail/Grocery",
+    "format": "12-pack subscription",
+    "priceEur": 2.54,
+    "marketingSpendIndex": 15
+  }
+]

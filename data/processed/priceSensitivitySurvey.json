@@ -1,0 +1,2402 @@
+[
+  {
+    "respondentId": 1,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.15,
+    "cheapEur": 1.83,
+    "expensiveEur": 2.77,
+    "tooExpensiveEur": 3.31
+  },
+  {
+    "respondentId": 2,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.84,
+    "cheapEur": 1.21,
+    "expensiveEur": 2.23,
+    "tooExpensiveEur": 2.8
+  },
+  {
+    "respondentId": 3,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.35,
+    "expensiveEur": 2.25,
+    "tooExpensiveEur": 2.62
+  },
+  {
+    "respondentId": 4,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.51,
+    "expensiveEur": 2.07,
+    "tooExpensiveEur": 3.14
+  },
+  {
+    "respondentId": 5,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.72,
+    "cheapEur": 1,
+    "expensiveEur": 1.58,
+    "tooExpensiveEur": 2.02
+  },
+  {
+    "respondentId": 6,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.06,
+    "cheapEur": 1.55,
+    "expensiveEur": 2.21,
+    "tooExpensiveEur": 2.52
+  },
+  {
+    "respondentId": 7,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.86,
+    "cheapEur": 1.31,
+    "expensiveEur": 2.27,
+    "tooExpensiveEur": 2.76
+  },
+  {
+    "respondentId": 8,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.25,
+    "cheapEur": 1.76,
+    "expensiveEur": 2.61,
+    "tooExpensiveEur": 3.47
+  },
+  {
+    "respondentId": 9,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.3,
+    "cheapEur": 1.98,
+    "expensiveEur": 2.79,
+    "tooExpensiveEur": 3.6
+  },
+  {
+    "respondentId": 10,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.14,
+    "cheapEur": 1.98,
+    "expensiveEur": 2.94,
+    "tooExpensiveEur": 3.81
+  },
+  {
+    "respondentId": 11,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.07,
+    "cheapEur": 1.38,
+    "expensiveEur": 2.28,
+    "tooExpensiveEur": 2.82
+  },
+  {
+    "respondentId": 12,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.76,
+    "cheapEur": 1.53,
+    "expensiveEur": 2.06,
+    "tooExpensiveEur": 2.7
+  },
+  {
+    "respondentId": 13,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.81,
+    "cheapEur": 1.24,
+    "expensiveEur": 1.81,
+    "tooExpensiveEur": 2.1
+  },
+  {
+    "respondentId": 14,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.13,
+    "cheapEur": 1.58,
+    "expensiveEur": 2.46,
+    "tooExpensiveEur": 3
+  },
+  {
+    "respondentId": 15,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.59,
+    "cheapEur": 2.04,
+    "expensiveEur": 2.44,
+    "tooExpensiveEur": 2.91
+  },
+  {
+    "respondentId": 16,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.6,
+    "cheapEur": 1.3,
+    "expensiveEur": 1.85,
+    "tooExpensiveEur": 1.98
+  },
+  {
+    "respondentId": 17,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.15,
+    "cheapEur": 1.65,
+    "expensiveEur": 2.93,
+    "tooExpensiveEur": 3.14
+  },
+  {
+    "respondentId": 18,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.4,
+    "cheapEur": 1.9,
+    "expensiveEur": 2.43,
+    "tooExpensiveEur": 3.39
+  },
+  {
+    "respondentId": 19,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.99,
+    "cheapEur": 1.49,
+    "expensiveEur": 2.44,
+    "tooExpensiveEur": 3
+  },
+  {
+    "respondentId": 20,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.89,
+    "cheapEur": 1.38,
+    "expensiveEur": 1.93,
+    "tooExpensiveEur": 2.75
+  },
+  {
+    "respondentId": 21,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.53,
+    "cheapEur": 0.99,
+    "expensiveEur": 1.82,
+    "tooExpensiveEur": 2.28
+  },
+  {
+    "respondentId": 22,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.04,
+    "cheapEur": 1.63,
+    "expensiveEur": 2.33,
+    "tooExpensiveEur": 3.64
+  },
+  {
+    "respondentId": 23,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.86,
+    "cheapEur": 1.06,
+    "expensiveEur": 1.69,
+    "tooExpensiveEur": 2.26
+  },
+  {
+    "respondentId": 24,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.97,
+    "cheapEur": 1.32,
+    "expensiveEur": 1.98,
+    "tooExpensiveEur": 2.66
+  },
+  {
+    "respondentId": 25,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.09,
+    "cheapEur": 2.09,
+    "expensiveEur": 3.06,
+    "tooExpensiveEur": 3.48
+  },
+  {
+    "respondentId": 26,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.12,
+    "cheapEur": 1.59,
+    "expensiveEur": 2.84,
+    "tooExpensiveEur": 3.51
+  },
+  {
+    "respondentId": 27,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.74,
+    "cheapEur": 1.01,
+    "expensiveEur": 1.86,
+    "tooExpensiveEur": 2.4
+  },
+  {
+    "respondentId": 28,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.96,
+    "cheapEur": 1.83,
+    "expensiveEur": 2.27,
+    "tooExpensiveEur": 3.22
+  },
+  {
+    "respondentId": 29,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.65,
+    "cheapEur": 1.02,
+    "expensiveEur": 1.23,
+    "tooExpensiveEur": 2.33
+  },
+  {
+    "respondentId": 30,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.05,
+    "cheapEur": 1.56,
+    "expensiveEur": 2.57,
+    "tooExpensiveEur": 3.39
+  },
+  {
+    "respondentId": 31,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.57,
+    "cheapEur": 0.93,
+    "expensiveEur": 1.63,
+    "tooExpensiveEur": 1.91
+  },
+  {
+    "respondentId": 32,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.58,
+    "expensiveEur": 2.57,
+    "tooExpensiveEur": 2.92
+  },
+  {
+    "respondentId": 33,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.67,
+    "cheapEur": 1.66,
+    "expensiveEur": 2.09,
+    "tooExpensiveEur": 2.86
+  },
+  {
+    "respondentId": 34,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.14,
+    "cheapEur": 1.65,
+    "expensiveEur": 2.75,
+    "tooExpensiveEur": 3.57
+  },
+  {
+    "respondentId": 35,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.9,
+    "cheapEur": 1.31,
+    "expensiveEur": 2.14,
+    "tooExpensiveEur": 2.52
+  },
+  {
+    "respondentId": 36,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.77,
+    "cheapEur": 1.08,
+    "expensiveEur": 2.02,
+    "tooExpensiveEur": 2.08
+  },
+  {
+    "respondentId": 37,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.45,
+    "cheapEur": 1.04,
+    "expensiveEur": 1.38,
+    "tooExpensiveEur": 1.98
+  },
+  {
+    "respondentId": 38,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.6,
+    "cheapEur": 1.25,
+    "expensiveEur": 1.66,
+    "tooExpensiveEur": 2.36
+  },
+  {
+    "respondentId": 39,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.79,
+    "cheapEur": 1.13,
+    "expensiveEur": 1.69,
+    "tooExpensiveEur": 2.05
+  },
+  {
+    "respondentId": 40,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.8,
+    "cheapEur": 1.15,
+    "expensiveEur": 1.7,
+    "tooExpensiveEur": 2.54
+  },
+  {
+    "respondentId": 41,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.11,
+    "cheapEur": 1.73,
+    "expensiveEur": 2.67,
+    "tooExpensiveEur": 3.17
+  },
+  {
+    "respondentId": 42,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.09,
+    "cheapEur": 1.74,
+    "expensiveEur": 2.44,
+    "tooExpensiveEur": 3.58
+  },
+  {
+    "respondentId": 43,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.85,
+    "cheapEur": 1.78,
+    "expensiveEur": 2.4,
+    "tooExpensiveEur": 2.88
+  },
+  {
+    "respondentId": 44,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.09,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.63,
+    "tooExpensiveEur": 3.53
+  },
+  {
+    "respondentId": 45,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.7,
+    "cheapEur": 1.36,
+    "expensiveEur": 2.22,
+    "tooExpensiveEur": 2.62
+  },
+  {
+    "respondentId": 46,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.08,
+    "cheapEur": 1.66,
+    "expensiveEur": 2.54,
+    "tooExpensiveEur": 2.67
+  },
+  {
+    "respondentId": 47,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.07,
+    "cheapEur": 1.64,
+    "expensiveEur": 2.71,
+    "tooExpensiveEur": 3.25
+  },
+  {
+    "respondentId": 48,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.63,
+    "cheapEur": 1.43,
+    "expensiveEur": 1.7,
+    "tooExpensiveEur": 2.16
+  },
+  {
+    "respondentId": 49,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.77,
+    "cheapEur": 1.08,
+    "expensiveEur": 2.24,
+    "tooExpensiveEur": 2.89
+  },
+  {
+    "respondentId": 50,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.42,
+    "expensiveEur": 2.51,
+    "tooExpensiveEur": 3.12
+  },
+  {
+    "respondentId": 51,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.7,
+    "cheapEur": 1.07,
+    "expensiveEur": 1.47,
+    "tooExpensiveEur": 2.31
+  },
+  {
+    "respondentId": 52,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.37,
+    "cheapEur": 1.78,
+    "expensiveEur": 3.09,
+    "tooExpensiveEur": 3.45
+  },
+  {
+    "respondentId": 53,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.35,
+    "expensiveEur": 1.97,
+    "tooExpensiveEur": 2.73
+  },
+  {
+    "respondentId": 54,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.91,
+    "cheapEur": 1.07,
+    "expensiveEur": 2.18,
+    "tooExpensiveEur": 2.88
+  },
+  {
+    "respondentId": 55,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.67,
+    "cheapEur": 1.13,
+    "expensiveEur": 1.57,
+    "tooExpensiveEur": 2.19
+  },
+  {
+    "respondentId": 56,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.8,
+    "cheapEur": 1.58,
+    "expensiveEur": 2.28,
+    "tooExpensiveEur": 2.32
+  },
+  {
+    "respondentId": 57,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.86,
+    "cheapEur": 1.56,
+    "expensiveEur": 2.09,
+    "tooExpensiveEur": 2.7
+  },
+  {
+    "respondentId": 58,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.78,
+    "cheapEur": 1.8,
+    "expensiveEur": 2.85,
+    "tooExpensiveEur": 2.95
+  },
+  {
+    "respondentId": 59,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.41,
+    "cheapEur": 1.57,
+    "expensiveEur": 3.09,
+    "tooExpensiveEur": 3.22
+  },
+  {
+    "respondentId": 60,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.1,
+    "expensiveEur": 1.66,
+    "tooExpensiveEur": 2.29
+  },
+  {
+    "respondentId": 61,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.17,
+    "cheapEur": 1.64,
+    "expensiveEur": 3,
+    "tooExpensiveEur": 3.5
+  },
+  {
+    "respondentId": 62,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.44,
+    "cheapEur": 1.03,
+    "expensiveEur": 1.32,
+    "tooExpensiveEur": 2.45
+  },
+  {
+    "respondentId": 63,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.7,
+    "cheapEur": 0.98,
+    "expensiveEur": 1.5,
+    "tooExpensiveEur": 2.23
+  },
+  {
+    "respondentId": 64,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.31,
+    "cheapEur": 1.67,
+    "expensiveEur": 2.72,
+    "tooExpensiveEur": 4.15
+  },
+  {
+    "respondentId": 65,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.62,
+    "expensiveEur": 2.49,
+    "tooExpensiveEur": 3.07
+  },
+  {
+    "respondentId": 66,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.32,
+    "expensiveEur": 2.07,
+    "tooExpensiveEur": 2.81
+  },
+  {
+    "respondentId": 67,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.82,
+    "expensiveEur": 2.55,
+    "tooExpensiveEur": 3.03
+  },
+  {
+    "respondentId": 68,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.95,
+    "cheapEur": 1.38,
+    "expensiveEur": 1.86,
+    "tooExpensiveEur": 2.71
+  },
+  {
+    "respondentId": 69,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.13,
+    "cheapEur": 1.77,
+    "expensiveEur": 2.53,
+    "tooExpensiveEur": 2.87
+  },
+  {
+    "respondentId": 70,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.98,
+    "cheapEur": 1.31,
+    "expensiveEur": 2.83,
+    "tooExpensiveEur": 3.5
+  },
+  {
+    "respondentId": 71,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.97,
+    "cheapEur": 1.49,
+    "expensiveEur": 2.39,
+    "tooExpensiveEur": 2.72
+  },
+  {
+    "respondentId": 72,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.75,
+    "cheapEur": 0.95,
+    "expensiveEur": 1.67,
+    "tooExpensiveEur": 2.17
+  },
+  {
+    "respondentId": 73,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.85,
+    "expensiveEur": 2.54,
+    "tooExpensiveEur": 3.62
+  },
+  {
+    "respondentId": 74,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.7,
+    "expensiveEur": 2.61,
+    "tooExpensiveEur": 3.2
+  },
+  {
+    "respondentId": 75,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.45,
+    "expensiveEur": 2.15,
+    "tooExpensiveEur": 3.15
+  },
+  {
+    "respondentId": 76,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.67,
+    "cheapEur": 0.89,
+    "expensiveEur": 1.84,
+    "tooExpensiveEur": 2.59
+  },
+  {
+    "respondentId": 77,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.65,
+    "expensiveEur": 2.36,
+    "tooExpensiveEur": 3.19
+  },
+  {
+    "respondentId": 78,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.7,
+    "cheapEur": 1.11,
+    "expensiveEur": 1.81,
+    "tooExpensiveEur": 2.61
+  },
+  {
+    "respondentId": 79,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.01,
+    "cheapEur": 1.75,
+    "expensiveEur": 2.93,
+    "tooExpensiveEur": 3.47
+  },
+  {
+    "respondentId": 80,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.31,
+    "cheapEur": 1.85,
+    "expensiveEur": 2.88,
+    "tooExpensiveEur": 3.52
+  },
+  {
+    "respondentId": 81,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.37,
+    "cheapEur": 1.71,
+    "expensiveEur": 2.8,
+    "tooExpensiveEur": 3.96
+  },
+  {
+    "respondentId": 82,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.87,
+    "cheapEur": 1.09,
+    "expensiveEur": 1.62,
+    "tooExpensiveEur": 2.35
+  },
+  {
+    "respondentId": 83,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.59,
+    "cheapEur": 0.99,
+    "expensiveEur": 1.69,
+    "tooExpensiveEur": 2.45
+  },
+  {
+    "respondentId": 84,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.33,
+    "cheapEur": 1.93,
+    "expensiveEur": 2.65,
+    "tooExpensiveEur": 3.15
+  },
+  {
+    "respondentId": 85,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.55,
+    "cheapEur": 1.3,
+    "expensiveEur": 1.68,
+    "tooExpensiveEur": 1.9
+  },
+  {
+    "respondentId": 86,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1,
+    "cheapEur": 1.71,
+    "expensiveEur": 2.42,
+    "tooExpensiveEur": 3.04
+  },
+  {
+    "respondentId": 87,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.58,
+    "cheapEur": 0.94,
+    "expensiveEur": 2.2,
+    "tooExpensiveEur": 2.34
+  },
+  {
+    "respondentId": 88,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.3,
+    "expensiveEur": 2,
+    "tooExpensiveEur": 2.72
+  },
+  {
+    "respondentId": 89,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.3,
+    "expensiveEur": 1.76,
+    "tooExpensiveEur": 2.75
+  },
+  {
+    "respondentId": 90,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.23,
+    "cheapEur": 1.85,
+    "expensiveEur": 2.52,
+    "tooExpensiveEur": 3.66
+  },
+  {
+    "respondentId": 91,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.9,
+    "cheapEur": 1.1,
+    "expensiveEur": 1.92,
+    "tooExpensiveEur": 2.61
+  },
+  {
+    "respondentId": 92,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.15,
+    "cheapEur": 1.74,
+    "expensiveEur": 2.58,
+    "tooExpensiveEur": 3.59
+  },
+  {
+    "respondentId": 93,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.39,
+    "cheapEur": 1.71,
+    "expensiveEur": 2.87,
+    "tooExpensiveEur": 3.64
+  },
+  {
+    "respondentId": 94,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.75,
+    "expensiveEur": 2.59,
+    "tooExpensiveEur": 2.91
+  },
+  {
+    "respondentId": 95,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.75,
+    "cheapEur": 0.93,
+    "expensiveEur": 1.45,
+    "tooExpensiveEur": 2.14
+  },
+  {
+    "respondentId": 96,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.56,
+    "cheapEur": 1.16,
+    "expensiveEur": 1.51,
+    "tooExpensiveEur": 2.11
+  },
+  {
+    "respondentId": 97,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.99,
+    "cheapEur": 1.6,
+    "expensiveEur": 2.25,
+    "tooExpensiveEur": 2.96
+  },
+  {
+    "respondentId": 98,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.01,
+    "expensiveEur": 1.37,
+    "tooExpensiveEur": 2.18
+  },
+  {
+    "respondentId": 99,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.75,
+    "cheapEur": 0.99,
+    "expensiveEur": 1.68,
+    "tooExpensiveEur": 2.3
+  },
+  {
+    "respondentId": 100,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.59,
+    "cheapEur": 1.06,
+    "expensiveEur": 1.38,
+    "tooExpensiveEur": 1.79
+  },
+  {
+    "respondentId": 101,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.85,
+    "cheapEur": 1.32,
+    "expensiveEur": 2.22,
+    "tooExpensiveEur": 2.39
+  },
+  {
+    "respondentId": 102,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.9,
+    "cheapEur": 1.46,
+    "expensiveEur": 1.92,
+    "tooExpensiveEur": 2.44
+  },
+  {
+    "respondentId": 103,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.76,
+    "cheapEur": 1.71,
+    "expensiveEur": 2.21,
+    "tooExpensiveEur": 2.58
+  },
+  {
+    "respondentId": 104,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.77,
+    "cheapEur": 1.02,
+    "expensiveEur": 1.97,
+    "tooExpensiveEur": 2.16
+  },
+  {
+    "respondentId": 105,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.57,
+    "cheapEur": 1.28,
+    "expensiveEur": 1.66,
+    "tooExpensiveEur": 2.36
+  },
+  {
+    "respondentId": 106,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.56,
+    "cheapEur": 0.84,
+    "expensiveEur": 1.94,
+    "tooExpensiveEur": 2.08
+  },
+  {
+    "respondentId": 107,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.26,
+    "expensiveEur": 2.48,
+    "tooExpensiveEur": 3.4
+  },
+  {
+    "respondentId": 108,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.75,
+    "expensiveEur": 2.43,
+    "tooExpensiveEur": 3.22
+  },
+  {
+    "respondentId": 109,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.07,
+    "cheapEur": 1.47,
+    "expensiveEur": 2.18,
+    "tooExpensiveEur": 3.21
+  },
+  {
+    "respondentId": 110,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.27,
+    "cheapEur": 1.93,
+    "expensiveEur": 2.57,
+    "tooExpensiveEur": 3.5
+  },
+  {
+    "respondentId": 111,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.96,
+    "cheapEur": 1.56,
+    "expensiveEur": 2.21,
+    "tooExpensiveEur": 2.64
+  },
+  {
+    "respondentId": 112,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.6,
+    "cheapEur": 1.38,
+    "expensiveEur": 1.82,
+    "tooExpensiveEur": 1.88
+  },
+  {
+    "respondentId": 113,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.77,
+    "cheapEur": 1.21,
+    "expensiveEur": 1.41,
+    "tooExpensiveEur": 2.28
+  },
+  {
+    "respondentId": 114,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.71,
+    "expensiveEur": 2.79,
+    "tooExpensiveEur": 3.46
+  },
+  {
+    "respondentId": 115,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.65,
+    "cheapEur": 1.14,
+    "expensiveEur": 2.07,
+    "tooExpensiveEur": 2.23
+  },
+  {
+    "respondentId": 116,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.58,
+    "expensiveEur": 2.04,
+    "tooExpensiveEur": 3.21
+  },
+  {
+    "respondentId": 117,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.99,
+    "cheapEur": 1.57,
+    "expensiveEur": 2.55,
+    "tooExpensiveEur": 2.82
+  },
+  {
+    "respondentId": 118,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.34,
+    "expensiveEur": 2.31,
+    "tooExpensiveEur": 2.98
+  },
+  {
+    "respondentId": 119,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.27,
+    "expensiveEur": 1.94,
+    "tooExpensiveEur": 2.71
+  },
+  {
+    "respondentId": 120,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.17,
+    "cheapEur": 1.98,
+    "expensiveEur": 2.85,
+    "tooExpensiveEur": 3.5
+  },
+  {
+    "respondentId": 121,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.39,
+    "cheapEur": 1.98,
+    "expensiveEur": 2.78,
+    "tooExpensiveEur": 3.5
+  },
+  {
+    "respondentId": 122,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.71,
+    "cheapEur": 1.24,
+    "expensiveEur": 1.59,
+    "tooExpensiveEur": 2.33
+  },
+  {
+    "respondentId": 123,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.18,
+    "expensiveEur": 2,
+    "tooExpensiveEur": 2.23
+  },
+  {
+    "respondentId": 124,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.28,
+    "cheapEur": 1.78,
+    "expensiveEur": 2.95,
+    "tooExpensiveEur": 3.44
+  },
+  {
+    "respondentId": 125,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.63,
+    "cheapEur": 1.21,
+    "expensiveEur": 1.76,
+    "tooExpensiveEur": 2.15
+  },
+  {
+    "respondentId": 126,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.76,
+    "cheapEur": 1.22,
+    "expensiveEur": 1.63,
+    "tooExpensiveEur": 2.31
+  },
+  {
+    "respondentId": 127,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.33,
+    "cheapEur": 1.65,
+    "expensiveEur": 2.67,
+    "tooExpensiveEur": 3.36
+  },
+  {
+    "respondentId": 128,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.87,
+    "cheapEur": 1.56,
+    "expensiveEur": 1.98,
+    "tooExpensiveEur": 2.82
+  },
+  {
+    "respondentId": 129,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.95,
+    "cheapEur": 1.14,
+    "expensiveEur": 2.23,
+    "tooExpensiveEur": 2.45
+  },
+  {
+    "respondentId": 130,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.46,
+    "expensiveEur": 1.75,
+    "tooExpensiveEur": 2.82
+  },
+  {
+    "respondentId": 131,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.91,
+    "cheapEur": 1.32,
+    "expensiveEur": 1.8,
+    "tooExpensiveEur": 2.85
+  },
+  {
+    "respondentId": 132,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.66,
+    "cheapEur": 1.16,
+    "expensiveEur": 1.71,
+    "tooExpensiveEur": 1.99
+  },
+  {
+    "respondentId": 133,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 0.87,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.56,
+    "tooExpensiveEur": 3.3
+  },
+  {
+    "respondentId": 134,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.94,
+    "cheapEur": 0.97,
+    "expensiveEur": 1.5,
+    "tooExpensiveEur": 2.38
+  },
+  {
+    "respondentId": 135,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.04,
+    "cheapEur": 1.8,
+    "expensiveEur": 2.8,
+    "tooExpensiveEur": 3.58
+  },
+  {
+    "respondentId": 136,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.79,
+    "cheapEur": 1.55,
+    "expensiveEur": 2.54,
+    "tooExpensiveEur": 2.95
+  },
+  {
+    "respondentId": 137,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.64,
+    "cheapEur": 1.17,
+    "expensiveEur": 1.8,
+    "tooExpensiveEur": 2.02
+  },
+  {
+    "respondentId": 138,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.23,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.95,
+    "tooExpensiveEur": 3.38
+  },
+  {
+    "respondentId": 139,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.9,
+    "cheapEur": 1.31,
+    "expensiveEur": 1.72,
+    "tooExpensiveEur": 2.79
+  },
+  {
+    "respondentId": 140,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.1,
+    "cheapEur": 1.52,
+    "expensiveEur": 2.52,
+    "tooExpensiveEur": 3.24
+  },
+  {
+    "respondentId": 141,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.13,
+    "cheapEur": 1.75,
+    "expensiveEur": 2.69,
+    "tooExpensiveEur": 3.37
+  },
+  {
+    "respondentId": 142,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.95,
+    "cheapEur": 1.61,
+    "expensiveEur": 2.7,
+    "tooExpensiveEur": 3.27
+  },
+  {
+    "respondentId": 143,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.13,
+    "cheapEur": 1.74,
+    "expensiveEur": 2.86,
+    "tooExpensiveEur": 3.59
+  },
+  {
+    "respondentId": 144,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.11,
+    "expensiveEur": 1.4,
+    "tooExpensiveEur": 2.38
+  },
+  {
+    "respondentId": 145,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.28,
+    "cheapEur": 1.93,
+    "expensiveEur": 3,
+    "tooExpensiveEur": 3.41
+  },
+  {
+    "respondentId": 146,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.83,
+    "cheapEur": 1.66,
+    "expensiveEur": 2.59,
+    "tooExpensiveEur": 3.1
+  },
+  {
+    "respondentId": 147,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.59,
+    "cheapEur": 0.93,
+    "expensiveEur": 1.74,
+    "tooExpensiveEur": 2.31
+  },
+  {
+    "respondentId": 148,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.96,
+    "expensiveEur": 2.49,
+    "tooExpensiveEur": 3.59
+  },
+  {
+    "respondentId": 149,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.6,
+    "cheapEur": 1.03,
+    "expensiveEur": 1.76,
+    "tooExpensiveEur": 2.69
+  },
+  {
+    "respondentId": 150,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.79,
+    "cheapEur": 1.17,
+    "expensiveEur": 2,
+    "tooExpensiveEur": 2.08
+  },
+  {
+    "respondentId": 151,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.3,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.95,
+    "tooExpensiveEur": 3.03
+  },
+  {
+    "respondentId": 152,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.15,
+    "cheapEur": 1.7,
+    "expensiveEur": 2.2,
+    "tooExpensiveEur": 3.14
+  },
+  {
+    "respondentId": 153,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.16,
+    "cheapEur": 1.82,
+    "expensiveEur": 2.64,
+    "tooExpensiveEur": 3.66
+  },
+  {
+    "respondentId": 154,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.78,
+    "cheapEur": 1.18,
+    "expensiveEur": 1.72,
+    "tooExpensiveEur": 1.99
+  },
+  {
+    "respondentId": 155,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.72,
+    "cheapEur": 1.15,
+    "expensiveEur": 1.7,
+    "tooExpensiveEur": 2.22
+  },
+  {
+    "respondentId": 156,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.92,
+    "cheapEur": 1.48,
+    "expensiveEur": 2.22,
+    "tooExpensiveEur": 2.62
+  },
+  {
+    "respondentId": 157,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.66,
+    "cheapEur": 1.07,
+    "expensiveEur": 1.92,
+    "tooExpensiveEur": 2.17
+  },
+  {
+    "respondentId": 158,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.78,
+    "cheapEur": 1.16,
+    "expensiveEur": 2.02,
+    "tooExpensiveEur": 2.15
+  },
+  {
+    "respondentId": 159,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.79,
+    "cheapEur": 1.39,
+    "expensiveEur": 1.94,
+    "tooExpensiveEur": 2.82
+  },
+  {
+    "respondentId": 160,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.64,
+    "cheapEur": 0.97,
+    "expensiveEur": 1.88,
+    "tooExpensiveEur": 2.03
+  },
+  {
+    "respondentId": 161,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.19,
+    "cheapEur": 1.76,
+    "expensiveEur": 2.85,
+    "tooExpensiveEur": 3.25
+  },
+  {
+    "respondentId": 162,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.96,
+    "cheapEur": 1.41,
+    "expensiveEur": 2.06,
+    "tooExpensiveEur": 2.61
+  },
+  {
+    "respondentId": 163,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.07,
+    "cheapEur": 1.56,
+    "expensiveEur": 2.55,
+    "tooExpensiveEur": 3.42
+  },
+  {
+    "respondentId": 164,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.62,
+    "cheapEur": 0.62,
+    "expensiveEur": 1.07,
+    "tooExpensiveEur": 2.18
+  },
+  {
+    "respondentId": 165,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.79,
+    "cheapEur": 1.55,
+    "expensiveEur": 2.39,
+    "tooExpensiveEur": 3.13
+  },
+  {
+    "respondentId": 166,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.49,
+    "cheapEur": 0.84,
+    "expensiveEur": 2,
+    "tooExpensiveEur": 2.28
+  },
+  {
+    "respondentId": 167,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.02,
+    "cheapEur": 2.1,
+    "expensiveEur": 2.1,
+    "tooExpensiveEur": 2.75
+  },
+  {
+    "respondentId": 168,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.04,
+    "cheapEur": 1.59,
+    "expensiveEur": 2.83,
+    "tooExpensiveEur": 3.13
+  },
+  {
+    "respondentId": 169,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.33,
+    "cheapEur": 1.59,
+    "expensiveEur": 2.98,
+    "tooExpensiveEur": 3.33
+  },
+  {
+    "respondentId": 170,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.24,
+    "cheapEur": 1.9,
+    "expensiveEur": 3.03,
+    "tooExpensiveEur": 3.61
+  },
+  {
+    "respondentId": 171,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.36,
+    "cheapEur": 1.89,
+    "expensiveEur": 2.22,
+    "tooExpensiveEur": 3.65
+  },
+  {
+    "respondentId": 172,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.9,
+    "cheapEur": 1.23,
+    "expensiveEur": 2.45,
+    "tooExpensiveEur": 2.51
+  },
+  {
+    "respondentId": 173,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.78,
+    "cheapEur": 1.4,
+    "expensiveEur": 2.04,
+    "tooExpensiveEur": 2.91
+  },
+  {
+    "respondentId": 174,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.94,
+    "cheapEur": 1.44,
+    "expensiveEur": 2.21,
+    "tooExpensiveEur": 3.07
+  },
+  {
+    "respondentId": 175,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.3,
+    "cheapEur": 1.87,
+    "expensiveEur": 2.4,
+    "tooExpensiveEur": 3.63
+  },
+  {
+    "respondentId": 176,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.21,
+    "cheapEur": 1.5,
+    "expensiveEur": 2.42,
+    "tooExpensiveEur": 2.83
+  },
+  {
+    "respondentId": 177,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.56,
+    "expensiveEur": 2.64,
+    "tooExpensiveEur": 3.22
+  },
+  {
+    "respondentId": 178,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.04,
+    "cheapEur": 1.51,
+    "expensiveEur": 2.7,
+    "tooExpensiveEur": 2.86
+  },
+  {
+    "respondentId": 179,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.04,
+    "cheapEur": 1.83,
+    "expensiveEur": 2.83,
+    "tooExpensiveEur": 3.39
+  },
+  {
+    "respondentId": 180,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.33,
+    "expensiveEur": 1.52,
+    "tooExpensiveEur": 2.33
+  },
+  {
+    "respondentId": 181,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.29,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.68,
+    "tooExpensiveEur": 3.4
+  },
+  {
+    "respondentId": 182,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.09,
+    "cheapEur": 1.7,
+    "expensiveEur": 2.02,
+    "tooExpensiveEur": 2.94
+  },
+  {
+    "respondentId": 183,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.73,
+    "cheapEur": 1.28,
+    "expensiveEur": 2.03,
+    "tooExpensiveEur": 2.16
+  },
+  {
+    "respondentId": 184,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.77,
+    "cheapEur": 0.84,
+    "expensiveEur": 1.83,
+    "tooExpensiveEur": 2.17
+  },
+  {
+    "respondentId": 185,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.89,
+    "cheapEur": 1.13,
+    "expensiveEur": 1.56,
+    "tooExpensiveEur": 2.27
+  },
+  {
+    "respondentId": 186,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.75,
+    "cheapEur": 1.18,
+    "expensiveEur": 2.04,
+    "tooExpensiveEur": 2.41
+  },
+  {
+    "respondentId": 187,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.12,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.89,
+    "tooExpensiveEur": 3.4
+  },
+  {
+    "respondentId": 188,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.79,
+    "cheapEur": 0.99,
+    "expensiveEur": 1.85,
+    "tooExpensiveEur": 2.15
+  },
+  {
+    "respondentId": 189,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.03,
+    "expensiveEur": 1.35,
+    "tooExpensiveEur": 2.1
+  },
+  {
+    "respondentId": 190,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.65,
+    "cheapEur": 1.52,
+    "expensiveEur": 1.75,
+    "tooExpensiveEur": 2.51
+  },
+  {
+    "respondentId": 191,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.05,
+    "cheapEur": 1.53,
+    "expensiveEur": 2.45,
+    "tooExpensiveEur": 2.81
+  },
+  {
+    "respondentId": 192,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.58,
+    "cheapEur": 0.85,
+    "expensiveEur": 1.65,
+    "tooExpensiveEur": 1.78
+  },
+  {
+    "respondentId": 193,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.24,
+    "cheapEur": 1.62,
+    "expensiveEur": 2.71,
+    "tooExpensiveEur": 2.99
+  },
+  {
+    "respondentId": 194,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.24,
+    "cheapEur": 1.57,
+    "expensiveEur": 2.76,
+    "tooExpensiveEur": 3.84
+  },
+  {
+    "respondentId": 195,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.11,
+    "cheapEur": 1.29,
+    "expensiveEur": 1.9,
+    "tooExpensiveEur": 2.46
+  },
+  {
+    "respondentId": 196,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.65,
+    "expensiveEur": 2.61,
+    "tooExpensiveEur": 3.4
+  },
+  {
+    "respondentId": 197,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.33,
+    "expensiveEur": 2.12,
+    "tooExpensiveEur": 2.83
+  },
+  {
+    "respondentId": 198,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.1,
+    "cheapEur": 1.55,
+    "expensiveEur": 2.38,
+    "tooExpensiveEur": 3.23
+  },
+  {
+    "respondentId": 199,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.22,
+    "cheapEur": 1.72,
+    "expensiveEur": 2.04,
+    "tooExpensiveEur": 3.49
+  },
+  {
+    "respondentId": 200,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.06,
+    "cheapEur": 2.02,
+    "expensiveEur": 2.31,
+    "tooExpensiveEur": 3.76
+  },
+  {
+    "respondentId": 201,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.31,
+    "cheapEur": 1.72,
+    "expensiveEur": 2.61,
+    "tooExpensiveEur": 3.69
+  },
+  {
+    "respondentId": 202,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.6,
+    "cheapEur": 1.14,
+    "expensiveEur": 1.53,
+    "tooExpensiveEur": 1.91
+  },
+  {
+    "respondentId": 203,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.91,
+    "cheapEur": 1.25,
+    "expensiveEur": 2.57,
+    "tooExpensiveEur": 3.03
+  },
+  {
+    "respondentId": 204,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.72,
+    "cheapEur": 1.03,
+    "expensiveEur": 2.15,
+    "tooExpensiveEur": 2.24
+  },
+  {
+    "respondentId": 205,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.69,
+    "cheapEur": 0.88,
+    "expensiveEur": 1.42,
+    "tooExpensiveEur": 2.1
+  },
+  {
+    "respondentId": 206,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.25,
+    "cheapEur": 1.58,
+    "expensiveEur": 2.87,
+    "tooExpensiveEur": 3.37
+  },
+  {
+    "respondentId": 207,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.83,
+    "cheapEur": 1.37,
+    "expensiveEur": 2.27,
+    "tooExpensiveEur": 2.39
+  },
+  {
+    "respondentId": 208,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.23,
+    "cheapEur": 1.63,
+    "expensiveEur": 3.03,
+    "tooExpensiveEur": 3.32
+  },
+  {
+    "respondentId": 209,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.66,
+    "cheapEur": 1.61,
+    "expensiveEur": 2.14,
+    "tooExpensiveEur": 2.43
+  },
+  {
+    "respondentId": 210,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.63,
+    "cheapEur": 0.98,
+    "expensiveEur": 1.91,
+    "tooExpensiveEur": 2.05
+  },
+  {
+    "respondentId": 211,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.25,
+    "cheapEur": 1.6,
+    "expensiveEur": 2.54,
+    "tooExpensiveEur": 3.1
+  },
+  {
+    "respondentId": 212,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.97,
+    "cheapEur": 1.24,
+    "expensiveEur": 2.08,
+    "tooExpensiveEur": 2.5
+  },
+  {
+    "respondentId": 213,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.58,
+    "cheapEur": 1.02,
+    "expensiveEur": 1.5,
+    "tooExpensiveEur": 2.11
+  },
+  {
+    "respondentId": 214,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.96,
+    "cheapEur": 1.62,
+    "expensiveEur": 2.68,
+    "tooExpensiveEur": 2.99
+  },
+  {
+    "respondentId": 215,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.74,
+    "cheapEur": 1.54,
+    "expensiveEur": 1.95,
+    "tooExpensiveEur": 2.8
+  },
+  {
+    "respondentId": 216,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.71,
+    "cheapEur": 1.32,
+    "expensiveEur": 1.76,
+    "tooExpensiveEur": 2.27
+  },
+  {
+    "respondentId": 217,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.83,
+    "cheapEur": 1.75,
+    "expensiveEur": 2.82,
+    "tooExpensiveEur": 2.88
+  },
+  {
+    "respondentId": 218,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.67,
+    "cheapEur": 1.15,
+    "expensiveEur": 1.72,
+    "tooExpensiveEur": 2.2
+  },
+  {
+    "respondentId": 219,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.99,
+    "cheapEur": 1.56,
+    "expensiveEur": 1.57,
+    "tooExpensiveEur": 2.53
+  },
+  {
+    "respondentId": 220,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.63,
+    "expensiveEur": 2.77,
+    "tooExpensiveEur": 3.06
+  },
+  {
+    "respondentId": 221,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.96,
+    "cheapEur": 1.59,
+    "expensiveEur": 2.11,
+    "tooExpensiveEur": 2.83
+  },
+  {
+    "respondentId": 222,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.86,
+    "cheapEur": 1.12,
+    "expensiveEur": 1.98,
+    "tooExpensiveEur": 2.81
+  },
+  {
+    "respondentId": 223,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.75,
+    "cheapEur": 1.13,
+    "expensiveEur": 2.26,
+    "tooExpensiveEur": 2.28
+  },
+  {
+    "respondentId": 224,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.1,
+    "cheapEur": 1.61,
+    "expensiveEur": 2.17,
+    "tooExpensiveEur": 2.77
+  },
+  {
+    "respondentId": 225,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.71,
+    "cheapEur": 1.14,
+    "expensiveEur": 1.79,
+    "tooExpensiveEur": 1.94
+  },
+  {
+    "respondentId": 226,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.86,
+    "cheapEur": 1.25,
+    "expensiveEur": 1.49,
+    "tooExpensiveEur": 2.32
+  },
+  {
+    "respondentId": 227,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.02,
+    "cheapEur": 1.74,
+    "expensiveEur": 2.71,
+    "tooExpensiveEur": 2.89
+  },
+  {
+    "respondentId": 228,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.24,
+    "cheapEur": 1.9,
+    "expensiveEur": 3.03,
+    "tooExpensiveEur": 3.31
+  },
+  {
+    "respondentId": 229,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.53,
+    "expensiveEur": 2.39,
+    "tooExpensiveEur": 3.26
+  },
+  {
+    "respondentId": 230,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.38,
+    "expensiveEur": 1.94,
+    "tooExpensiveEur": 2.67
+  },
+  {
+    "respondentId": 231,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.57,
+    "cheapEur": 0.98,
+    "expensiveEur": 1.35,
+    "tooExpensiveEur": 2.15
+  },
+  {
+    "respondentId": 232,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.52,
+    "cheapEur": 1.33,
+    "expensiveEur": 1.8,
+    "tooExpensiveEur": 2.21
+  },
+  {
+    "respondentId": 233,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.67,
+    "cheapEur": 1.02,
+    "expensiveEur": 1.67,
+    "tooExpensiveEur": 2.34
+  },
+  {
+    "respondentId": 234,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.64,
+    "cheapEur": 0.88,
+    "expensiveEur": 1.33,
+    "tooExpensiveEur": 2.27
+  },
+  {
+    "respondentId": 235,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.45,
+    "cheapEur": 1.68,
+    "expensiveEur": 2.79,
+    "tooExpensiveEur": 3.64
+  },
+  {
+    "respondentId": 236,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.83,
+    "cheapEur": 1.01,
+    "expensiveEur": 2.37,
+    "tooExpensiveEur": 2.93
+  },
+  {
+    "respondentId": 237,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.68,
+    "expensiveEur": 2.45,
+    "tooExpensiveEur": 2.86
+  },
+  {
+    "respondentId": 238,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.11,
+    "cheapEur": 1.72,
+    "expensiveEur": 2.75,
+    "tooExpensiveEur": 3.59
+  },
+  {
+    "respondentId": 239,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.22,
+    "cheapEur": 1.92,
+    "expensiveEur": 3.09,
+    "tooExpensiveEur": 3.25
+  },
+  {
+    "respondentId": 240,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.42,
+    "cheapEur": 1.55,
+    "expensiveEur": 2.79,
+    "tooExpensiveEur": 3.72
+  },
+  {
+    "respondentId": 241,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.2,
+    "cheapEur": 1.33,
+    "expensiveEur": 2.29,
+    "tooExpensiveEur": 3.05
+  },
+  {
+    "respondentId": 242,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.74,
+    "cheapEur": 0.94,
+    "expensiveEur": 1.75,
+    "tooExpensiveEur": 2.34
+  },
+  {
+    "respondentId": 243,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.64,
+    "cheapEur": 1.15,
+    "expensiveEur": 1.68,
+    "tooExpensiveEur": 2.22
+  },
+  {
+    "respondentId": 244,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.97,
+    "cheapEur": 1.49,
+    "expensiveEur": 2.33,
+    "tooExpensiveEur": 3.01
+  },
+  {
+    "respondentId": 245,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.78,
+    "cheapEur": 1.14,
+    "expensiveEur": 1.72,
+    "tooExpensiveEur": 2.34
+  },
+  {
+    "respondentId": 246,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.93,
+    "cheapEur": 1.24,
+    "expensiveEur": 2.6,
+    "tooExpensiveEur": 2.78
+  },
+  {
+    "respondentId": 247,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.41,
+    "expensiveEur": 2.15,
+    "tooExpensiveEur": 3.25
+  },
+  {
+    "respondentId": 248,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.82,
+    "cheapEur": 1.14,
+    "expensiveEur": 1.84,
+    "tooExpensiveEur": 2.24
+  },
+  {
+    "respondentId": 249,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.53,
+    "cheapEur": 1.15,
+    "expensiveEur": 1.57,
+    "tooExpensiveEur": 2.1
+  },
+  {
+    "respondentId": 250,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.9,
+    "cheapEur": 1.12,
+    "expensiveEur": 1.67,
+    "tooExpensiveEur": 2.18
+  },
+  {
+    "respondentId": 251,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.4,
+    "cheapEur": 2.08,
+    "expensiveEur": 3.03,
+    "tooExpensiveEur": 3.55
+  },
+  {
+    "respondentId": 252,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.81,
+    "expensiveEur": 2.42,
+    "tooExpensiveEur": 3.57
+  },
+  {
+    "respondentId": 253,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.16,
+    "cheapEur": 1.91,
+    "expensiveEur": 2.74,
+    "tooExpensiveEur": 3.56
+  },
+  {
+    "respondentId": 254,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.85,
+    "cheapEur": 1.39,
+    "expensiveEur": 1.92,
+    "tooExpensiveEur": 3.29
+  },
+  {
+    "respondentId": 255,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.02,
+    "cheapEur": 1.53,
+    "expensiveEur": 3.05,
+    "tooExpensiveEur": 3.06
+  },
+  {
+    "respondentId": 256,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.73,
+    "cheapEur": 1.37,
+    "expensiveEur": 2.1,
+    "tooExpensiveEur": 2.72
+  },
+  {
+    "respondentId": 257,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.28,
+    "expensiveEur": 2.36,
+    "tooExpensiveEur": 2.88
+  },
+  {
+    "respondentId": 258,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.95,
+    "cheapEur": 1.22,
+    "expensiveEur": 2.4,
+    "tooExpensiveEur": 2.7
+  },
+  {
+    "respondentId": 259,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.72,
+    "cheapEur": 1.06,
+    "expensiveEur": 1.85,
+    "tooExpensiveEur": 2.25
+  },
+  {
+    "respondentId": 260,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.61,
+    "cheapEur": 0.84,
+    "expensiveEur": 1.46,
+    "tooExpensiveEur": 2.42
+  },
+  {
+    "respondentId": 261,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.84,
+    "cheapEur": 1.35,
+    "expensiveEur": 2.04,
+    "tooExpensiveEur": 2.8
+  },
+  {
+    "respondentId": 262,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.14,
+    "cheapEur": 1.33,
+    "expensiveEur": 2.3,
+    "tooExpensiveEur": 2.84
+  },
+  {
+    "respondentId": 263,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.2,
+    "cheapEur": 1.96,
+    "expensiveEur": 2.63,
+    "tooExpensiveEur": 3.5
+  },
+  {
+    "respondentId": 264,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.84,
+    "cheapEur": 1.4,
+    "expensiveEur": 2.12,
+    "tooExpensiveEur": 2.34
+  },
+  {
+    "respondentId": 265,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.24,
+    "cheapEur": 1.69,
+    "expensiveEur": 2.55,
+    "tooExpensiveEur": 3.14
+  },
+  {
+    "respondentId": 266,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.11,
+    "cheapEur": 1.67,
+    "expensiveEur": 2.56,
+    "tooExpensiveEur": 3.41
+  },
+  {
+    "respondentId": 267,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.09,
+    "cheapEur": 1.9,
+    "expensiveEur": 2.59,
+    "tooExpensiveEur": 3.83
+  },
+  {
+    "respondentId": 268,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.89,
+    "cheapEur": 1.58,
+    "expensiveEur": 2.79,
+    "tooExpensiveEur": 2.97
+  },
+  {
+    "respondentId": 269,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.02,
+    "cheapEur": 1.53,
+    "expensiveEur": 2.8,
+    "tooExpensiveEur": 3.45
+  },
+  {
+    "respondentId": 270,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.03,
+    "cheapEur": 1.85,
+    "expensiveEur": 2.85,
+    "tooExpensiveEur": 3.7
+  },
+  {
+    "respondentId": 271,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.53,
+    "cheapEur": 1.2,
+    "expensiveEur": 1.94,
+    "tooExpensiveEur": 2.1
+  },
+  {
+    "respondentId": 272,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.63,
+    "cheapEur": 1.11,
+    "expensiveEur": 1.72,
+    "tooExpensiveEur": 2.22
+  },
+  {
+    "respondentId": 273,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.18,
+    "cheapEur": 1.96,
+    "expensiveEur": 2.61,
+    "tooExpensiveEur": 3.45
+  },
+  {
+    "respondentId": 274,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.58,
+    "cheapEur": 1.05,
+    "expensiveEur": 1.74,
+    "tooExpensiveEur": 2.4
+  },
+  {
+    "respondentId": 275,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.12,
+    "cheapEur": 1.93,
+    "expensiveEur": 2.75,
+    "tooExpensiveEur": 3.54
+  },
+  {
+    "respondentId": 276,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.26,
+    "cheapEur": 1.75,
+    "expensiveEur": 2.84,
+    "tooExpensiveEur": 3.62
+  },
+  {
+    "respondentId": 277,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.58,
+    "cheapEur": 0.98,
+    "expensiveEur": 1.74,
+    "tooExpensiveEur": 2.23
+  },
+  {
+    "respondentId": 278,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.74,
+    "cheapEur": 1.14,
+    "expensiveEur": 1.9,
+    "tooExpensiveEur": 2.01
+  },
+  {
+    "respondentId": 279,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.6,
+    "cheapEur": 1.07,
+    "expensiveEur": 1.92,
+    "tooExpensiveEur": 1.96
+  },
+  {
+    "respondentId": 280,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.12,
+    "cheapEur": 1.86,
+    "expensiveEur": 2.93,
+    "tooExpensiveEur": 3.19
+  },
+  {
+    "respondentId": 281,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.23,
+    "cheapEur": 1.88,
+    "expensiveEur": 2.59,
+    "tooExpensiveEur": 3.23
+  },
+  {
+    "respondentId": 282,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.77,
+    "cheapEur": 1.09,
+    "expensiveEur": 1.92,
+    "tooExpensiveEur": 2.02
+  },
+  {
+    "respondentId": 283,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.1,
+    "cheapEur": 1.41,
+    "expensiveEur": 2.64,
+    "tooExpensiveEur": 3.38
+  },
+  {
+    "respondentId": 284,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.62,
+    "cheapEur": 1.23,
+    "expensiveEur": 1.98,
+    "tooExpensiveEur": 2.11
+  },
+  {
+    "respondentId": 285,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.51,
+    "cheapEur": 1.84,
+    "expensiveEur": 2.88,
+    "tooExpensiveEur": 3.4
+  },
+  {
+    "respondentId": 286,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 1.1,
+    "cheapEur": 1.6,
+    "expensiveEur": 2.48,
+    "tooExpensiveEur": 3.09
+  },
+  {
+    "respondentId": 287,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.85,
+    "cheapEur": 1.4,
+    "expensiveEur": 2.39,
+    "tooExpensiveEur": 2.73
+  },
+  {
+    "respondentId": 288,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.71,
+    "cheapEur": 1.27,
+    "expensiveEur": 1.7,
+    "tooExpensiveEur": 1.81
+  },
+  {
+    "respondentId": 289,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.73,
+    "cheapEur": 0.96,
+    "expensiveEur": 1.5,
+    "tooExpensiveEur": 2.2
+  },
+  {
+    "respondentId": 290,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.14,
+    "cheapEur": 1.69,
+    "expensiveEur": 2.43,
+    "tooExpensiveEur": 3.6
+  },
+  {
+    "respondentId": 291,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.12,
+    "cheapEur": 1.95,
+    "expensiveEur": 2.58,
+    "tooExpensiveEur": 3.11
+  },
+  {
+    "respondentId": 292,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.8,
+    "cheapEur": 1.4,
+    "expensiveEur": 1.81,
+    "tooExpensiveEur": 2.65
+  },
+  {
+    "respondentId": 293,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.62,
+    "cheapEur": 1.15,
+    "expensiveEur": 1.88,
+    "tooExpensiveEur": 2.18
+  },
+  {
+    "respondentId": 294,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.53,
+    "cheapEur": 0.98,
+    "expensiveEur": 1.57,
+    "tooExpensiveEur": 2.25
+  },
+  {
+    "respondentId": 295,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.79,
+    "cheapEur": 1.02,
+    "expensiveEur": 1.81,
+    "tooExpensiveEur": 2.3
+  },
+  {
+    "respondentId": 296,
+    "segment": "Fitness & Gym-Goers",
+    "tooCheapEur": 0.74,
+    "cheapEur": 1.5,
+    "expensiveEur": 2.9,
+    "tooExpensiveEur": 3.05
+  },
+  {
+    "respondentId": 297,
+    "segment": "Students & Budget-Conscious",
+    "tooCheapEur": 0.78,
+    "cheapEur": 1.02,
+    "expensiveEur": 1.56,
+    "tooExpensiveEur": 2.45
+  },
+  {
+    "respondentId": 298,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 0.88,
+    "cheapEur": 1.49,
+    "expensiveEur": 1.82,
+    "tooExpensiveEur": 2.53
+  },
+  {
+    "respondentId": 299,
+    "segment": "On-the-go Commuters",
+    "tooCheapEur": 1.04,
+    "cheapEur": 1.58,
+    "expensiveEur": 1.77,
+    "tooExpensiveEur": 2.53
+  },
+  {
+    "respondentId": 300,
+    "segment": "Urban Wellness Professionals",
+    "tooCheapEur": 1.2,
+    "cheapEur": 1.8,
+    "expensiveEur": 2.89,
+    "tooExpensiveEur": 3.44
+  }
+]

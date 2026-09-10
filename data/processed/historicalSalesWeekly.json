@@ -1,0 +1,5618 @@
+[
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1139,
+    "revenueEur": 1537.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2321,
+    "revenueEur": 3169.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 581,
+    "revenueEur": 777.69,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 914,
+    "revenueEur": 1198.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1029,
+    "revenueEur": 1385.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 490,
+    "revenueEur": 680.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 917,
+    "revenueEur": 1253.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1547,
+    "revenueEur": 2104.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-06",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 560,
+    "revenueEur": 761.77,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1261,
+    "revenueEur": 1705.51,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2334,
+    "revenueEur": 3188.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 619,
+    "revenueEur": 820.97,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 867,
+    "revenueEur": 1158.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1097,
+    "revenueEur": 1517.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 451,
+    "revenueEur": 604.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 907,
+    "revenueEur": 1214.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1516,
+    "revenueEur": 2054.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-13",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 576,
+    "revenueEur": 769.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1260,
+    "revenueEur": 1725.23,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2389,
+    "revenueEur": 3264.4,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 641,
+    "revenueEur": 856.03,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 856,
+    "revenueEur": 1150.26,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1078,
+    "revenueEur": 1451.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 515,
+    "revenueEur": 694.01,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1035,
+    "revenueEur": 1430.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1445,
+    "revenueEur": 1971.03,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-20",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 662,
+    "revenueEur": 914.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1313,
+    "revenueEur": 1728.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2151,
+    "revenueEur": 2983.69,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 585,
+    "revenueEur": 771.37,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 812,
+    "revenueEur": 1076.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1022,
+    "revenueEur": 1372.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 526,
+    "revenueEur": 708.99,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1027,
+    "revenueEur": 1346.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1371,
+    "revenueEur": 1884.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-01-27",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 620,
+    "revenueEur": 828.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1307,
+    "revenueEur": 1794.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2401,
+    "revenueEur": 3247.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 634,
+    "revenueEur": 859.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 860,
+    "revenueEur": 1181.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1117,
+    "revenueEur": 1488.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 478,
+    "revenueEur": 636.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1040,
+    "revenueEur": 1375.42,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1453,
+    "revenueEur": 1923.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-03",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 679,
+    "revenueEur": 932.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1204,
+    "revenueEur": 1673.55,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2329,
+    "revenueEur": 3119.56,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 663,
+    "revenueEur": 903.94,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 842,
+    "revenueEur": 1133.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1153,
+    "revenueEur": 1521.2,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 545,
+    "revenueEur": 747.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1096,
+    "revenueEur": 1449.07,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1551,
+    "revenueEur": 2094.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-10",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 620,
+    "revenueEur": 856.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1342,
+    "revenueEur": 1865.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2478,
+    "revenueEur": 3391.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 628,
+    "revenueEur": 828.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 831,
+    "revenueEur": 1133.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1066,
+    "revenueEur": 1449.25,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 501,
+    "revenueEur": 669.3,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 981,
+    "revenueEur": 1326.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1614,
+    "revenueEur": 2139.12,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-17",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 681,
+    "revenueEur": 929.12,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1396,
+    "revenueEur": 1872.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2417,
+    "revenueEur": 3265.21,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 666,
+    "revenueEur": 893.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 892,
+    "revenueEur": 1195.97,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1131,
+    "revenueEur": 1509.27,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 520,
+    "revenueEur": 690.03,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1078,
+    "revenueEur": 1447.93,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1473,
+    "revenueEur": 2015.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-02-24",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 672,
+    "revenueEur": 902.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1457,
+    "revenueEur": 1924.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2835,
+    "revenueEur": 3833.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 767,
+    "revenueEur": 1041.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 919,
+    "revenueEur": 1250.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1216,
+    "revenueEur": 1637.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 608,
+    "revenueEur": 805.99,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1109,
+    "revenueEur": 1496.3,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1667,
+    "revenueEur": 2261.96,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-03",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 745,
+    "revenueEur": 989.13,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1362,
+    "revenueEur": 1816.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2702,
+    "revenueEur": 3565.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 697,
+    "revenueEur": 922.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1026,
+    "revenueEur": 1345.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1288,
+    "revenueEur": 1787.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 561,
+    "revenueEur": 756.46,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1109,
+    "revenueEur": 1513.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1819,
+    "revenueEur": 2436.97,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-10",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 665,
+    "revenueEur": 884.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1368,
+    "revenueEur": 1842.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2598,
+    "revenueEur": 3413.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 741,
+    "revenueEur": 1027.67,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 975,
+    "revenueEur": 1327.22,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1233,
+    "revenueEur": 1677.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 585,
+    "revenueEur": 773.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1126,
+    "revenueEur": 1551.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1677,
+    "revenueEur": 2290.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-17",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 729,
+    "revenueEur": 975.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1373,
+    "revenueEur": 1829.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2636,
+    "revenueEur": 3648.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 696,
+    "revenueEur": 939.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1062,
+    "revenueEur": 1438.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1398,
+    "revenueEur": 1926.49,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 598,
+    "revenueEur": 821.96,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1244,
+    "revenueEur": 1640.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1615,
+    "revenueEur": 2160.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-24",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 687,
+    "revenueEur": 924.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1472,
+    "revenueEur": 2043.25,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2604,
+    "revenueEur": 3566.96,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 690,
+    "revenueEur": 942.36,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 988,
+    "revenueEur": 1310.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1295,
+    "revenueEur": 1775.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 538,
+    "revenueEur": 725.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1116,
+    "revenueEur": 1464.37,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1786,
+    "revenueEur": 2406.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-03-31",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 680,
+    "revenueEur": 907.07,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1536,
+    "revenueEur": 2026.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3052,
+    "revenueEur": 4046.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 759,
+    "revenueEur": 1002.86,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1101,
+    "revenueEur": 1493.46,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1552,
+    "revenueEur": 2130.5,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 653,
+    "revenueEur": 858.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1369,
+    "revenueEur": 1851.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2116,
+    "revenueEur": 2800.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-07",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 756,
+    "revenueEur": 1034.4,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1762,
+    "revenueEur": 2428.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3122,
+    "revenueEur": 4135.07,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 774,
+    "revenueEur": 1065.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1134,
+    "revenueEur": 1532.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1538,
+    "revenueEur": 2053.16,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 658,
+    "revenueEur": 888.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1276,
+    "revenueEur": 1745.56,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1979,
+    "revenueEur": 2653.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-14",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 857,
+    "revenueEur": 1169.93,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1587,
+    "revenueEur": 2130.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3008,
+    "revenueEur": 4147.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 870,
+    "revenueEur": 1205.44,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1064,
+    "revenueEur": 1451.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1460,
+    "revenueEur": 1973.68,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 620,
+    "revenueEur": 831.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1429,
+    "revenueEur": 1957.1,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1886,
+    "revenueEur": 2525.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-21",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 790,
+    "revenueEur": 1088.51,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1598,
+    "revenueEur": 2147.55,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3190,
+    "revenueEur": 4375.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 869,
+    "revenueEur": 1194.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1134,
+    "revenueEur": 1546.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1609,
+    "revenueEur": 2173.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 659,
+    "revenueEur": 869.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1278,
+    "revenueEur": 1771.1,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2079,
+    "revenueEur": 2862.27,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-04-28",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 771,
+    "revenueEur": 1020.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1965,
+    "revenueEur": 2621.36,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3859,
+    "revenueEur": 5260,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1009,
+    "revenueEur": 1359.37,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1405,
+    "revenueEur": 1897.3,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1896,
+    "revenueEur": 2565.82,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 837,
+    "revenueEur": 1163.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1518,
+    "revenueEur": 2043.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2403,
+    "revenueEur": 3153.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-05",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1036,
+    "revenueEur": 1422.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1923,
+    "revenueEur": 2585.25,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3659,
+    "revenueEur": 5017.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1014,
+    "revenueEur": 1373.32,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1406,
+    "revenueEur": 1905.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1688,
+    "revenueEur": 2246.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 792,
+    "revenueEur": 1080.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1569,
+    "revenueEur": 2062.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2293,
+    "revenueEur": 3070.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-12",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1030,
+    "revenueEur": 1412.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2004,
+    "revenueEur": 2693.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3693,
+    "revenueEur": 4852.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 978,
+    "revenueEur": 1305.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1464,
+    "revenueEur": 2020.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1730,
+    "revenueEur": 2340.88,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 832,
+    "revenueEur": 1117.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1614,
+    "revenueEur": 2116.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2264,
+    "revenueEur": 3022.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-19",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 992,
+    "revenueEur": 1306.88,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2117,
+    "revenueEur": 2807.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3954,
+    "revenueEur": 5391.51,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 994,
+    "revenueEur": 1379.7,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1460,
+    "revenueEur": 2027.07,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1940,
+    "revenueEur": 2574.07,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 790,
+    "revenueEur": 1071.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1676,
+    "revenueEur": 2324.77,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2496,
+    "revenueEur": 3388.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-05-26",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1038,
+    "revenueEur": 1403.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2254,
+    "revenueEur": 2965.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4239,
+    "revenueEur": 5653.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1121,
+    "revenueEur": 1505.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1611,
+    "revenueEur": 2197.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2192,
+    "revenueEur": 2981.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 872,
+    "revenueEur": 1177.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1944,
+    "revenueEur": 2693.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2834,
+    "revenueEur": 3896.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-02",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1230,
+    "revenueEur": 1703.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2160,
+    "revenueEur": 2863.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4082,
+    "revenueEur": 5592.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1226,
+    "revenueEur": 1646.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1722,
+    "revenueEur": 2343.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2000,
+    "revenueEur": 2665.5,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 951,
+    "revenueEur": 1263.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1755,
+    "revenueEur": 2302.11,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2703,
+    "revenueEur": 3645.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-09",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1147,
+    "revenueEur": 1586.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2251,
+    "revenueEur": 2953,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4131,
+    "revenueEur": 5593.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1082,
+    "revenueEur": 1480.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1509,
+    "revenueEur": 2085.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2021,
+    "revenueEur": 2656.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 987,
+    "revenueEur": 1346.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1838,
+    "revenueEur": 2531.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2685,
+    "revenueEur": 3640.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-16",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1097,
+    "revenueEur": 1495.54,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2452,
+    "revenueEur": 3315.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4024,
+    "revenueEur": 5464.94,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1139,
+    "revenueEur": 1568.31,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1714,
+    "revenueEur": 2347.77,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2006,
+    "revenueEur": 2644.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 900,
+    "revenueEur": 1208.32,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1746,
+    "revenueEur": 2361.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2644,
+    "revenueEur": 3579.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-23",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1127,
+    "revenueEur": 1501.16,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2228,
+    "revenueEur": 3003.33,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4197,
+    "revenueEur": 5715.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1093,
+    "revenueEur": 1496.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1526,
+    "revenueEur": 2111.7,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2029,
+    "revenueEur": 2720.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 969,
+    "revenueEur": 1339.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1900,
+    "revenueEur": 2524.43,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2611,
+    "revenueEur": 3622.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-06-30",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1260,
+    "revenueEur": 1680.68,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2585,
+    "revenueEur": 3447.33,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4304,
+    "revenueEur": 5789.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1303,
+    "revenueEur": 1774.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1664,
+    "revenueEur": 2189.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2217,
+    "revenueEur": 3035.5,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 960,
+    "revenueEur": 1289.96,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1859,
+    "revenueEur": 2458.5,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2773,
+    "revenueEur": 3725.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-07",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1251,
+    "revenueEur": 1671.3,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2601,
+    "revenueEur": 3541.13,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4535,
+    "revenueEur": 6174.08,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1188,
+    "revenueEur": 1585.09,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1628,
+    "revenueEur": 2164.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2328,
+    "revenueEur": 3170.93,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1007,
+    "revenueEur": 1352.13,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1982,
+    "revenueEur": 2735.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2839,
+    "revenueEur": 3854.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-14",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1205,
+    "revenueEur": 1586.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2467,
+    "revenueEur": 3305.94,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4654,
+    "revenueEur": 6102.23,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1267,
+    "revenueEur": 1721.94,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1631,
+    "revenueEur": 2196.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2371,
+    "revenueEur": 3114.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1014,
+    "revenueEur": 1340.09,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1902,
+    "revenueEur": 2578.06,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3025,
+    "revenueEur": 4150.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-21",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1321,
+    "revenueEur": 1782.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 3053,
+    "revenueEur": 4231.86,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5657,
+    "revenueEur": 7749.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1585,
+    "revenueEur": 2102.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 2286,
+    "revenueEur": 3128.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2720,
+    "revenueEur": 3736.44,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1297,
+    "revenueEur": 1723.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2461,
+    "revenueEur": 3338.88,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3592,
+    "revenueEur": 4840.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-07-28",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1649,
+    "revenueEur": 2212.46,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2310,
+    "revenueEur": 3104.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4021,
+    "revenueEur": 5446.91,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1258,
+    "revenueEur": 1695.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1665,
+    "revenueEur": 2270.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2176,
+    "revenueEur": 2992.21,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 936,
+    "revenueEur": 1254.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1935,
+    "revenueEur": 2554.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2617,
+    "revenueEur": 3464.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-04",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1176,
+    "revenueEur": 1572.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2211,
+    "revenueEur": 3022.5,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4173,
+    "revenueEur": 5570.43,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1183,
+    "revenueEur": 1642.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1609,
+    "revenueEur": 2163.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2036,
+    "revenueEur": 2802.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 943,
+    "revenueEur": 1268.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1965,
+    "revenueEur": 2651.36,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2866,
+    "revenueEur": 3967.26,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-11",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1172,
+    "revenueEur": 1552.67,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2259,
+    "revenueEur": 3044.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4340,
+    "revenueEur": 5724.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1189,
+    "revenueEur": 1599.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1671,
+    "revenueEur": 2250.13,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2203,
+    "revenueEur": 2911.25,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 901,
+    "revenueEur": 1200.59,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1980,
+    "revenueEur": 2724.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2930,
+    "revenueEur": 3887.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-18",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1096,
+    "revenueEur": 1503.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2554,
+    "revenueEur": 3395.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4102,
+    "revenueEur": 5480.77,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1289,
+    "revenueEur": 1700.68,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1779,
+    "revenueEur": 2344.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1979,
+    "revenueEur": 2665.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 948,
+    "revenueEur": 1289.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1963,
+    "revenueEur": 2622.93,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2928,
+    "revenueEur": 3941.68,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-08-25",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1292,
+    "revenueEur": 1786.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1839,
+    "revenueEur": 2536.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3460,
+    "revenueEur": 4754.56,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 985,
+    "revenueEur": 1337.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1306,
+    "revenueEur": 1735.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1720,
+    "revenueEur": 2255.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 763,
+    "revenueEur": 1024.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1678,
+    "revenueEur": 2218.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2459,
+    "revenueEur": 3366.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-01",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1041,
+    "revenueEur": 1414.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1839,
+    "revenueEur": 2462.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3572,
+    "revenueEur": 4789.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 999,
+    "revenueEur": 1315.49,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1338,
+    "revenueEur": 1772.31,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1643,
+    "revenueEur": 2219.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 803,
+    "revenueEur": 1093.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1681,
+    "revenueEur": 2273.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2202,
+    "revenueEur": 2967.03,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-09-08",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1030,
+    "revenueEur": 1373.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2035,
+    "revenueEur": 2714.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3582,
+    "revenueEur": 4855.59,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1054,
+    "revenueEur": 1424.05,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1356,
+    "revenueEur": 1826.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1856,
+    "revenueEur": 2483.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 819,
+    "revenueEur": 1073.56,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1572,
+    "revenueEur": 2158.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2199,
+    "revenueEur": 2953.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-15",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 959,
+    "revenueEur": 1312.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1972,
+    "revenueEur": 2711.37,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3887,
+    "revenueEur": 5345.05,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 927,
+    "revenueEur": 1287.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1421,
+    "revenueEur": 1910.73,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1747,
+    "revenueEur": 2289.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 785,
+    "revenueEur": 1053.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1652,
+    "revenueEur": 2260.43,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2504,
+    "revenueEur": 3404.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-22",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1067,
+    "revenueEur": 1455.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1867,
+    "revenueEur": 2465.27,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3849,
+    "revenueEur": 5257.27,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 924,
+    "revenueEur": 1245.99,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1332,
+    "revenueEur": 1835.11,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1798,
+    "revenueEur": 2367.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 750,
+    "revenueEur": 1007.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1702,
+    "revenueEur": 2330.62,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2392,
+    "revenueEur": 3136.13,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-09-29",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 958,
+    "revenueEur": 1277.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1709,
+    "revenueEur": 2284.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3365,
+    "revenueEur": 4524.16,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 869,
+    "revenueEur": 1178.69,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1306,
+    "revenueEur": 1714.12,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1558,
+    "revenueEur": 2131.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 736,
+    "revenueEur": 1015.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1293,
+    "revenueEur": 1695.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2104,
+    "revenueEur": 2800.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-06",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 924,
+    "revenueEur": 1218.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1789,
+    "revenueEur": 2407.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3032,
+    "revenueEur": 4148.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 866,
+    "revenueEur": 1169.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1252,
+    "revenueEur": 1732.97,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1617,
+    "revenueEur": 2178.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 720,
+    "revenueEur": 965.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1497,
+    "revenueEur": 2039.44,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2089,
+    "revenueEur": 2899.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-13",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 833,
+    "revenueEur": 1137.42,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1753,
+    "revenueEur": 2320.16,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3219,
+    "revenueEur": 4422.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 878,
+    "revenueEur": 1166.43,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1320,
+    "revenueEur": 1766.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1617,
+    "revenueEur": 2140.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 699,
+    "revenueEur": 961.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1320,
+    "revenueEur": 1752.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2105,
+    "revenueEur": 2925.92,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-20",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 917,
+    "revenueEur": 1258.01,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1880,
+    "revenueEur": 2591.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3295,
+    "revenueEur": 4342.6,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 947,
+    "revenueEur": 1301.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1280,
+    "revenueEur": 1777.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1608,
+    "revenueEur": 2217.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 710,
+    "revenueEur": 958.92,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1328,
+    "revenueEur": 1761.11,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2199,
+    "revenueEur": 3005.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-10-27",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 884,
+    "revenueEur": 1219.93,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1584,
+    "revenueEur": 2179.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2827,
+    "revenueEur": 3923.99,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 746,
+    "revenueEur": 1027.33,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1088,
+    "revenueEur": 1439.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1498,
+    "revenueEur": 2011.99,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 617,
+    "revenueEur": 845.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1355,
+    "revenueEur": 1789.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2073,
+    "revenueEur": 2865.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-03",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 812,
+    "revenueEur": 1108.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1613,
+    "revenueEur": 2212.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2994,
+    "revenueEur": 3937.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 801,
+    "revenueEur": 1099.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1113,
+    "revenueEur": 1460.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1375,
+    "revenueEur": 1864.55,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 697,
+    "revenueEur": 957.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1401,
+    "revenueEur": 1882.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2017,
+    "revenueEur": 2783.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-10",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 790,
+    "revenueEur": 1056.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1742,
+    "revenueEur": 2367.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2956,
+    "revenueEur": 4025.05,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 835,
+    "revenueEur": 1135.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1111,
+    "revenueEur": 1527.91,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1529,
+    "revenueEur": 2111.33,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 655,
+    "revenueEur": 878.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1389,
+    "revenueEur": 1877.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1875,
+    "revenueEur": 2533.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-17",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 798,
+    "revenueEur": 1086.07,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1749,
+    "revenueEur": 2366.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3179,
+    "revenueEur": 4241.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 824,
+    "revenueEur": 1127.88,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1101,
+    "revenueEur": 1487.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1533,
+    "revenueEur": 2124.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 662,
+    "revenueEur": 867.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1261,
+    "revenueEur": 1727.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2043,
+    "revenueEur": 2830.46,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-11-24",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 869,
+    "revenueEur": 1154.42,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1741,
+    "revenueEur": 2394.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2930,
+    "revenueEur": 3926.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 794,
+    "revenueEur": 1072.96,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1232,
+    "revenueEur": 1658.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1498,
+    "revenueEur": 2011.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 666,
+    "revenueEur": 879.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1265,
+    "revenueEur": 1725.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2054,
+    "revenueEur": 2819.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-01",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 859,
+    "revenueEur": 1169.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1757,
+    "revenueEur": 2435.68,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3084,
+    "revenueEur": 4079.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 850,
+    "revenueEur": 1144.59,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1188,
+    "revenueEur": 1606.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1514,
+    "revenueEur": 1986.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 684,
+    "revenueEur": 946.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1441,
+    "revenueEur": 1899.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1977,
+    "revenueEur": 2672.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-08",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 826,
+    "revenueEur": 1106.7,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1585,
+    "revenueEur": 2093.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3104,
+    "revenueEur": 4300.23,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 828,
+    "revenueEur": 1096.54,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1097,
+    "revenueEur": 1485.17,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1421,
+    "revenueEur": 1916.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 676,
+    "revenueEur": 903.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1445,
+    "revenueEur": 1989.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1938,
+    "revenueEur": 2637.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-15",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 880,
+    "revenueEur": 1162.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1611,
+    "revenueEur": 2191.13,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3103,
+    "revenueEur": 4289.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 799,
+    "revenueEur": 1089.68,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1156,
+    "revenueEur": 1522.07,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1424,
+    "revenueEur": 1937.41,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 664,
+    "revenueEur": 904.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1288,
+    "revenueEur": 1786.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2154,
+    "revenueEur": 2987.69,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-22",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 896,
+    "revenueEur": 1209.79,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1777,
+    "revenueEur": 2403.54,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3063,
+    "revenueEur": 4062.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 914,
+    "revenueEur": 1239.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1212,
+    "revenueEur": 1618.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1548,
+    "revenueEur": 2144.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 654,
+    "revenueEur": 857.69,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1361,
+    "revenueEur": 1792.26,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2094,
+    "revenueEur": 2790.49,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2025-12-29",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 904,
+    "revenueEur": 1195.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1665,
+    "revenueEur": 2188.26,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2816,
+    "revenueEur": 3850.25,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 757,
+    "revenueEur": 1000.03,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1082,
+    "revenueEur": 1499.4,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1343,
+    "revenueEur": 1784.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 616,
+    "revenueEur": 832.03,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1388,
+    "revenueEur": 1847.86,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1959,
+    "revenueEur": 2575.7,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-01-05",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 826,
+    "revenueEur": 1142.78,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1641,
+    "revenueEur": 2226.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3109,
+    "revenueEur": 4235.31,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 823,
+    "revenueEur": 1107.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1132,
+    "revenueEur": 1554.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1465,
+    "revenueEur": 1938.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 694,
+    "revenueEur": 962.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1206,
+    "revenueEur": 1658.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1990,
+    "revenueEur": 2711.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-12",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 756,
+    "revenueEur": 1046.43,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1571,
+    "revenueEur": 2143.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3164,
+    "revenueEur": 4197.78,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 790,
+    "revenueEur": 1044.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1060,
+    "revenueEur": 1395.77,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1541,
+    "revenueEur": 2108.44,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 690,
+    "revenueEur": 915.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1372,
+    "revenueEur": 1894.87,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2006,
+    "revenueEur": 2786.03,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-19",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 788,
+    "revenueEur": 1074.16,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1569,
+    "revenueEur": 2176.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3216,
+    "revenueEur": 4246.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 837,
+    "revenueEur": 1096.34,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1085,
+    "revenueEur": 1469.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1469,
+    "revenueEur": 1970.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 693,
+    "revenueEur": 944.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1399,
+    "revenueEur": 1924.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1855,
+    "revenueEur": 2575.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-01-26",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 836,
+    "revenueEur": 1120.93,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1781,
+    "revenueEur": 2474.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3046,
+    "revenueEur": 4036.35,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 881,
+    "revenueEur": 1207.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1220,
+    "revenueEur": 1616.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1548,
+    "revenueEur": 2128.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 726,
+    "revenueEur": 1007.58,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1356,
+    "revenueEur": 1853.01,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1876,
+    "revenueEur": 2606.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-02",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 796,
+    "revenueEur": 1060.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1616,
+    "revenueEur": 2141.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3214,
+    "revenueEur": 4365.71,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 865,
+    "revenueEur": 1184.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1269,
+    "revenueEur": 1749.69,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1581,
+    "revenueEur": 2105.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 626,
+    "revenueEur": 868.92,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1390,
+    "revenueEur": 1896.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1884,
+    "revenueEur": 2532.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-09",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 874,
+    "revenueEur": 1204.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1810,
+    "revenueEur": 2429.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3154,
+    "revenueEur": 4256.77,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 795,
+    "revenueEur": 1087.5,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1273,
+    "revenueEur": 1721.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1507,
+    "revenueEur": 2014.27,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 715,
+    "revenueEur": 993.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1414,
+    "revenueEur": 1961.33,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1959,
+    "revenueEur": 2617.55,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-02-16",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 875,
+    "revenueEur": 1147.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1594,
+    "revenueEur": 2190.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3335,
+    "revenueEur": 4433.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 926,
+    "revenueEur": 1275.04,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1203,
+    "revenueEur": 1598.4,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1567,
+    "revenueEur": 2107.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 680,
+    "revenueEur": 897.34,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1472,
+    "revenueEur": 1972.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2134,
+    "revenueEur": 2929.76,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-02-23",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 904,
+    "revenueEur": 1187.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1887,
+    "revenueEur": 2486.59,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3247,
+    "revenueEur": 4475.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 972,
+    "revenueEur": 1305.2,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1388,
+    "revenueEur": 1887.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1696,
+    "revenueEur": 2279.72,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 710,
+    "revenueEur": 967.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1410,
+    "revenueEur": 1905.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2146,
+    "revenueEur": 2812.32,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-02",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 968,
+    "revenueEur": 1333.52,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1803,
+    "revenueEur": 2435.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3506,
+    "revenueEur": 4767.42,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 904,
+    "revenueEur": 1187.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1352,
+    "revenueEur": 1826.64,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1676,
+    "revenueEur": 2273.96,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 719,
+    "revenueEur": 968.88,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1483,
+    "revenueEur": 2058.54,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2360,
+    "revenueEur": 3118.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-09",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1008,
+    "revenueEur": 1365.65,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1881,
+    "revenueEur": 2611.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3367,
+    "revenueEur": 4427.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 961,
+    "revenueEur": 1312.28,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1383,
+    "revenueEur": 1906.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1679,
+    "revenueEur": 2239.4,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 718,
+    "revenueEur": 991.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1542,
+    "revenueEur": 2134.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2386,
+    "revenueEur": 3214.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-16",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 961,
+    "revenueEur": 1318.24,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2035,
+    "revenueEur": 2726.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3741,
+    "revenueEur": 4900.88,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 948,
+    "revenueEur": 1284,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1336,
+    "revenueEur": 1817.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1695,
+    "revenueEur": 2353.51,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 744,
+    "revenueEur": 987.46,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1471,
+    "revenueEur": 2027.26,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2214,
+    "revenueEur": 2930.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-23",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 908,
+    "revenueEur": 1250.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 1998,
+    "revenueEur": 2759.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3409,
+    "revenueEur": 4590.06,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 955,
+    "revenueEur": 1263.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1421,
+    "revenueEur": 1932.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1803,
+    "revenueEur": 2378.33,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 729,
+    "revenueEur": 965.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1609,
+    "revenueEur": 2148.42,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2391,
+    "revenueEur": 3309.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-03-30",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 989,
+    "revenueEur": 1363.54,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2061,
+    "revenueEur": 2740.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3863,
+    "revenueEur": 5098.17,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1107,
+    "revenueEur": 1493.46,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1588,
+    "revenueEur": 2181.23,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1849,
+    "revenueEur": 2479.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 903,
+    "revenueEur": 1209.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1657,
+    "revenueEur": 2265.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2613,
+    "revenueEur": 3624.01,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-06",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1106,
+    "revenueEur": 1505.47,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2248,
+    "revenueEur": 2981.48,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3995,
+    "revenueEur": 5307.3,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1085,
+    "revenueEur": 1453.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1611,
+    "revenueEur": 2142.82,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2042,
+    "revenueEur": 2722.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 835,
+    "revenueEur": 1096.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1711,
+    "revenueEur": 2303.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2579,
+    "revenueEur": 3481.14,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-13",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1014,
+    "revenueEur": 1364.11,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2058,
+    "revenueEur": 2845.23,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4049,
+    "revenueEur": 5481.45,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1064,
+    "revenueEur": 1412.94,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1501,
+    "revenueEur": 2031.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2030,
+    "revenueEur": 2699.4,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 915,
+    "revenueEur": 1260.85,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1796,
+    "revenueEur": 2371.92,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2741,
+    "revenueEur": 3709.92,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-20",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1152,
+    "revenueEur": 1534.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2396,
+    "revenueEur": 3321.12,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4238,
+    "revenueEur": 5553.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1197,
+    "revenueEur": 1659.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1477,
+    "revenueEur": 2020.67,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 1901,
+    "revenueEur": 2579.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 878,
+    "revenueEur": 1207.66,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 1658,
+    "revenueEur": 2284.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2852,
+    "revenueEur": 3831.18,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-04-27",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1173,
+    "revenueEur": 1538.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2848,
+    "revenueEur": 3799.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4927,
+    "revenueEur": 6714.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1285,
+    "revenueEur": 1727.02,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1948,
+    "revenueEur": 2659.86,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2437,
+    "revenueEur": 3303.29,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1006,
+    "revenueEur": 1396.99,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2174,
+    "revenueEur": 2987.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3263,
+    "revenueEur": 4376.21,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-04",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1440,
+    "revenueEur": 1893.11,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2692,
+    "revenueEur": 3596.88,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5065,
+    "revenueEur": 6757.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1389,
+    "revenueEur": 1838.88,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1911,
+    "revenueEur": 2506.61,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2576,
+    "revenueEur": 3453.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1038,
+    "revenueEur": 1403.35,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2116,
+    "revenueEur": 2772.8,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3456,
+    "revenueEur": 4635.12,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-11",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1271,
+    "revenueEur": 1707.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2669,
+    "revenueEur": 3690.4,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5277,
+    "revenueEur": 7042.63,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1394,
+    "revenueEur": 1843.37,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1833,
+    "revenueEur": 2430.45,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2414,
+    "revenueEur": 3200.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1071,
+    "revenueEur": 1474.01,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2086,
+    "revenueEur": 2787.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3256,
+    "revenueEur": 4385.76,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-05-18",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1270,
+    "revenueEur": 1729.55,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2665,
+    "revenueEur": 3671.71,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 4922,
+    "revenueEur": 6773.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1348,
+    "revenueEur": 1784.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1880,
+    "revenueEur": 2520.44,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2521,
+    "revenueEur": 3320.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1007,
+    "revenueEur": 1390.9,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2320,
+    "revenueEur": 3139.09,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3051,
+    "revenueEur": 4174.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-05-25",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1455,
+    "revenueEur": 1953.79,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2887,
+    "revenueEur": 3866.75,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5638,
+    "revenueEur": 7738.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1454,
+    "revenueEur": 1928.44,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 1976,
+    "revenueEur": 2689.83,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2731,
+    "revenueEur": 3652.27,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1162,
+    "revenueEur": 1525.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2541,
+    "revenueEur": 3355.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3667,
+    "revenueEur": 4938.97,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-01",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1575,
+    "revenueEur": 2153.5,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 3076,
+    "revenueEur": 4097.57,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5972,
+    "revenueEur": 8113.95,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1452,
+    "revenueEur": 1988.6,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 2208,
+    "revenueEur": 2893.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2737,
+    "revenueEur": 3623.55,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1305,
+    "revenueEur": 1765.16,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2293,
+    "revenueEur": 3120.59,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3805,
+    "revenueEur": 5186.08,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-08",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1592,
+    "revenueEur": 2141.98,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2883,
+    "revenueEur": 3863.42,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5468,
+    "revenueEur": 7562.84,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1433,
+    "revenueEur": 1879.76,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 2272,
+    "revenueEur": 3100.32,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2982,
+    "revenueEur": 3928.26,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1267,
+    "revenueEur": 1733.44,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2491,
+    "revenueEur": 3426.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3804,
+    "revenueEur": 5173.81,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-15",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1527,
+    "revenueEur": 2052.53,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2927,
+    "revenueEur": 3909.57,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5869,
+    "revenueEur": 7691.15,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1492,
+    "revenueEur": 2033.29,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 2216,
+    "revenueEur": 2909.74,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2754,
+    "revenueEur": 3777.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1339,
+    "revenueEur": 1830.7,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2668,
+    "revenueEur": 3616.76,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3506,
+    "revenueEur": 4683.22,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-22",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1534,
+    "revenueEur": 2123.65,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Netherlands",
+    "channel": "DTC Online",
+    "unitsSold": 2957,
+    "revenueEur": 3914.19,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Netherlands",
+    "channel": "Retail/Grocery",
+    "unitsSold": 5932,
+    "revenueEur": 8237.89,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Netherlands",
+    "channel": "Gym & Office",
+    "unitsSold": 1462,
+    "revenueEur": 1916.58,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Denmark",
+    "channel": "DTC Online",
+    "unitsSold": 2167,
+    "revenueEur": 2927.39,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Denmark",
+    "channel": "Retail/Grocery",
+    "unitsSold": 2811,
+    "revenueEur": 3841.44,
+    "promoActive": true
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Denmark",
+    "channel": "Gym & Office",
+    "unitsSold": 1153,
+    "revenueEur": 1580.73,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Sweden",
+    "channel": "DTC Online",
+    "unitsSold": 2407,
+    "revenueEur": 3235.51,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Sweden",
+    "channel": "Retail/Grocery",
+    "unitsSold": 3516,
+    "revenueEur": 4643.38,
+    "promoActive": false
+  },
+  {
+    "weekStartDate": "2026-06-29",
+    "country": "Sweden",
+    "channel": "Gym & Office",
+    "unitsSold": 1496,
+    "revenueEur": 2004.54,
+    "promoActive": false
+  }
+]
