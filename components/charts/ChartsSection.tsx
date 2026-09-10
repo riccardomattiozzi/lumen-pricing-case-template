@@ -10,11 +10,11 @@ export function ChartsSection() {
     <div className="space-y-4">
       <KpiRow />
       <RevenueMarginChart />
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-2">
         <VolumeChart />
         <ChannelContributionChart />
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-2">
         <CompetitorPositioningChart />
         <CompetitorPriceHistoryChart />
       </div>
