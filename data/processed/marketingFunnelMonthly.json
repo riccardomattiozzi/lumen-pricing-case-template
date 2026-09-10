@@ -1,0 +1,722 @@
+[
+  {
+    "month": "2025-01-01",
+    "channel": "Paid Social",
+    "reach": 23175,
+    "engagements": 263,
+    "conversions": 26,
+    "spendEur": 1133.08,
+    "cacEur": 43.58,
+    "ltvEstimateEur": 137.28
+  },
+  {
+    "month": "2025-02-01",
+    "channel": "Paid Social",
+    "reach": 31939,
+    "engagements": 419,
+    "conversions": 41,
+    "spendEur": 1854.02,
+    "cacEur": 45.22,
+    "ltvEstimateEur": 139.25
+  },
+  {
+    "month": "2025-03-01",
+    "channel": "Paid Social",
+    "reach": 33602,
+    "engagements": 368,
+    "conversions": 29,
+    "spendEur": 1496.11,
+    "cacEur": 51.59,
+    "ltvEstimateEur": 174.69
+  },
+  {
+    "month": "2025-04-01",
+    "channel": "Paid Social",
+    "reach": 54151,
+    "engagements": 688,
+    "conversions": 57,
+    "spendEur": 2904.72,
+    "cacEur": 50.96,
+    "ltvEstimateEur": 144
+  },
+  {
+    "month": "2025-05-01",
+    "channel": "Paid Social",
+    "reach": 39974,
+    "engagements": 498,
+    "conversions": 39,
+    "spendEur": 1838.85,
+    "cacEur": 47.15,
+    "ltvEstimateEur": 157.69
+  },
+  {
+    "month": "2025-06-01",
+    "channel": "Paid Social",
+    "reach": 39133,
+    "engagements": 539,
+    "conversions": 55,
+    "spendEur": 2393.6,
+    "cacEur": 43.52,
+    "ltvEstimateEur": 104.81
+  },
+  {
+    "month": "2025-07-01",
+    "channel": "Paid Social",
+    "reach": 67452,
+    "engagements": 881,
+    "conversions": 72,
+    "spendEur": 3378.24,
+    "cacEur": 46.92,
+    "ltvEstimateEur": 127.22
+  },
+  {
+    "month": "2025-08-01",
+    "channel": "Paid Social",
+    "reach": 59672,
+    "engagements": 644,
+    "conversions": 53,
+    "spendEur": 2435.35,
+    "cacEur": 45.95,
+    "ltvEstimateEur": 134.5
+  },
+  {
+    "month": "2025-09-01",
+    "channel": "Paid Social",
+    "reach": 42687,
+    "engagements": 524,
+    "conversions": 54,
+    "spendEur": 2359.26,
+    "cacEur": 43.69,
+    "ltvEstimateEur": 141.33
+  },
+  {
+    "month": "2025-10-01",
+    "channel": "Paid Social",
+    "reach": 43932,
+    "engagements": 599,
+    "conversions": 52,
+    "spendEur": 2347.28,
+    "cacEur": 45.14,
+    "ltvEstimateEur": 124.81
+  },
+  {
+    "month": "2025-11-01",
+    "channel": "Paid Social",
+    "reach": 38772,
+    "engagements": 481,
+    "conversions": 42,
+    "spendEur": 1802.22,
+    "cacEur": 42.91,
+    "ltvEstimateEur": 143.51
+  },
+  {
+    "month": "2025-12-01",
+    "channel": "Paid Social",
+    "reach": 42422,
+    "engagements": 549,
+    "conversions": 48,
+    "spendEur": 2018.88,
+    "cacEur": 42.06,
+    "ltvEstimateEur": 138.28
+  },
+  {
+    "month": "2026-01-01",
+    "channel": "Paid Social",
+    "reach": 34130,
+    "engagements": 414,
+    "conversions": 38,
+    "spendEur": 1623.74,
+    "cacEur": 42.73,
+    "ltvEstimateEur": 113.51
+  },
+  {
+    "month": "2026-02-01",
+    "channel": "Paid Social",
+    "reach": 35760,
+    "engagements": 401,
+    "conversions": 37,
+    "spendEur": 1677.21,
+    "cacEur": 45.33,
+    "ltvEstimateEur": 117.85
+  },
+  {
+    "month": "2026-03-01",
+    "channel": "Paid Social",
+    "reach": 55441,
+    "engagements": 605,
+    "conversions": 61,
+    "spendEur": 2490.02,
+    "cacEur": 40.82,
+    "ltvEstimateEur": 132.01
+  },
+  {
+    "month": "2026-04-01",
+    "channel": "Paid Social",
+    "reach": 63369,
+    "engagements": 732,
+    "conversions": 64,
+    "spendEur": 2839.04,
+    "cacEur": 44.36,
+    "ltvEstimateEur": 118.6
+  },
+  {
+    "month": "2026-05-01",
+    "channel": "Paid Social",
+    "reach": 78095,
+    "engagements": 905,
+    "conversions": 77,
+    "spendEur": 3796.87,
+    "cacEur": 49.31,
+    "ltvEstimateEur": 112.7
+  },
+  {
+    "month": "2026-06-01",
+    "channel": "Paid Social",
+    "reach": 97171,
+    "engagements": 1338,
+    "conversions": 107,
+    "spendEur": 5200.2,
+    "cacEur": 48.6,
+    "ltvEstimateEur": 116.39
+  },
+  {
+    "month": "2025-01-01",
+    "channel": "Influencer / Content",
+    "reach": 28322,
+    "engagements": 998,
+    "conversions": 130,
+    "spendEur": 5188.3,
+    "cacEur": 39.91,
+    "ltvEstimateEur": 104.5
+  },
+  {
+    "month": "2025-02-01",
+    "channel": "Influencer / Content",
+    "reach": 28576,
+    "engagements": 922,
+    "conversions": 106,
+    "spendEur": 3657,
+    "cacEur": 34.5,
+    "ltvEstimateEur": 91.85
+  },
+  {
+    "month": "2025-03-01",
+    "channel": "Influencer / Content",
+    "reach": 25788,
+    "engagements": 739,
+    "conversions": 88,
+    "spendEur": 3596.56,
+    "cacEur": 40.87,
+    "ltvEstimateEur": 107.64
+  },
+  {
+    "month": "2025-04-01",
+    "channel": "Influencer / Content",
+    "reach": 36314,
+    "engagements": 966,
+    "conversions": 122,
+    "spendEur": 4257.8,
+    "cacEur": 34.9,
+    "ltvEstimateEur": 102.14
+  },
+  {
+    "month": "2025-05-01",
+    "channel": "Influencer / Content",
+    "reach": 51820,
+    "engagements": 1436,
+    "conversions": 159,
+    "spendEur": 6038.82,
+    "cacEur": 37.98,
+    "ltvEstimateEur": 113.75
+  },
+  {
+    "month": "2025-06-01",
+    "channel": "Influencer / Content",
+    "reach": 31761,
+    "engagements": 871,
+    "conversions": 92,
+    "spendEur": 3571.44,
+    "cacEur": 38.82,
+    "ltvEstimateEur": 103.31
+  },
+  {
+    "month": "2025-07-01",
+    "channel": "Influencer / Content",
+    "reach": 54012,
+    "engagements": 1913,
+    "conversions": 201,
+    "spendEur": 8066.13,
+    "cacEur": 40.13,
+    "ltvEstimateEur": 130.47
+  },
+  {
+    "month": "2025-08-01",
+    "channel": "Influencer / Content",
+    "reach": 32073,
+    "engagements": 972,
+    "conversions": 123,
+    "spendEur": 4543.62,
+    "cacEur": 36.94,
+    "ltvEstimateEur": 104.9
+  },
+  {
+    "month": "2025-09-01",
+    "channel": "Influencer / Content",
+    "reach": 47387,
+    "engagements": 1507,
+    "conversions": 194,
+    "spendEur": 7496.16,
+    "cacEur": 38.64,
+    "ltvEstimateEur": 127.87
+  },
+  {
+    "month": "2025-10-01",
+    "channel": "Influencer / Content",
+    "reach": 41276,
+    "engagements": 1130,
+    "conversions": 139,
+    "spendEur": 5394.59,
+    "cacEur": 38.81,
+    "ltvEstimateEur": 123.3
+  },
+  {
+    "month": "2025-11-01",
+    "channel": "Influencer / Content",
+    "reach": 24065,
+    "engagements": 681,
+    "conversions": 88,
+    "spendEur": 3337.84,
+    "cacEur": 37.93,
+    "ltvEstimateEur": 83.74
+  },
+  {
+    "month": "2025-12-01",
+    "channel": "Influencer / Content",
+    "reach": 22588,
+    "engagements": 698,
+    "conversions": 74,
+    "spendEur": 2835.68,
+    "cacEur": 38.32,
+    "ltvEstimateEur": 103.52
+  },
+  {
+    "month": "2026-01-01",
+    "channel": "Influencer / Content",
+    "reach": 27086,
+    "engagements": 786,
+    "conversions": 92,
+    "spendEur": 3112.36,
+    "cacEur": 33.83,
+    "ltvEstimateEur": 81.99
+  },
+  {
+    "month": "2026-02-01",
+    "channel": "Influencer / Content",
+    "reach": 21394,
+    "engagements": 661,
+    "conversions": 79,
+    "spendEur": 2624.38,
+    "cacEur": 33.22,
+    "ltvEstimateEur": 95.69
+  },
+  {
+    "month": "2026-03-01",
+    "channel": "Influencer / Content",
+    "reach": 26022,
+    "engagements": 734,
+    "conversions": 95,
+    "spendEur": 3618.55,
+    "cacEur": 38.09,
+    "ltvEstimateEur": 92.57
+  },
+  {
+    "month": "2026-04-01",
+    "channel": "Influencer / Content",
+    "reach": 52987,
+    "engagements": 1826,
+    "conversions": 215,
+    "spendEur": 8314.05,
+    "cacEur": 38.67,
+    "ltvEstimateEur": 90.14
+  },
+  {
+    "month": "2026-05-01",
+    "channel": "Influencer / Content",
+    "reach": 51828,
+    "engagements": 1404,
+    "conversions": 148,
+    "spendEur": 4869.2,
+    "cacEur": 32.9,
+    "ltvEstimateEur": 74.92
+  },
+  {
+    "month": "2026-06-01",
+    "channel": "Influencer / Content",
+    "reach": 33098,
+    "engagements": 944,
+    "conversions": 113,
+    "spendEur": 4210.38,
+    "cacEur": 37.26,
+    "ltvEstimateEur": 82.4
+  },
+  {
+    "month": "2025-01-01",
+    "channel": "Retail Sampling",
+    "reach": 19021,
+    "engagements": 1946,
+    "conversions": 449,
+    "spendEur": 28973.97,
+    "cacEur": 64.53,
+    "ltvEstimateEur": 145.21
+  },
+  {
+    "month": "2025-02-01",
+    "channel": "Retail Sampling",
+    "reach": 18822,
+    "engagements": 1842,
+    "conversions": 390,
+    "spendEur": 23790,
+    "cacEur": 61,
+    "ltvEstimateEur": 204.62
+  },
+  {
+    "month": "2025-03-01",
+    "channel": "Retail Sampling",
+    "reach": 22313,
+    "engagements": 2000,
+    "conversions": 474,
+    "spendEur": 29283.72,
+    "cacEur": 61.78,
+    "ltvEstimateEur": 160.87
+  },
+  {
+    "month": "2025-04-01",
+    "channel": "Retail Sampling",
+    "reach": 35698,
+    "engagements": 3062,
+    "conversions": 636,
+    "spendEur": 36334.68,
+    "cacEur": 57.13,
+    "ltvEstimateEur": 150.45
+  },
+  {
+    "month": "2025-05-01",
+    "channel": "Retail Sampling",
+    "reach": 35127,
+    "engagements": 3267,
+    "conversions": 821,
+    "spendEur": 52954.5,
+    "cacEur": 64.5,
+    "ltvEstimateEur": 204.31
+  },
+  {
+    "month": "2025-06-01",
+    "channel": "Retail Sampling",
+    "reach": 26243,
+    "engagements": 2624,
+    "conversions": 560,
+    "spendEur": 35722.4,
+    "cacEur": 63.79,
+    "ltvEstimateEur": 211.15
+  },
+  {
+    "month": "2025-07-01",
+    "channel": "Retail Sampling",
+    "reach": 28773,
+    "engagements": 2297,
+    "conversions": 510,
+    "spendEur": 33104.1,
+    "cacEur": 64.91,
+    "ltvEstimateEur": 201.33
+  },
+  {
+    "month": "2025-08-01",
+    "channel": "Retail Sampling",
+    "reach": 34970,
+    "engagements": 3102,
+    "conversions": 721,
+    "spendEur": 45913.28,
+    "cacEur": 63.68,
+    "ltvEstimateEur": 179.44
+  },
+  {
+    "month": "2025-09-01",
+    "channel": "Retail Sampling",
+    "reach": 40831,
+    "engagements": 3127,
+    "conversions": 716,
+    "spendEur": 46017.32,
+    "cacEur": 64.27,
+    "ltvEstimateEur": 166.24
+  },
+  {
+    "month": "2025-10-01",
+    "channel": "Retail Sampling",
+    "reach": 35270,
+    "engagements": 3530,
+    "conversions": 886,
+    "spendEur": 54559.88,
+    "cacEur": 61.58,
+    "ltvEstimateEur": 185.57
+  },
+  {
+    "month": "2025-11-01",
+    "channel": "Retail Sampling",
+    "reach": 23228,
+    "engagements": 2081,
+    "conversions": 491,
+    "spendEur": 30442,
+    "cacEur": 62,
+    "ltvEstimateEur": 162.32
+  },
+  {
+    "month": "2025-12-01",
+    "channel": "Retail Sampling",
+    "reach": 41543,
+    "engagements": 4234,
+    "conversions": 925,
+    "spendEur": 55648,
+    "cacEur": 60.16,
+    "ltvEstimateEur": 182.85
+  },
+  {
+    "month": "2026-01-01",
+    "channel": "Retail Sampling",
+    "reach": 19741,
+    "engagements": 1715,
+    "conversions": 389,
+    "spendEur": 23546.17,
+    "cacEur": 60.53,
+    "ltvEstimateEur": 196.35
+  },
+  {
+    "month": "2026-02-01",
+    "channel": "Retail Sampling",
+    "reach": 39342,
+    "engagements": 3843,
+    "conversions": 900,
+    "spendEur": 47169,
+    "cacEur": 52.41,
+    "ltvEstimateEur": 146.62
+  },
+  {
+    "month": "2026-03-01",
+    "channel": "Retail Sampling",
+    "reach": 22630,
+    "engagements": 2240,
+    "conversions": 566,
+    "spendEur": 35771.2,
+    "cacEur": 63.2,
+    "ltvEstimateEur": 174.44
+  },
+  {
+    "month": "2026-04-01",
+    "channel": "Retail Sampling",
+    "reach": 50341,
+    "engagements": 5149,
+    "conversions": 1127,
+    "spendEur": 65151.87,
+    "cacEur": 57.81,
+    "ltvEstimateEur": 144.06
+  },
+  {
+    "month": "2026-05-01",
+    "channel": "Retail Sampling",
+    "reach": 34408,
+    "engagements": 3509,
+    "conversions": 818,
+    "spendEur": 43018.62,
+    "cacEur": 52.59,
+    "ltvEstimateEur": 178.39
+  },
+  {
+    "month": "2026-06-01",
+    "channel": "Retail Sampling",
+    "reach": 33079,
+    "engagements": 3360,
+    "conversions": 701,
+    "spendEur": 38926.53,
+    "cacEur": 55.53,
+    "ltvEstimateEur": 140.85
+  },
+  {
+    "month": "2025-01-01",
+    "channel": "Referral / Subscription",
+    "reach": 27503,
+    "engagements": 1444,
+    "conversions": 574,
+    "spendEur": 17214.26,
+    "cacEur": 29.99,
+    "ltvEstimateEur": 89.93
+  },
+  {
+    "month": "2025-02-01",
+    "channel": "Referral / Subscription",
+    "reach": 32759,
+    "engagements": 1704,
+    "conversions": 595,
+    "spendEur": 18201.05,
+    "cacEur": 30.59,
+    "ltvEstimateEur": 79.51
+  },
+  {
+    "month": "2025-03-01",
+    "channel": "Referral / Subscription",
+    "reach": 21389,
+    "engagements": 1094,
+    "conversions": 432,
+    "spendEur": 11344.32,
+    "cacEur": 26.26,
+    "ltvEstimateEur": 68.59
+  },
+  {
+    "month": "2025-04-01",
+    "channel": "Referral / Subscription",
+    "reach": 41390,
+    "engagements": 2220,
+    "conversions": 829,
+    "spendEur": 24480.37,
+    "cacEur": 29.53,
+    "ltvEstimateEur": 92.79
+  },
+  {
+    "month": "2025-05-01",
+    "channel": "Referral / Subscription",
+    "reach": 52492,
+    "engagements": 2575,
+    "conversions": 829,
+    "spendEur": 22515.64,
+    "cacEur": 27.16,
+    "ltvEstimateEur": 69.24
+  },
+  {
+    "month": "2025-06-01",
+    "channel": "Referral / Subscription",
+    "reach": 30017,
+    "engagements": 1429,
+    "conversions": 514,
+    "spendEur": 13698.1,
+    "cacEur": 26.65,
+    "ltvEstimateEur": 88.76
+  },
+  {
+    "month": "2025-07-01",
+    "channel": "Referral / Subscription",
+    "reach": 49070,
+    "engagements": 2179,
+    "conversions": 720,
+    "spendEur": 19893.6,
+    "cacEur": 27.63,
+    "ltvEstimateEur": 85.22
+  },
+  {
+    "month": "2025-08-01",
+    "channel": "Referral / Subscription",
+    "reach": 37150,
+    "engagements": 1908,
+    "conversions": 606,
+    "spendEur": 16701.36,
+    "cacEur": 27.56,
+    "ltvEstimateEur": 74.64
+  },
+  {
+    "month": "2025-09-01",
+    "channel": "Referral / Subscription",
+    "reach": 44047,
+    "engagements": 2399,
+    "conversions": 949,
+    "spendEur": 24645.53,
+    "cacEur": 25.97,
+    "ltvEstimateEur": 77.82
+  },
+  {
+    "month": "2025-10-01",
+    "channel": "Referral / Subscription",
+    "reach": 34174,
+    "engagements": 1507,
+    "conversions": 450,
+    "spendEur": 13468.5,
+    "cacEur": 29.93,
+    "ltvEstimateEur": 77.19
+  },
+  {
+    "month": "2025-11-01",
+    "channel": "Referral / Subscription",
+    "reach": 36986,
+    "engagements": 1737,
+    "conversions": 557,
+    "spendEur": 16063.88,
+    "cacEur": 28.84,
+    "ltvEstimateEur": 68.55
+  },
+  {
+    "month": "2025-12-01",
+    "channel": "Referral / Subscription",
+    "reach": 25417,
+    "engagements": 1365,
+    "conversions": 528,
+    "spendEur": 15597.12,
+    "cacEur": 29.54,
+    "ltvEstimateEur": 66.21
+  },
+  {
+    "month": "2026-01-01",
+    "channel": "Referral / Subscription",
+    "reach": 24841,
+    "engagements": 1243,
+    "conversions": 460,
+    "spendEur": 12125.6,
+    "cacEur": 26.36,
+    "ltvEstimateEur": 84.81
+  },
+  {
+    "month": "2026-02-01",
+    "channel": "Referral / Subscription",
+    "reach": 32030,
+    "engagements": 1664,
+    "conversions": 533,
+    "spendEur": 14044.55,
+    "cacEur": 26.35,
+    "ltvEstimateEur": 88.53
+  },
+  {
+    "month": "2026-03-01",
+    "channel": "Referral / Subscription",
+    "reach": 21865,
+    "engagements": 1195,
+    "conversions": 375,
+    "spendEur": 10710,
+    "cacEur": 28.56,
+    "ltvEstimateEur": 91.9
+  },
+  {
+    "month": "2026-04-01",
+    "channel": "Referral / Subscription",
+    "reach": 51503,
+    "engagements": 2363,
+    "conversions": 886,
+    "spendEur": 26199.02,
+    "cacEur": 29.57,
+    "ltvEstimateEur": 92.59
+  },
+  {
+    "month": "2026-05-01",
+    "channel": "Referral / Subscription",
+    "reach": 60065,
+    "engagements": 3208,
+    "conversions": 1055,
+    "spendEur": 30436.75,
+    "cacEur": 28.85,
+    "ltvEstimateEur": 95.06
+  },
+  {
+    "month": "2026-06-01",
+    "channel": "Referral / Subscription",
+    "reach": 38596,
+    "engagements": 1653,
+    "conversions": 560,
+    "spendEur": 14901.6,
+    "cacEur": 26.61,
+    "ltvEstimateEur": 73.66
+  }
+]

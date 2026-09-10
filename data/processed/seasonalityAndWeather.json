@@ -1,0 +1,62 @@
+[
+  {
+    "month": 1,
+    "seasonalityIndex": 78,
+    "avgTempCelsius": 2
+  },
+  {
+    "month": 2,
+    "seasonalityIndex": 80,
+    "avgTempCelsius": 3
+  },
+  {
+    "month": 3,
+    "seasonalityIndex": 88,
+    "avgTempCelsius": 7
+  },
+  {
+    "month": 4,
+    "seasonalityIndex": 98,
+    "avgTempCelsius": 11
+  },
+  {
+    "month": 5,
+    "seasonalityIndex": 118,
+    "avgTempCelsius": 15
+  },
+  {
+    "month": 6,
+    "seasonalityIndex": 132,
+    "avgTempCelsius": 18
+  },
+  {
+    "month": 7,
+    "seasonalityIndex": 138,
+    "avgTempCelsius": 19
+  },
+  {
+    "month": 8,
+    "seasonalityIndex": 128,
+    "avgTempCelsius": 19
+  },
+  {
+    "month": 9,
+    "seasonalityIndex": 104,
+    "avgTempCelsius": 15
+  },
+  {
+    "month": 10,
+    "seasonalityIndex": 90,
+    "avgTempCelsius": 11
+  },
+  {
+    "month": 11,
+    "seasonalityIndex": 82,
+    "avgTempCelsius": 6
+  },
+  {
+    "month": 12,
+    "seasonalityIndex": 84,
+    "avgTempCelsius": 3
+  }
+]

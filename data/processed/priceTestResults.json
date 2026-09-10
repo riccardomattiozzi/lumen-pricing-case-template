@@ -1,0 +1,74 @@
+[
+  {
+    "priceEur": 1.79,
+    "channel": "DTC Online",
+    "estimatedAcceptancePctOfSurvey": 61.7,
+    "netPriceToLumenEur": 1.39,
+    "unitContributionEur": 0.77,
+    "contributionMarginPct": 55.3
+  },
+  {
+    "priceEur": 1.79,
+    "channel": "Retail/Grocery",
+    "estimatedAcceptancePctOfSurvey": 61.7,
+    "netPriceToLumenEur": 1.02,
+    "unitContributionEur": 0.4,
+    "contributionMarginPct": 39.2
+  },
+  {
+    "priceEur": 1.79,
+    "channel": "Gym & Office",
+    "estimatedAcceptancePctOfSurvey": 61.7,
+    "netPriceToLumenEur": 1.43,
+    "unitContributionEur": 0.81,
+    "contributionMarginPct": 56.7
+  },
+  {
+    "priceEur": 2.19,
+    "channel": "DTC Online",
+    "estimatedAcceptancePctOfSurvey": 51.7,
+    "netPriceToLumenEur": 1.78,
+    "unitContributionEur": 1.16,
+    "contributionMarginPct": 65.1
+  },
+  {
+    "priceEur": 2.19,
+    "channel": "Retail/Grocery",
+    "estimatedAcceptancePctOfSurvey": 51.7,
+    "netPriceToLumenEur": 1.25,
+    "unitContributionEur": 0.63,
+    "contributionMarginPct": 50.3
+  },
+  {
+    "priceEur": 2.19,
+    "channel": "Gym & Office",
+    "estimatedAcceptancePctOfSurvey": 51.7,
+    "netPriceToLumenEur": 1.75,
+    "unitContributionEur": 1.13,
+    "contributionMarginPct": 64.6
+  },
+  {
+    "priceEur": 2.59,
+    "channel": "DTC Online",
+    "estimatedAcceptancePctOfSurvey": 26.7,
+    "netPriceToLumenEur": 2.16,
+    "unitContributionEur": 1.54,
+    "contributionMarginPct": 71.4
+  },
+  {
+    "priceEur": 2.59,
+    "channel": "Retail/Grocery",
+    "estimatedAcceptancePctOfSurvey": 26.7,
+    "netPriceToLumenEur": 1.48,
+    "unitContributionEur": 0.86,
+    "contributionMarginPct": 58
+  },
+  {
+    "priceEur": 2.59,
+    "channel": "Gym & Office",
+    "estimatedAcceptancePctOfSurvey": 26.7,
+    "netPriceToLumenEur": 2.07,
+    "unitContributionEur": 1.45,
+    "contributionMarginPct": 70.1
+  }
+]

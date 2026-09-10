@@ -1,0 +1,62 @@
+[
+  {
+    "channel": "DTC Online",
+    "illustrativeRetailPriceEur": 1.35,
+    "retailerMarginPct": 0,
+    "distributorCutPct": 0,
+    "paymentProcessingPct": 0.029,
+    "fulfillmentCostEur": 0.35,
+    "netPriceToLumenEur": 0.96,
+    "unitContributionEur": 0.34
+  },
+  {
+    "channel": "DTC Online",
+    "illustrativeRetailPriceEur": 2.19,
+    "retailerMarginPct": 0,
+    "distributorCutPct": 0,
+    "paymentProcessingPct": 0.029,
+    "fulfillmentCostEur": 0.35,
+    "netPriceToLumenEur": 1.78,
+    "unitContributionEur": 1.16
+  },
+  {
+    "channel": "Retail/Grocery",
+    "illustrativeRetailPriceEur": 1.35,
+    "retailerMarginPct": 0.35,
+    "distributorCutPct": 0.08,
+    "paymentProcessingPct": 0,
+    "fulfillmentCostEur": 0,
+    "netPriceToLumenEur": 0.77,
+    "unitContributionEur": 0.15
+  },
+  {
+    "channel": "Retail/Grocery",
+    "illustrativeRetailPriceEur": 2.19,
+    "retailerMarginPct": 0.35,
+    "distributorCutPct": 0.08,
+    "paymentProcessingPct": 0,
+    "fulfillmentCostEur": 0,
+    "netPriceToLumenEur": 1.25,
+    "unitContributionEur": 0.63
+  },
+  {
+    "channel": "Gym & Office",
+    "illustrativeRetailPriceEur": 1.35,
+    "retailerMarginPct": 0.2,
+    "distributorCutPct": 0,
+    "paymentProcessingPct": 0,
+    "fulfillmentCostEur": 0,
+    "netPriceToLumenEur": 1.08,
+    "unitContributionEur": 0.46
+  },
+  {
+    "channel": "Gym & Office",
+    "illustrativeRetailPriceEur": 2.19,
+    "retailerMarginPct": 0.2,
+    "distributorCutPct": 0,
+    "paymentProcessingPct": 0,
+    "fulfillmentCostEur": 0,
+    "netPriceToLumenEur": 1.75,
+    "unitContributionEur": 1.13
+  }
+]
