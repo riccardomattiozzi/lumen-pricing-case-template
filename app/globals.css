@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
+/* Keep these hex values in sync with lib/theme.ts — Tailwind v4 reads its
+   palette from this file, chart code needs real JS values from theme.ts,
+   so the same colors are declared in both places on purpose. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6f4ec;
+  --surface: #ffffff;
+  --foreground: #1b2321;
+  --foreground-soft: #4e5a52;
+  --foreground-faint: #7c877e;
+  --line: #dcd5c2;
+  --accent: #1f7a5c;
+  --accent-soft: #e3f0e8;
+  --cfo: #2563eb;
+  --cfo-soft: #dbeafe;
+  --cmo: #d97706;
+  --cmo-soft: #fef3c7;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
+  --color-foreground-soft: var(--foreground-soft);
+  --color-foreground-faint: var(--foreground-faint);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-cfo: var(--cfo);
+  --color-cfo-soft: var(--cfo-soft);
+  --color-cmo: var(--cmo);
+  --color-cmo-soft: var(--cmo-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Accessible focus ring, visible on every interactive control (sliders,
+   buttons, chips) — never rely on the browser default alone. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Range slider styling — native <input type="range"> so keyboard
+   (arrow keys, Home/End) works for free; only the visual chrome is
+   customized here. */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--line);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--surface);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--surface);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
