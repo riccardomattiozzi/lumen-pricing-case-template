@@ -125,7 +125,7 @@ export function ScenarioPanel() {
             Monthly marketing budget
           </label>
           <span className="font-data text-sm">
-            {`€${monthlyMarketingBudgetEur.toLocaleString("de-DE")}`}
+            {`€${monthlyMarketingBudgetEur.toLocaleString("en-GB")}`}
           </span>
         </div>
         <input
@@ -136,7 +136,7 @@ export function ScenarioPanel() {
           step={1000}
           value={monthlyMarketingBudgetEur}
           onChange={(e) => setMonthlyMarketingBudgetEur(Number(e.target.value))}
-          aria-valuetext={`€${monthlyMarketingBudgetEur.toLocaleString("de-DE")}`}
+          aria-valuetext={`€${monthlyMarketingBudgetEur.toLocaleString("en-GB")}`}
           className="mt-2"
         />
       </div>

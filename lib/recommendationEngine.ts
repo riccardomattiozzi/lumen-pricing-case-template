@@ -218,8 +218,8 @@ export function computeTradeoff(
 
   const rationale =
     `At €${inputs.priceEur.toFixed(2)} through ${channel} (leading the current ${(inputs.salesChannelMix[channel] * 100).toFixed(0)}% mix), ` +
-    `the model estimates ${outputs.estimatedMonthlyUnits.toLocaleString("de-DE")} units/month ` +
-    `(range ${outputs.demandConfidence.lowUnits.toLocaleString("de-DE")}–${outputs.demandConfidence.highUnits.toLocaleString("de-DE")}), ` +
+    `the model estimates ${outputs.estimatedMonthlyUnits.toLocaleString("en-GB")} units/month ` +
+    `(range ${outputs.demandConfidence.lowUnits.toLocaleString("en-GB")}–${outputs.demandConfidence.highUnits.toLocaleString("en-GB")}), ` +
     `${outputs.contributionMarginPct.toFixed(0)}% contribution margin, and a ${outputs.cacPaybackMonths.toFixed(1)}-month CAC payback ` +
     `(LTV:CAC ${outputs.ltvToCacRatio.toFixed(2)}, vs. the brief's ≈3:1 target). ` +
     `CFO score ${cfoScore}/100, CMO score ${cmoScore}/100 — a ${tradeoffGapPts}-point gap. ${timingRationale}`;

@@ -1,17 +1,24 @@
-// Shared formatting for every chart and KPI — one locale, one set of
-// conventions, so numbers read consistently across the whole dashboard.
-// Always pass an explicit locale to toLocaleString: relying on the
-// runtime default causes server/client hydration mismatches in Next.js.
+// Shared formatting for every chart, KPI and panel — one locale, one set of
+// conventions, so numbers read the same everywhere.
+//
+// en-GB, not de-DE: the interface and the case brief are both in English and
+// the brief writes its own figures with dot decimals (€1.79, €9.1bn, 61.7%).
+// Mixing German separators into English copy produced genuinely ambiguous
+// numbers — "47.701 units" reads as forty-seven point seven to an English
+// reader. Always pass an explicit locale: relying on the runtime default
+// causes server/client hydration mismatches in Next.js.
+
+const LOCALE = "en-GB";
 
 export function formatEuro(value: number, decimals = 0): string {
-  return `€${value.toLocaleString("de-DE", {
+  return `€${value.toLocaleString(LOCALE, {
     minimumFractionDigits: decimals,
     maximumFractionDigits: decimals,
   })}`;
 }
 
 export function formatUnits(value: number): string {
-  return value.toLocaleString("de-DE");
+  return value.toLocaleString(LOCALE);
 }
 
 export function formatPct(value: number, decimals = 1): string {
