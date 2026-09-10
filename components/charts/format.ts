@@ -24,3 +24,17 @@ export function formatUnits(value: number): string {
 export function formatPct(value: number, decimals = 1): string {
   return `${value.toFixed(decimals)}%`;
 }
+
+// Month keys in the data are "YYYY-MM". Spelled out from a fixed table, not
+// toLocaleString, for the same hydration reason as above.
+const MONTHS = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+export function formatMonth(yearMonth: string, style: "short" | "long" = "short"): string {
+  const [year, month] = yearMonth.split("-");
+  const name = MONTHS[Number(month) - 1];
+  if (!name || !year) return yearMonth;
+  return style === "short" ? `${name} ’${year.slice(2)}` : `${name} ${year}`;
+}

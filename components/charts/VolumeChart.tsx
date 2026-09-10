@@ -5,21 +5,16 @@ import {
   Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Cell,
+  LabelList,
   ResponsiveContainer,
 } from "recharts";
 import { useScenario } from "@/lib/store";
-import { colors } from "@/lib/theme";
+import { CHANNEL_COLORS, colors } from "@/lib/theme";
 import { formatUnits } from "./format";
+import { ChartTooltip, cursorBand, xAxisProps } from "./chartKit";
 import type { SalesChannel } from "@/lib/types";
-
-const CHANNEL_COLORS: Record<SalesChannel, string> = {
-  "DTC Online": colors.accent,
-  "Retail/Grocery": colors.cfo,
-  "Gym & Office": colors.cmo,
-};
 
 export function VolumeChart() {
   const { outputs } = useScenario();
@@ -32,32 +27,46 @@ export function VolumeChart() {
   );
 
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">
-        Estimated monthly units by channel
-      </p>
+    <div className="card p-5">
+      <h3 className="card-title">Estimated monthly units by channel</h3>
       <div
-        className="mt-3 h-56"
+        className="mt-4 h-56"
         role="img"
         aria-label={data
           .map((d) => `${d.channel}: ${formatUnits(d.units)} units`)
           .join("; ")}
       >
+        {/* Every bar carries its value, so there is no y-axis to read. */}
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
-            <CartesianGrid stroke={colors.line} strokeDasharray="3 3" vertical={false} />
-            <XAxis dataKey="channel" stroke={colors.inkFaint} fontSize={11} />
-            <YAxis
-              tickFormatter={(v) => formatUnits(v)}
-              stroke={colors.inkFaint}
-              fontSize={11}
-              width={56}
+          <BarChart data={data} margin={{ top: 24, right: 8, left: 8, bottom: 0 }}>
+            <XAxis {...xAxisProps} dataKey="channel" interval={0} />
+            <YAxis hide domain={[0, "dataMax"]} />
+            <Tooltip
+              cursor={cursorBand}
+              isAnimationActive={false}
+              content={(p) => (
+                <ChartTooltip
+                  active={p.active}
+                  payload={p.payload}
+                  label={p.label}
+                  valueFormatter={(v) => [formatUnits(Number(v)), "units"]}
+                  colorOf={(e) => CHANNEL_COLORS[e.payload?.channel as SalesChannel]}
+                />
+              )}
             />
-            <Tooltip formatter={(value) => [formatUnits(Number(value)), "Units"]} />
-            <Bar dataKey="units" radius={[4, 4, 0, 0]}>
+            <Bar dataKey="units" radius={[4, 4, 0, 0]} maxBarSize={24} isAnimationActive={false}>
               {data.map((d) => (
                 <Cell key={d.channel} fill={CHANNEL_COLORS[d.channel]} />
               ))}
+              <LabelList
+                dataKey="units"
+                position="top"
+                offset={8}
+                formatter={(v) => formatUnits(Number(v))}
+                fill={colors.ink}
+                fontSize={12}
+                fontWeight={600}
+              />
             </Bar>
           </BarChart>
         </ResponsiveContainer>

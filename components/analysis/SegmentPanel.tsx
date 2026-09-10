@@ -1,14 +1,43 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { useScenario } from "@/lib/store";
 import { readSegments, type PriceVerdict } from "@/lib/analysis/segments";
 import { formatEuro } from "@/components/charts/format";
+import { CheckIcon, WarningIcon, XIcon } from "@/components/ui/icons";
 
-const VERDICT_STYLE: Record<PriceVerdict, { label: string; className: string }> = {
-  comfortable: { label: "Comfortable", className: "bg-accent-soft text-accent-ink" },
-  acceptable: { label: "Acceptable", className: "bg-accent-soft text-accent-ink" },
-  stretch: { label: "A stretch", className: "bg-cmo-soft text-foreground" },
-  rejected: { label: "Priced out", className: "bg-[#fde2e2] text-[#8a1c1c]" },
+// Verdicts are status, so each one pairs its tint with a glyph and a word —
+// never color alone.
+const VERDICT_STYLE: Record<
+  PriceVerdict,
+  { label: string; className: string; icon: ReactNode }
+> = {
+  comfortable: {
+    label: "Comfortable",
+    className: "bg-accent-soft text-accent-ink",
+    icon: <CheckIcon className="h-3 w-3" />,
+  },
+  acceptable: {
+    label: "Acceptable",
+    className: "bg-accent-soft text-accent-ink",
+    icon: <CheckIcon className="h-3 w-3" />,
+  },
+  stretch: {
+    label: "A stretch",
+    className: "bg-warning-soft text-warning-ink",
+    icon: <WarningIcon className="h-3 w-3" />,
+  },
+  rejected: {
+    label: "Priced out",
+    className: "bg-danger-soft text-danger-ink",
+    icon: <XIcon className="h-3 w-3" />,
+  },
+};
+
+const SENTIMENT: Record<"positive" | "negative" | "mixed", { label: string; color: string }> = {
+  positive: { label: "Positive", color: "var(--accent)" },
+  negative: { label: "Negative", color: "var(--danger)" },
+  mixed: { label: "Mixed", color: "var(--chart-neutral)" },
 };
 
 export function SegmentPanel() {
@@ -20,49 +49,54 @@ export function SegmentPanel() {
   const pricedOutShare = pricedOut.reduce((sum, s) => sum + s.sharePct, 0);
 
   return (
-    <div className="space-y-4">
-      <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-        <p className="text-sm font-medium text-foreground">
+    <div className="space-y-5">
+      <div className="card p-5">
+        <h3 className="card-title">
           Who&apos;s still in at €{inputs.priceEur.toFixed(2)}
-        </p>
-        <p className="mt-0.5 text-xs text-foreground-faint">
+        </h3>
+        <p className="card-subtitle">
           Each respondent&apos;s own &quot;expensive&quot; threshold, not a segment
           average — the share below is people, not opinions about people.
         </p>
 
-        <div className="mt-3 space-y-3">
-          {segments.map((s) => {
+        {/* An inset grouped list: one row per segment, hairlines between. */}
+        <ul className="mt-4 overflow-hidden rounded-2xl bg-surface-2">
+          {segments.map((s, i) => {
             const style = VERDICT_STYLE[s.verdict];
             return (
-              <div key={s.segment} className="rounded-lg border border-line-soft p-3">
-                <div className="flex flex-wrap items-center justify-between gap-2">
-                  <div>
-                    <p className="text-sm font-medium text-foreground">{s.segment}</p>
-                    <p className="text-[11px] text-foreground-faint">
+              <li key={s.segment} className="relative px-4 py-3.5">
+                {i > 0 && (
+                  <span aria-hidden className="absolute left-4 right-0 top-0 h-px bg-line-soft" />
+                )}
+                <div className="flex flex-wrap items-start justify-between gap-2">
+                  <div className="min-w-0">
+                    <p className="text-sm font-semibold text-foreground">{s.segment}</p>
+                    <p className="mt-0.5 text-xs text-foreground-faint">
                       {s.respondentCount} respondents · {s.sharePct.toFixed(0)}% of
                       the sample · prefers {s.preferredChannel}
                     </p>
                   </div>
                   <span
-                    className={`rounded-full px-2.5 py-1 text-[11px] font-medium ${style.className}`}
+                    className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold ${style.className}`}
                   >
+                    {style.icon}
                     {style.label}
                   </span>
                 </div>
 
-                <div className="mt-2.5 flex items-center gap-3">
-                  <div className="h-2 flex-1 rounded-full bg-line">
+                <div className="mt-3 flex items-center gap-3">
+                  <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-fill">
                     <div
-                      className="h-2 rounded-full bg-accent transition-all"
+                      className="h-full rounded-full bg-accent"
                       style={{ width: `${s.acceptancePct}%` }}
                     />
                   </div>
-                  <span className="font-data w-24 text-right text-xs text-foreground-soft">
+                  <span className="w-24 text-right text-xs font-medium tabular-nums text-foreground-soft">
                     {s.acceptancePct.toFixed(0)}% accept
                   </span>
                 </div>
 
-                <div className="mt-2 grid grid-cols-3 gap-2 text-[11px] text-foreground-faint">
+                <div className="mt-2.5 grid grid-cols-1 gap-1 text-xs text-foreground-faint @md:grid-cols-3 @md:gap-2">
                   <span>Intent {s.avgIntent.toFixed(1)}/10</span>
                   <span>Sensitivity {s.avgPriceSensitivity.toFixed(1)}/10</span>
                   <span>
@@ -71,20 +105,20 @@ export function SegmentPanel() {
                 </div>
 
                 {s.thresholds && (
-                  <p className="font-data mt-1.5 text-[10px] text-foreground-faint">
+                  <p className="mt-1.5 text-2xs tabular-nums text-foreground-faint">
                     cheap {formatEuro(s.thresholds.cheapEur, 2)} · expensive{" "}
                     {formatEuro(s.thresholds.expensiveEur, 2)} · too expensive{" "}
                     {formatEuro(s.thresholds.tooExpensiveEur, 2)}
                   </p>
                 )}
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
 
         {pricedOut.length > 0 && (
-          <div className="mt-3 rounded-lg bg-surface-2 p-3 text-xs text-foreground-soft">
-            <strong className="text-foreground">
+          <div className="callout mt-4">
+            <strong>
               This price gives up {pricedOutShare.toFixed(0)}% of the surveyed
               market.
             </strong>{" "}
@@ -97,43 +131,52 @@ export function SegmentPanel() {
         )}
       </div>
 
-      <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-        <p className="text-sm font-medium text-foreground">
-          What they actually said
-        </p>
-        <p className="mt-0.5 text-xs text-foreground-faint">
+      <div className="card p-5">
+        <h3 className="card-title">What they actually said</h3>
+        <p className="card-subtitle">
           The verbatims next to the survey scores — including where the two
           disagree, which the brief flags as worth reconciling.
         </p>
 
-        <div className="mt-3 space-y-4">
+        <div className="mt-4 space-y-5">
           {segments.map((s) => (
             <div key={s.segment}>
-              <p className="text-xs font-medium text-foreground">{s.segment}</p>
-              <div className="mt-1.5 space-y-1.5">
+              <p className="eyebrow">{s.segment}</p>
+              <div className="mt-2 space-y-2">
                 {s.quotes.map((q, i) => (
-                  <p
+                  <blockquote
                     key={i}
-                    className="border-l-2 pl-2.5 text-xs italic text-foreground-soft"
-                    style={{
-                      borderColor:
-                        q.sentiment === "positive"
-                          ? "var(--accent)"
-                          : q.sentiment === "negative"
-                          ? "#b91c1c"
-                          : "var(--cmo)",
-                    }}
+                    className="relative pl-3.5 text-sm text-foreground-soft text-pretty"
                   >
+                    <span
+                      aria-hidden
+                      className="absolute inset-y-0.5 left-0 w-[3px] rounded-full"
+                      style={{ backgroundColor: SENTIMENT[q.sentiment].color }}
+                    />
+                    <span className="sr-only">{SENTIMENT[q.sentiment].label}: </span>
                     &ldquo;{q.quote}&rdquo;
-                  </p>
+                  </blockquote>
                 ))}
               </div>
               {s.qualQuantTension && (
-                <p className="mt-1.5 rounded-md bg-cmo-soft px-2.5 py-1.5 text-[11px] text-foreground">
-                  {s.qualQuantTension}
+                <p className="callout callout-warning mt-2.5 flex gap-2 text-xs">
+                  <WarningIcon className="mt-px h-3.5 w-3.5 flex-none text-warning" />
+                  <span>{s.qualQuantTension}</span>
                 </p>
               )}
             </div>
+          ))}
+        </div>
+        <div className="mt-5 flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-foreground-soft">
+          {(["positive", "mixed", "negative"] as const).map((k) => (
+            <span key={k} className="flex items-center gap-1.5">
+              <span
+                aria-hidden
+                className="h-3 w-[3px] rounded-full"
+                style={{ backgroundColor: SENTIMENT[k].color }}
+              />
+              {SENTIMENT[k].label}
+            </span>
           ))}
         </div>
       </div>

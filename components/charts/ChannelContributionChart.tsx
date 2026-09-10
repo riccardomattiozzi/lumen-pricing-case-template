@@ -5,21 +5,16 @@ import {
   Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Cell,
+  LabelList,
   ResponsiveContainer,
 } from "recharts";
 import { useScenario } from "@/lib/store";
-import { colors } from "@/lib/theme";
+import { CHANNEL_COLORS, colors } from "@/lib/theme";
 import { formatEuro } from "./format";
+import { ChartTooltip, cursorBand, xAxisProps } from "./chartKit";
 import type { SalesChannel } from "@/lib/types";
-
-const CHANNEL_COLORS: Record<SalesChannel, string> = {
-  "DTC Online": colors.accent,
-  "Retail/Grocery": colors.cfo,
-  "Gym & Office": colors.cmo,
-};
 
 export function ChannelContributionChart() {
   const { outputs } = useScenario();
@@ -36,36 +31,54 @@ export function ChannelContributionChart() {
   );
 
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">
-        Estimated monthly contribution by channel
-      </p>
-      <p className="text-xs text-foreground-faint">
+    <div className="card p-5">
+      <h3 className="card-title">Estimated monthly contribution by channel</h3>
+      <p className="card-subtitle">
         Units × that channel&apos;s unit contribution — where the margin
         actually comes from, not just the volume.
       </p>
       <div
-        className="mt-3 h-56"
+        className="mt-4 h-56"
         role="img"
         aria-label={data
           .map((d) => `${d.channel}: ${formatEuro(d.contributionEur)}`)
           .join("; ")}
       >
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
-            <CartesianGrid stroke={colors.line} strokeDasharray="3 3" vertical={false} />
-            <XAxis dataKey="channel" stroke={colors.inkFaint} fontSize={11} />
-            <YAxis
-              tickFormatter={(v) => formatEuro(v)}
-              stroke={colors.inkFaint}
-              fontSize={11}
-              width={64}
+          <BarChart data={data} margin={{ top: 24, right: 8, left: 8, bottom: 0 }}>
+            <XAxis {...xAxisProps} dataKey="channel" interval={0} />
+            <YAxis hide domain={[0, "dataMax"]} />
+            <Tooltip
+              cursor={cursorBand}
+              isAnimationActive={false}
+              content={(p) => (
+                <ChartTooltip
+                  active={p.active}
+                  payload={p.payload}
+                  label={p.label}
+                  valueFormatter={(v) => [formatEuro(Number(v)), "contribution"]}
+                  colorOf={(e) => CHANNEL_COLORS[e.payload?.channel as SalesChannel]}
+                />
+              )}
             />
-            <Tooltip formatter={(value) => [formatEuro(Number(value)), "Contribution"]} />
-            <Bar dataKey="contributionEur" radius={[4, 4, 0, 0]}>
+            <Bar
+              dataKey="contributionEur"
+              radius={[4, 4, 0, 0]}
+              maxBarSize={24}
+              isAnimationActive={false}
+            >
               {data.map((d) => (
                 <Cell key={d.channel} fill={CHANNEL_COLORS[d.channel]} />
               ))}
+              <LabelList
+                dataKey="contributionEur"
+                position="top"
+                offset={8}
+                formatter={(v) => formatEuro(Number(v))}
+                fill={colors.ink}
+                fontSize={12}
+                fontWeight={600}
+              />
             </Bar>
           </BarChart>
         </ResponsiveContainer>

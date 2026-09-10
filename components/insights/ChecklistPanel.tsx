@@ -43,15 +43,18 @@ const ITEMS: { question: string; answer: string }[] = [
 
 export function ChecklistPanel() {
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">
-        README checklist — answered, not skipped
-      </p>
-      <dl className="mt-3 space-y-3">
-        {ITEMS.map((item) => (
-          <div key={item.question}>
-            <dt className="text-xs font-medium text-foreground">{item.question}</dt>
-            <dd className="mt-0.5 text-xs text-foreground-soft">{item.answer}</dd>
+    <div className="card p-5">
+      <h3 className="card-title">README checklist — answered, not skipped</h3>
+      <dl className="mt-4 overflow-hidden rounded-2xl bg-surface-2">
+        {ITEMS.map((item, i) => (
+          <div key={item.question} className="relative px-4 py-3.5">
+            {i > 0 && (
+              <span aria-hidden className="absolute left-4 right-0 top-0 h-px bg-line-soft" />
+            )}
+            <dt className="text-sm font-semibold text-foreground text-pretty">
+              {item.question}
+            </dt>
+            <dd className="mt-1 text-sm text-foreground-soft text-pretty">{item.answer}</dd>
           </div>
         ))}
       </dl>

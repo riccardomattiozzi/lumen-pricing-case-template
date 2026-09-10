@@ -1,36 +1,74 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+
 function LumenMark() {
   return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden>
-      <circle cx="15" cy="15" r="15" fill="var(--accent)" />
+    <svg width="26" height="26" viewBox="0 0 30 30" fill="none" aria-hidden>
+      <rect width="30" height="30" rx="8" fill="var(--accent)" />
       <path
-        d="M15 6 C 19 11, 21 14.5, 21 18 A 6 6 0 0 1 9 18 C 9 14.5, 11 11, 15 6 Z"
-        fill="var(--surface)"
-        opacity="0.92"
+        d="M15 6.5 C 19 11.5, 21 14.8, 21 18 A 6 6 0 0 1 9 18 C 9 14.8, 11 11.5, 15 6.5 Z"
+        fill="#fff"
+        opacity="0.94"
       />
     </svg>
   );
 }
 
+// A large title that hands off to the toolbar: the page opens on the big
+// heading, and once it scrolls under the translucent bar the compact title
+// fades in there (with a hairline), so the page never loses its name.
 export function Navbar() {
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const [condensed, setCondensed] = useState(false);
+
+  useEffect(() => {
+    const title = titleRef.current;
+    if (!title) return;
+    const barHeight = parseFloat(getComputedStyle(document.documentElement).fontSize) * 3.25;
+    const observer = new IntersectionObserver(
+      ([entry]) => setCondensed(!entry.isIntersecting),
+      { rootMargin: `-${Math.round(barHeight)}px 0px 0px 0px` }
+    );
+    observer.observe(title);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <header className="border-b border-line bg-surface/80 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <div className="flex items-center gap-3">
+    <>
+      <header
+        className="toolbar sticky top-0 z-40"
+        data-condensed={condensed ? "true" : "false"}
+      >
+        <div className="mx-auto flex h-[var(--nav-h)] max-w-7xl items-center gap-2.5 px-4 sm:px-6 lg:px-8">
           <LumenMark />
-          <div>
-            <p className="font-data text-[11px] uppercase tracking-[0.14em] text-accent-ink">
-              LUMEN &middot; Germany launch
-            </p>
-            <h1 className="text-xl font-semibold text-foreground">
-              Pricing &amp; Go-to-Market Simulator
-            </h1>
-          </div>
+          <span className="text-[0.9375rem] font-semibold tracking-[-0.01em] text-foreground">
+            LUMEN
+          </span>
+          <span
+            className="toolbar-title min-w-0 truncate border-l border-line pl-2.5 text-sm text-foreground-soft"
+            aria-hidden={!condensed}
+          >
+            Pricing &amp; Go-to-Market Simulator
+          </span>
         </div>
-        <p className="hidden max-w-xs text-right text-xs text-foreground-faint sm:block">
-          Move the sliders to explore the price, channel and timing
+      </header>
+
+      <div className="mx-auto w-full max-w-7xl px-4 pb-6 pt-7 sm:px-6 sm:pt-10 lg:px-8">
+        <p className="text-footnote font-semibold text-accent-ink">
+          LUMEN &middot; Germany launch
+        </p>
+        <h1
+          ref={titleRef}
+          className="mt-1.5 text-3xl font-bold text-foreground sm:text-4xl"
+        >
+          Pricing &amp; Go-to-Market Simulator
+        </h1>
+        <p className="mt-2.5 max-w-2xl text-base text-foreground-soft text-pretty sm:text-lg">
+          Move the controls to explore the price, channel and timing
           trade-off — every number updates live.
         </p>
       </div>
-    </header>
+    </>
   );
 }
