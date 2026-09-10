@@ -63,6 +63,27 @@ Retail/Grocery, which has the weakest margin of the three everywhere),
 and the real tension is specifically about how far to push price past the
 profit-maximizing point for the sake of premium positioning.
 
+## Deeper analysis pass (`feature/deeper-analysis`)
+
+An audit of which exhibits the dashboard actually consumed found five sitting
+unused: the qualitative verbatims, the raw price-sensitivity responses, the
+78 weeks of home-market sales, the cost breakdown and the channel economics.
+Building them in changed what the tool says, not just how much it shows:
+
+- The Van Westendorp curves, computed from the 300 raw responses, put
+  consumers' own acceptable band at roughly €1.38–€1.97 — materially below
+  the profit-maximising €2.19. That disagreement is now displayed rather
+  than resolved silently.
+- Per-respondent thresholds (rather than segment averages) show a €2.39
+  price prices out 54% of the surveyed market outright.
+- The unit-economics waterfall makes the channel gap concrete: at €2.39,
+  Retail/Grocery keeps €0.74 per can against DTC Online's €1.35, because
+  the retailer margin and distributor cut come off the top.
+
+The waterfall is regression-tested against `channel_economics.csv` itself:
+rebuilt at that file's own illustrative prices, it must land on that file's
+net-price and contribution figures.
+
 ## Limitations
 
 - **No real German sales data exists.** Every volume number is an estimate
