@@ -3,6 +3,7 @@ import { ScenarioPanel } from "@/components/layout/ScenarioPanel";
 import { PriceSlider } from "@/components/layout/PriceSlider";
 import { ChannelMixSliders } from "@/components/layout/ChannelMixSliders";
 import { RegionSelect } from "@/components/layout/RegionSelect";
+import { ChartsSection } from "@/components/charts/ChartsSection";
 
 export default function Home() {
   return (
@@ -20,8 +21,8 @@ export default function Home() {
           </aside>
 
           <div className="space-y-8">
-            {/* SLOT: kpis */}
             {/* SLOT: charts */}
+            <ChartsSection />
             {/* SLOT: insights */}
           </div>
         </div>
