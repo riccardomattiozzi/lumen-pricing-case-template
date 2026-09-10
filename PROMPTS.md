@@ -1,0 +1,84 @@
+# Prompting notes
+
+Per-student verbatim prompt logs live in `prompts/<student-id>/`. This file is
+different: a short note on the one prompting decision that mattered most for
+each module, and which tool built it — not a transcript.
+
+## Tooling
+
+All four modules in this build were implemented by Claude Code (Anthropic),
+working directly in a cloned copy of this repo on the team lead's machine —
+one branch per module, one pull request per branch, reviewed and merged
+before the next branch started. The original plan assigned one module per
+teammate on their own AI tool of choice; the team instead had Claude Code
+execute all four in sequence against the same shared contract. The branch
+naming, file-ownership boundaries, and PR-per-module discipline were kept
+exactly as if four different people and tools had built it, specifically so
+the git history stays legible and reviewable the same way either way.
+
+## Core Engine (`feature/core-engine`)
+
+The single most important decision here wasn't a prompt, it was a number we
+almost shipped wrong: the first version defaulted `marketShareCapturePct` to
+1%, which implied ~750,000 units/month for Germany in year one — nearly 10×
+LUMEN's entire current combined NL+DK+SE volume. Catching that required
+actually running the engine end-to-end and sanity-checking the output
+against a real anchor (current home-market volume from
+`historical_sales_weekly.csv`), not just checking that the code compiled.
+Recalibrated to 0.1%, which lands Germany's year-one estimate in the same
+order of magnitude as LUMEN's existing footprint — aggressive, but
+explainable.
+
+## Dashboard UI (`feature/dashboard-ui`)
+
+The key call was making the market-share assumption a first-class,
+labeled control in the UI rather than a hidden constant — with the channel
+mix sliders redistributing proportionally as you drag one, so the three
+always visibly sum to 100% instead of silently normalizing after the fact.
+Both choices exist so a non-technical viewer can *see* where judgment enters
+the model, not just trust a black box.
+
+## Data Visualizations (`feature/data-viz`)
+
+Every chart reads live from the same `computeScenario()` call the KPI row
+and the recommendation use — none of them hold a second, static copy of the
+numbers. The one addition beyond the original plan was the demand
+confidence band on the KPI row and revenue chart: a single point estimate
+for a market LUMEN has never sold in reads as false precision, so the range
+is shown by default, not hidden behind a toggle.
+
+## Insights Engine (`feature/insights-engine`)
+
+The CFO score went through a real revision, not just a first draft. It
+originally scored contribution-margin % directly, which rewards raising
+price with no ceiling — margin ratios keep improving even past the point
+where total monthly profit collapses from lost volume. Testing the score
+against scenarios at both price extremes surfaced that total contribution
+profit actually peaks near €2.19, and a margin-ratio-only score couldn't
+see that a price was "too high." The score now uses profit relative to
+the best achievable at any price/channel combination instead, which is
+what actually made the CFO-vs-CMO trade-off in this dataset legible: both
+sides prefer the same channels (DTC Online, Gym & Office over
+Retail/Grocery, which has the weakest margin of the three everywhere),
+and the real tension is specifically about how far to push price past the
+profit-maximizing point for the sake of premium positioning.
+
+## Limitations
+
+- **No real German sales data exists.** Every volume number is an estimate
+  built from comparable home markets, German survey data, and competitor
+  benchmarks — not a measurement. The `marketShareCapturePct` slider is the
+  single largest source of uncertainty in the model; the stress-test panel
+  in the Insights section exists specifically so that's never hidden.
+- **The demand model doesn't account for a marketing-spend-constrained
+  ramp.** `estimatedMonthlyUnits` assumes the addressable demand is
+  reachable; it doesn't check whether the chosen `monthlyMarketingBudgetEur`
+  is actually sufficient to acquire that many customers at the blended CAC.
+  A future pass could cap estimated units by budget ÷ CAC.
+- **LTV:CAC (2.80) doesn't vary by scenario** — it's derived purely from
+  `marketing_funnel_monthly.csv`, independent of price or channel mix, so it
+  functions as a fixed reference point against the brief's ≈3:1 target
+  rather than a lever the simulator lets you pull.
+- **The CFO/CMO scoring weights are a judgment call**, stated as named
+  constants in `lib/recommendationEngine.ts` specifically so they're easy to
+  find and argue with, not because they're the only defensible weighting.
