@@ -4,7 +4,79 @@ import { useScenario, useScenarioStore } from "@/lib/store";
 import { dataset, REGIONS } from "@/lib/engine/dataset";
 import { formatEuro } from "@/components/charts/format";
 import { CheckIcon } from "@/components/ui/icons";
+import { InfoTip } from "@/components/ui/InfoTip";
+import { SUPPORTED_FITNESS_CITIES, isSupportedFitnessCity } from "@/lib/fitness/cities";
+import { useFitnessOpportunity } from "@/lib/fitness/useFitnessOpportunity";
+import type { FitnessOpportunityResponse, FitnessTier } from "@/lib/fitness/types";
 import type { Region } from "@/lib/types";
+
+const FITNESS_TIER_STYLE: Record<FitnessTier, string> = {
+  HIGH: "bg-accent-soft text-accent-ink",
+  MEDIUM: "bg-warning-soft text-warning-ink",
+  LOW: "bg-fill text-foreground-soft",
+};
+
+// One badge per row, each with its own hook call — Rules of Hooks means
+// this can't live inline inside the row-rendering .map() below.
+function FitnessBadge({ region }: { region: Region }) {
+  const city = isSupportedFitnessCity(region) ? region : null;
+  const { result } = useFitnessOpportunity(city);
+
+  if (!city) {
+    return <span className="text-2xs text-foreground-faint">Fitness data n/a</span>;
+  }
+  if (!result) {
+    return <span className="text-2xs text-foreground-faint">Fitness data loading…</span>;
+  }
+  if (!result.available) {
+    return <span className="text-2xs text-foreground-faint">Fitness data unavailable</span>;
+  }
+
+  return (
+    <span
+      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-2xs font-semibold ${FITNESS_TIER_STYLE[result.tier]}`}
+      title={`${result.locationCount} fitness locations · ${result.densityPer100k.toFixed(1)} per 100k · ${result.opportunityIndex.toFixed(2)}x opportunity index`}
+    >
+      {result.opportunityIndex.toFixed(2)}x fitness · {result.tier}
+    </span>
+  );
+}
+
+// A fixed, unconditional set of hook calls (one per supported city, never a
+// loop over a dynamic array) so this stays valid under the Rules of Hooks.
+// Piggybacks on the same client-side cache as the per-row FitnessBadge
+// instances above, so it never causes an extra Places API round trip.
+function FitnessInsight({ selectedRegions }: { selectedRegions: Region[] }) {
+  const berlin = useFitnessOpportunity("Berlin");
+  const munich = useFitnessOpportunity("Munich");
+  const hamburg = useFitnessOpportunity("Hamburg");
+  const cologne = useFitnessOpportunity("Cologne");
+  const frankfurt = useFitnessOpportunity("Frankfurt");
+
+  const byCity = {
+    Berlin: berlin.result,
+    Munich: munich.result,
+    Hamburg: hamburg.result,
+    Cologne: cologne.result,
+    Frankfurt: frankfurt.result,
+  } as const;
+
+  const topSelected = SUPPORTED_FITNESS_CITIES.filter((c) => selectedRegions.includes(c))
+    .map((c) => byCity[c])
+    .filter((r): r is Extract<FitnessOpportunityResponse, { available: true }> => Boolean(r?.available))
+    .sort((a, b) => b.opportunityIndex - a.opportunityIndex)[0];
+
+  if (!topSelected || topSelected.tier !== "HIGH") return null;
+
+  return (
+    <p className="callout mt-3">
+      <strong>{topSelected.city}</strong> has an above-average fitness-location
+      density (opportunity index {topSelected.opportunityIndex.toFixed(2)}×),
+      supporting its attractiveness as an initial target market — a
+      directional market signal, not a demand forecast.
+    </p>
+  );
+}
 
 export function RegionalOpportunity() {
   const { inputs } = useScenario();
@@ -60,10 +132,20 @@ export function RegionalOpportunity() {
 
   return (
     <div className="card p-5">
-      <h3 className="card-title">Where the German category value sits</h3>
+      <h3 className="card-title flex items-center gap-1">
+        Where the German category value sits
+        <InfoTip label="Fitness Opportunity">
+          Fitness Opportunity Index is a directional proxy based on
+          fitness-location density (gyms, fitness centers, sports clubs and
+          activity locations per 100k inhabitants, relative to the average
+          across the five supported cities). It is not an estimate of the
+          percentage of residents who exercise.
+        </InfoTip>
+      </h3>
       <p className="card-subtitle">
         2026 category value split by region, with each region&apos;s own growth
-        rate. Click a row to add or remove it from the launch footprint.
+        rate and fitness-location density as a market-opportunity signal.
+        Click a row to add or remove it from the launch footprint.
       </p>
 
       {/* Selectable rows with a selection circle, as in a list in edit mode. */}
@@ -108,6 +190,9 @@ export function RegionalOpportunity() {
                   }}
                 />
               </span>
+              <span className="mt-1.5 flex justify-end">
+                <FitnessBadge region={row.region} />
+              </span>
             </span>
           </button>
         ))}
@@ -121,6 +206,7 @@ export function RegionalOpportunity() {
         &quot;Other Germany&quot; block is 40% of the value but the hardest to
         service from a standing start.
       </p>
+      <FitnessInsight selectedRegions={inputs.targetRegions} />
     </div>
   );
 }
