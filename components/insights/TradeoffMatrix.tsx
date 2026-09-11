@@ -84,7 +84,7 @@ function SpectrumMarker({
         className={`whitespace-nowrap text-2xs ${
           emphasis ? "font-semibold text-foreground" : "text-foreground-faint"
         }`}
-        style={{ marginTop: `${0.375 + stackRow * 1.125}rem` }}
+        style={{ marginTop: `${0.625 + stackRow * 1.5}rem` }}
       >
         {label}
       </span>
@@ -155,7 +155,7 @@ export function TradeoffMatrix() {
             stackRow={markersAreClose ? 1 : 0}
           />
         </div>
-        <p className={`${markersAreClose ? "mt-9" : "mt-6"} text-sm text-foreground-soft text-pretty`}>
+        <p className={`${markersAreClose ? "mt-11" : "mt-6"} text-sm text-foreground-soft text-pretty`}>
           {interpretation}
         </p>
       </div>
