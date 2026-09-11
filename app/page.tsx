@@ -7,6 +7,7 @@ import { Tabs, TabPanel } from "@/components/layout/Tabs";
 
 import { RecommendationBox } from "@/components/insights/RecommendationBox";
 import { TradeoffMatrix } from "@/components/insights/TradeoffMatrix";
+import { ScenarioComparison } from "@/components/insights/ScenarioComparison";
 import { ChecklistPanel } from "@/components/insights/ChecklistPanel";
 
 import { KpiRow } from "@/components/charts/KpiRow";
@@ -43,23 +44,32 @@ export default function Home() {
               screens it stays put and scrolls on its own, so the controls
               and the numbers they move are on screen together. */}
           <aside
-            aria-label="Scenario controls"
-            className="card inspector h-fit overscroll-contain md:sticky md:top-[calc(var(--nav-h)+1rem)] md:max-h-[calc(100dvh-var(--nav-h)-2rem)] md:overflow-y-auto"
+            aria-label="Scenario assumptions"
+            className="h-fit overscroll-contain md:sticky md:top-[calc(var(--nav-h)+1rem)] md:max-h-[calc(100dvh-var(--nav-h)-2rem)] md:overflow-y-auto"
           >
-            <ScenarioPresets />
-            <PriceSlider />
-            <ChannelMixSliders />
-            <RegionSelect />
-            <AssumptionControls />
+            <p className="eyebrow px-1 pb-2 text-foreground-faint">
+              Scenario assumptions — you control these
+            </p>
+            <div className="card inspector">
+              <ScenarioPresets />
+              <PriceSlider />
+              <ChannelMixSliders />
+              <RegionSelect />
+              <AssumptionControls />
+            </div>
           </aside>
 
           <div className="@container min-w-0 space-y-5">
+            <p className="eyebrow px-1 text-foreground-faint">
+              Scenario results — calculated by the model
+            </p>
             <RecommendationBox />
             <KpiRow />
 
             <Tabs tabs={TABS}>
               <TabPanel id="tradeoff">
                 <TradeoffMatrix />
+                <ScenarioComparison />
                 <RevenueMarginChart />
               </TabPanel>
 

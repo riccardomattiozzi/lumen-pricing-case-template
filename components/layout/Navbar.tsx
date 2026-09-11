@@ -55,18 +55,19 @@ export function Navbar() {
       </header>
 
       <div className="mx-auto w-full max-w-7xl px-4 pb-6 pt-7 sm:px-6 sm:pt-10 lg:px-8">
-        <p className="text-footnote font-semibold text-accent-ink">
-          LUMEN &middot; Germany launch
+        <p className="text-footnote font-semibold uppercase tracking-[0.02em] text-accent-ink">
+          Germany &middot; Year 1 &middot; Interactive decision simulator
         </p>
         <h1
           ref={titleRef}
           className="mt-1.5 text-3xl font-bold text-foreground sm:text-4xl"
         >
-          Pricing &amp; Go-to-Market Simulator
+          LUMEN Germany Launch Simulator
         </h1>
         <p className="mt-2.5 max-w-2xl text-base text-foreground-soft text-pretty sm:text-lg">
-          Move the controls to explore the price, channel and timing
-          trade-off — every number updates live.
+          Evaluate pricing, channel strategy, market-share assumptions,
+          customer economics and launch timing for LUMEN&apos;s German
+          market entry — every number updates live as you move a control.
         </p>
       </div>
     </>

@@ -10,6 +10,7 @@ import {
   CheckIcon,
   ChevronUpDownIcon,
 } from "@/components/ui/icons";
+import { InfoTip } from "@/components/ui/InfoTip";
 import type { PresetName } from "@/lib/types";
 
 const PRESETS: PresetName[] = ["CFO", "Compromise", "CMO"];
@@ -134,9 +135,15 @@ export function AssumptionControls() {
         <div className="flex items-baseline justify-between gap-3">
           <label
             htmlFor="capture-slider"
-            className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-foreground"
+            className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-sm text-foreground"
           >
             Year-1 market share
+            <InfoTip label="Year-1 market share">
+              The share of the addressable German category LUMEN could
+              realistically win in its first year. There is no German
+              sales history yet, so this is a modeling assumption, not a
+              measured result — every figure below depends on it.
+            </InfoTip>
             <span className="rounded-full bg-warning-soft px-1.5 py-px text-2xs font-semibold text-warning-ink">
               Assumption
             </span>

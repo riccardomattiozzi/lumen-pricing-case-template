@@ -3,6 +3,7 @@
 import { useScenarioStore } from "@/lib/store";
 import { CHANNEL_COLORS } from "@/lib/theme";
 import { rangeStyle } from "@/components/ui/range";
+import { InfoTip } from "@/components/ui/InfoTip";
 import type { SalesChannel } from "@/lib/types";
 
 const CHANNELS: SalesChannel[] = ["DTC Online", "Retail/Grocery", "Gym & Office"];
@@ -37,8 +38,14 @@ export function ChannelMixSliders() {
   return (
     <section className="p-5" aria-labelledby="mix-heading">
       <div className="flex items-baseline justify-between gap-3">
-        <h2 id="mix-heading" className="eyebrow">
+        <h2 id="mix-heading" className="flex items-center gap-1 eyebrow">
           Sales channel mix
+          <InfoTip label="Sales channel mix">
+            How Year-1 sales split across DTC Online, Retail/Grocery and
+            Gym &amp; Office. Each channel carries a different margin and
+            brand weight, so this mix drives both the CFO and CMO scores —
+            the three shares always add up to 100%.
+          </InfoTip>
         </h2>
         <span className="text-2xs text-foreground-faint">Always totals 100%</span>
       </div>
