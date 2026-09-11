@@ -5,6 +5,7 @@ import { dataset, REGIONS } from "@/lib/engine/dataset";
 import { formatEuro } from "@/components/charts/format";
 import { CheckIcon } from "@/components/ui/icons";
 import { InfoTip } from "@/components/ui/InfoTip";
+import { FitnessMap } from "@/components/analysis/FitnessMap";
 import { SUPPORTED_FITNESS_CITIES, isSupportedFitnessCity } from "@/lib/fitness/cities";
 import { useFitnessOpportunity } from "@/lib/fitness/useFitnessOpportunity";
 import type { FitnessOpportunityResponse, FitnessTier } from "@/lib/fitness/types";
@@ -145,8 +146,10 @@ export function RegionalOpportunity() {
       <p className="card-subtitle">
         2026 category value split by region, with each region&apos;s own growth
         rate and fitness-location density as a market-opportunity signal.
-        Click a row to add or remove it from the launch footprint.
+        Click a row (or a pin) to add or remove it from the launch footprint.
       </p>
+
+      <FitnessMap selectedRegions={inputs.targetRegions} onToggle={toggle} />
 
       {/* Selectable rows with a selection circle, as in a list in edit mode. */}
       <div className="-mx-2 mt-4 space-y-0.5">
