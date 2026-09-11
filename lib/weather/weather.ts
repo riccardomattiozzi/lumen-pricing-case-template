@@ -97,17 +97,13 @@ export async function getDailyWeather(
     return fetchDailyWeather(HISTORICAL_URL, region, startDate, endDate);
   }
   if (startDate > archiveCutoff) {
-    return fetchDailyWeather(FORECAST_URL, region, startDate, endDate, {
-      forecast_days: "16",
-    });
+    return fetchDailyWeather(FORECAST_URL, region, startDate, endDate);
   }
 
   // Range straddles the cutoff: fetch each half from the endpoint that actually has it.
   const [historical, forecast] = await Promise.all([
     fetchDailyWeather(HISTORICAL_URL, region, startDate, archiveCutoff),
-    fetchDailyWeather(FORECAST_URL, region, toISODate(addDays(new Date(archiveCutoff), 1)), endDate, {
-      forecast_days: "16",
-    }),
+    fetchDailyWeather(FORECAST_URL, region, toISODate(addDays(new Date(archiveCutoff), 1)), endDate),
   ]);
   return [...historical, ...forecast];
 }
