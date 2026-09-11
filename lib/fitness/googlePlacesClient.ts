@@ -34,6 +34,11 @@ async function searchNearbyPlaceIds(
   });
 
   if (!res.ok) {
+    // Google's error body never contains the request's API key, so this is
+    // safe to log — it's what actually tells us "billing not enabled" from
+    // "wrong API enabled" from "key restricted" during setup/debugging.
+    const errorBody = await res.text().catch(() => "");
+    console.error(`[fitness-opportunity] Places API error for type "${type}" (${res.status}): ${errorBody}`);
     throw new Error(`Places API request failed for type "${type}" (${res.status})`);
   }
 
