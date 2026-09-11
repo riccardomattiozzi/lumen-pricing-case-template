@@ -29,6 +29,7 @@ import {
   yAxisProps,
 } from "@/components/charts/chartKit";
 import { CheckIcon } from "@/components/ui/icons";
+import { InfoTip } from "@/components/ui/InfoTip";
 
 const MONTH_NAMES = [
   "Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -81,7 +82,15 @@ export function SeasonalityChart() {
         role="img"
         aria-label={`Demand peaks mid-year. Recommended launch month: ${MONTH_NAMES[recommended.month - 1]}. Currently selected: ${MONTH_NAMES[inputs.launchMonth - 1]}.`}
       >
-        <p className="text-xs font-medium text-foreground-soft">Demand index</p>
+        <p className="flex items-center gap-1 text-xs font-medium text-foreground-soft">
+          Demand index
+          <InfoTip label="Seasonality index">
+            Relative demand for this category by calendar month, 100 =
+            year-average month. Above 100 means stronger than typical
+            demand, below 100 weaker — useful for timing a launch into a
+            tailwind rather than a quiet month.
+          </InfoTip>
+        </p>
         <div className="h-44">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data} syncId="season" margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>

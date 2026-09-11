@@ -83,3 +83,15 @@ export function PlusIcon({ className = "h-3.5 w-3.5" }: IconProps) {
     </svg>
   );
 }
+
+export function InfoIcon({ className = "h-3.5 w-3.5" }: IconProps) {
+  return (
+    <svg viewBox="0 0 16 16" aria-hidden className={className}>
+      <path
+        fill="currentColor"
+        fillRule="evenodd"
+        d="M8 14.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13Zm.8-9.4a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0ZM7.2 7.3a.8.8 0 0 1 1.6 0v3.6a.8.8 0 0 1-1.6 0V7.3Z"
+      />
+    </svg>
+  );
+}
