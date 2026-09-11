@@ -27,8 +27,8 @@ Why we're doing this: it's not to monitor you. It's what lets us understand, at 
 Check each box in this README as you go — not at the end, while you're working:
 
 - [x] **Data**: `customer_survey.csv`'s `first_name`/`last_name`/`email` are stripped by `scripts/build-data.ts` before anything is written to `data/processed/` — the deployed app never receives them. Everything it does use (segment, city, spend, awareness, intent) is anonymized aggregate or individually non-identifying. Full answer in-app under "README checklist" (`components/insights/ChecklistPanel.tsx`).
-- [x] **API keys**: no external API is called anywhere in this build — nothing to leak.
-- [x] **Deployment**: the app is fully static, no API routes and no server — the browser only ever receives the pre-built, PII-free JSON under `data/processed/`.
+- [x] **API keys**: `app/api/fitness-opportunity` calls the Google Places API (New) server-side for the Fitness Opportunity signal; `GOOGLE_MAPS_API_KEY` is read only in that route handler via `process.env`, stored in `.env.local` (gitignored) / Vercel Environment Variables, and never reaches the browser.
+- [x] **Deployment**: almost the whole app is still static — the browser receives the pre-built, PII-free JSON under `data/processed/` for everything else. The one API route returns only aggregate fitness-location counts and computed ratios for a supported city, never raw Places API data.
 - [x] **Files generated along the way**: `data/processed/*.json` and `data/processed/DATA_QUALITY.md` are committed on purpose — they're the reproducible, PII-free artifact the deployed app reads and its audit trail, not scratch output.
 - [x] **Storage**: no database, no persistence — every number is recomputed live from `ScenarioInputs` via a pure function. Nothing needs to be shared between visitors or remembered between visits.
 - [x] **Robustness**: empty regions → zero demand, not `NaN`; a channel mix that doesn't sum to 1 is normalized, not rejected; price is clamped; zero marketing budget doesn't divide-by-zero. Covered by tests in `lib/engine/pricingEngine.test.ts` and `lib/recommendationEngine.test.ts`.

@@ -7,12 +7,12 @@ const ITEMS: { question: string; answer: string }[] = [
   {
     question: "API keys — where is the key stored, if any?",
     answer:
-      "No external API is called anywhere in this build — no key exists to leak. If the optional live-weather stretch is ever added, the key belongs in .env.local (gitignored) locally and in Vercel's Environment Variables for production, never typed into a chat or committed.",
+      "One external call exists: app/api/fitness-opportunity calls the Google Places API (New) server-side to power the Fitness Opportunity signal in the Market section. GOOGLE_MAPS_API_KEY lives in .env.local (gitignored) locally and in Vercel's Environment Variables for production — it is read only inside the route handler (lib/fitness/googlePlacesClient.ts) and never sent to, or embedded in, the browser bundle.",
   },
   {
     question: "Deployment — does any endpoint return raw, unfiltered data?",
     answer:
-      "The app is fully static (no API routes, no server) — the browser only ever receives the pre-built JSON under data/processed/, which already has PII stripped at build time. There is no endpoint that could serve the raw CSVs.",
+      "Almost the whole app is still static: the browser only ever receives the pre-built JSON under data/processed/, which already has PII stripped at build time. The one exception is /api/fitness-opportunity, which returns only aggregate counts and computed ratios for a supported German city — no place names, addresses, or raw Places API payloads are ever forwarded to the client.",
   },
   {
     question: "Generated files — should they be committed?",
