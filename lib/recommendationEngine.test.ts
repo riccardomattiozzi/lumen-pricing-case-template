@@ -8,6 +8,7 @@ import {
 } from "./recommendationEngine";
 import { computeScenario } from "./engine/pricingEngine";
 import { DEFAULT_SCENARIO_INPUTS } from "@/lib/types";
+import { PRESET_INPUTS } from "./store";
 
 // Same DTC/Gym-heavy channel mix for both — isolates price as the one
 // real axis of CFO-vs-CMO tension in this model (see lib/store.ts for why
@@ -90,6 +91,36 @@ describe("stressTestAssumption", () => {
     for (const r of results) {
       expect(r.result.cfoScore).toBeGreaterThanOrEqual(0);
       expect(r.result.cmoScore).toBeGreaterThanOrEqual(0);
+    }
+  });
+});
+
+describe("scenario presets", () => {
+  // A preset called "Compromise" has to actually sit between the two sides.
+  // It once kept 25% on Retail/Grocery and ended up beaten by the CFO preset
+  // on both scores at once — the lowest compromise score of the three.
+  const score = (preset: keyof typeof PRESET_INPUTS) =>
+    computeTradeoff(PRESET_INPUTS[preset], computeScenario(PRESET_INPUTS[preset]));
+
+  it("keeps the Compromise preset between the CFO and CMO presets on both scores", () => {
+    const cfo = score("CFO");
+    const cmo = score("CMO");
+    const mid = score("Compromise");
+    expect(mid.cfoScore).toBeLessThanOrEqual(cfo.cfoScore);
+    expect(mid.cfoScore).toBeGreaterThanOrEqual(cmo.cfoScore);
+    expect(mid.cmoScore).toBeGreaterThanOrEqual(cfo.cmoScore);
+    expect(mid.cmoScore).toBeLessThanOrEqual(cmo.cmoScore);
+  });
+
+  it("never lets another preset beat the Compromise on both scores", () => {
+    const mid = score("Compromise");
+    for (const other of ["CFO", "CMO"] as const) {
+      const o = score(other);
+      const dominates =
+        o.cfoScore >= mid.cfoScore &&
+        o.cmoScore >= mid.cmoScore &&
+        (o.cfoScore > mid.cfoScore || o.cmoScore > mid.cmoScore);
+      expect(dominates).toBe(false);
     }
   });
 });
