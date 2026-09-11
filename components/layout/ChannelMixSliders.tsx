@@ -1,6 +1,8 @@
 "use client";
 
 import { useScenarioStore } from "@/lib/store";
+import { CHANNEL_COLORS } from "@/lib/theme";
+import { rangeStyle } from "@/components/ui/range";
 import type { SalesChannel } from "@/lib/types";
 
 const CHANNELS: SalesChannel[] = ["DTC Online", "Retail/Grocery", "Gym & Office"];
@@ -33,38 +35,69 @@ export function ChannelMixSliders() {
   const setSalesChannelMix = useScenarioStore((s) => s.setSalesChannelMix);
 
   return (
-    <div className="space-y-4">
-      <p className="text-sm font-medium text-foreground">Sales channel mix</p>
-      {CHANNELS.map((channel) => {
-        const pct = salesChannelMix[channel];
-        return (
-          <div key={channel}>
-            <div className="flex items-baseline justify-between">
-              <label htmlFor={`mix-${channel}`} className="text-xs text-foreground-soft">
-                {channel}
-              </label>
-              <span className="font-data text-xs">
-                {Math.round(pct * 100)}%
-              </span>
+    <section className="p-5" aria-labelledby="mix-heading">
+      <div className="flex items-baseline justify-between gap-3">
+        <h2 id="mix-heading" className="eyebrow">
+          Sales channel mix
+        </h2>
+        <span className="text-2xs text-foreground-faint">Always totals 100%</span>
+      </div>
+
+      {/* The whole mix at a glance; each segment wears its slider's color. */}
+      <div aria-hidden className="mt-3 flex h-2 gap-[2px] overflow-hidden rounded-full">
+        {CHANNELS.filter((c) => salesChannelMix[c] > 0.001).map((channel) => (
+          <span
+            key={channel}
+            className="h-full"
+            style={{
+              flexGrow: salesChannelMix[channel],
+              flexBasis: 0,
+              backgroundColor: CHANNEL_COLORS[channel],
+            }}
+          />
+        ))}
+      </div>
+
+      <div className="mt-4 space-y-3">
+        {CHANNELS.map((channel) => {
+          const pct = salesChannelMix[channel];
+          return (
+            <div key={channel}>
+              <div className="flex items-baseline justify-between gap-3">
+                <label
+                  htmlFor={`mix-${channel}`}
+                  className="flex items-center gap-2 text-sm text-foreground"
+                >
+                  <span
+                    aria-hidden
+                    className="h-2 w-2 rounded-full"
+                    style={{ backgroundColor: CHANNEL_COLORS[channel] }}
+                  />
+                  {channel}
+                </label>
+                <span className="text-sm font-semibold tabular-nums text-foreground">
+                  {Math.round(pct * 100)}%
+                </span>
+              </div>
+              <input
+                id={`mix-${channel}`}
+                type="range"
+                min={0}
+                max={1}
+                step={0.01}
+                value={pct}
+                onChange={(e) =>
+                  setSalesChannelMix(
+                    redistribute(salesChannelMix, channel, Number(e.target.value))
+                  )
+                }
+                aria-valuetext={`${channel}: ${Math.round(pct * 100)} percent`}
+                style={rangeStyle(pct, 0, 1, CHANNEL_COLORS[channel])}
+              />
             </div>
-            <input
-              id={`mix-${channel}`}
-              type="range"
-              min={0}
-              max={1}
-              step={0.01}
-              value={pct}
-              onChange={(e) =>
-                setSalesChannelMix(
-                  redistribute(salesChannelMix, channel, Number(e.target.value))
-                )
-              }
-              aria-valuetext={`${channel}: ${Math.round(pct * 100)} percent`}
-              className="mt-1"
-            />
-          </div>
-        );
-      })}
-    </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }

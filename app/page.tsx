@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/layout/Navbar";
-import { ScenarioPanel } from "@/components/layout/ScenarioPanel";
+import { ScenarioPresets, AssumptionControls } from "@/components/layout/ScenarioPanel";
 import { PriceSlider } from "@/components/layout/PriceSlider";
 import { ChannelMixSliders } from "@/components/layout/ChannelMixSliders";
 import { RegionSelect } from "@/components/layout/RegionSelect";
@@ -37,18 +37,23 @@ export default function Home() {
   return (
     <div className="min-h-full">
       <Navbar />
-      <main className="mx-auto max-w-6xl px-6 py-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-[340px_1fr]">
-          <aside className="card-shadow h-fit space-y-8 rounded-2xl border border-line bg-surface p-5 md:sticky md:top-6">
-            <div className="space-y-5 border-b border-line pb-6">
-              <PriceSlider />
-              <ChannelMixSliders />
-              <RegionSelect />
-            </div>
-            <ScenarioPanel />
+      <main className="mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-[17.5rem_minmax(0,1fr)] lg:grid-cols-[20rem_minmax(0,1fr)] lg:gap-8">
+          {/* The inspector: every input in one grouped surface. On wide
+              screens it stays put and scrolls on its own, so the controls
+              and the numbers they move are on screen together. */}
+          <aside
+            aria-label="Scenario controls"
+            className="card inspector h-fit overscroll-contain md:sticky md:top-[calc(var(--nav-h)+1rem)] md:max-h-[calc(100dvh-var(--nav-h)-2rem)] md:overflow-y-auto"
+          >
+            <ScenarioPresets />
+            <PriceSlider />
+            <ChannelMixSliders />
+            <RegionSelect />
+            <AssumptionControls />
           </aside>
 
-          <div className="space-y-4">
+          <div className="@container min-w-0 space-y-5">
             <RecommendationBox />
             <KpiRow />
 
@@ -70,7 +75,7 @@ export default function Home() {
 
               <TabPanel id="channels">
                 <UnitEconomicsPanel />
-                <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-2">
+                <div className="grid grid-cols-1 items-start gap-5 @3xl:grid-cols-2">
                   <VolumeChart />
                   <ChannelContributionChart />
                 </div>
@@ -78,7 +83,7 @@ export default function Home() {
 
               <TabPanel id="timing">
                 <SeasonalityChart />
-                <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-2">
+                <div className="grid grid-cols-1 items-start gap-5 @3xl:grid-cols-2">
                   <RegionalOpportunity />
                   <HomeMarketBenchmark />
                 </div>

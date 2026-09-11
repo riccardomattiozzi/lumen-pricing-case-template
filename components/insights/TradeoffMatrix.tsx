@@ -15,13 +15,23 @@ function ScoreBar({
 }) {
   return (
     <div>
-      <div className="flex items-baseline justify-between text-xs">
-        <span className="font-medium text-foreground">{label}</span>
-        <span className="font-data text-foreground-soft">{score}/100</span>
+      <div className="flex items-baseline justify-between gap-3">
+        <span className="flex items-center gap-2 text-sm font-medium text-foreground">
+          <span aria-hidden className="h-2 w-2 rounded-full" style={{ backgroundColor: color }} />
+          {label}
+        </span>
+        <span className="text-sm tabular-nums text-foreground-soft">
+          <span className="text-base font-semibold text-foreground">{score}</span>
+          <span className="text-foreground-faint">/100</span>
+        </span>
       </div>
-      <div className="mt-1 h-2 rounded-full bg-line" role="img" aria-label={`${label} score: ${score} out of 100`}>
+      <div
+        className="mt-1.5 h-2 overflow-hidden rounded-full bg-fill"
+        role="img"
+        aria-label={`${label}: ${score} out of 100`}
+      >
         <div
-          className="h-2 rounded-full transition-all"
+          className="h-full rounded-full"
           style={{ width: `${score}%`, backgroundColor: color }}
         />
       </div>
@@ -35,33 +45,47 @@ export function TradeoffMatrix() {
   const stress = stressTestAssumption(inputs);
 
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">CFO vs. CMO trade-off</p>
-      <div className="mt-3 space-y-3">
+    <div className="card p-5">
+      <h3 className="card-title">CFO vs. CMO trade-off</h3>
+      <div className="mt-4 space-y-4">
         <ScoreBar label="CFO score" score={result.cfoScore} color={colors.cfo} />
         <ScoreBar label="CMO score" score={result.cmoScore} color={colors.cmo} />
         <ScoreBar label="Compromise score" score={result.compromiseScore} color={colors.accent} />
       </div>
-      <p className="mt-3 text-xs text-foreground-faint">
+      <p className="mt-4 text-sm text-foreground-soft">
         {result.tradeoffGapPts <= 5
           ? `Only a ${result.tradeoffGapPts}-point gap — this scenario serves both sides reasonably evenly.`
           : `A ${result.tradeoffGapPts}-point gap — this scenario clearly favors one side over the other.`}
       </p>
 
-      <div className="mt-4 border-t border-line pt-3">
-        <p className="text-xs font-medium text-foreground">
+      <div className="mt-5 border-t border-line-soft pt-5">
+        <h4 className="text-sm font-semibold text-foreground">
           Does this hold up? Stress-testing the market-share assumption
-        </p>
-        <p className="mt-1 text-xs text-foreground-faint">
+        </h4>
+        <p className="mt-1 text-sm text-foreground-faint">
           Rerunning the recommendation at half and double the current
           Year-1 capture-rate assumption ({(inputs.marketShareCapturePct * 100).toFixed(2)}%):
         </p>
-        <div className="mt-2 grid grid-cols-3 gap-2 text-center text-xs">
+        <div className="mt-3 grid grid-cols-3 gap-2">
           {stress.map(({ multiplier, result: r }) => (
-            <div key={multiplier} className="rounded-md border border-line p-2">
-              <p className="text-foreground-faint">{multiplier}×</p>
-              <p className="mt-1 font-data text-foreground">
-                CFO {r.cfoScore} / CMO {r.cmoScore}
+            <div
+              key={multiplier}
+              className={`rounded-xl px-3 py-2.5 ${
+                multiplier === 1 ? "bg-surface-2 ring-1 ring-inset ring-line" : "bg-surface-2"
+              }`}
+            >
+              <p className="text-xs font-medium text-foreground-faint">
+                {multiplier}×{multiplier === 1 ? " (now)" : ""}
+              </p>
+              <p className="mt-1 flex flex-wrap gap-x-2.5 text-sm tabular-nums">
+                <span>
+                  <span className="text-xs text-foreground-faint">CFO </span>
+                  <span className="font-semibold text-foreground">{r.cfoScore}</span>
+                </span>
+                <span>
+                  <span className="text-xs text-foreground-faint">CMO </span>
+                  <span className="font-semibold text-foreground">{r.cmoScore}</span>
+                </span>
               </p>
             </div>
           ))}

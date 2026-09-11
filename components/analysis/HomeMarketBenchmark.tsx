@@ -7,16 +7,26 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ReferenceLine,
   ResponsiveContainer,
 } from "recharts";
 import { useScenario } from "@/lib/store";
 import { dataset } from "@/lib/engine/dataset";
 import { colors } from "@/lib/theme";
-import { formatUnits } from "@/components/charts/format";
+import { formatMonth, formatUnits } from "@/components/charts/format";
+import {
+  ChartLegend,
+  ChartTooltip,
+  cursorLine,
+  gridProps,
+  refLabel,
+  xAxisProps,
+  yAxisProps,
+} from "@/components/charts/chartKit";
 
-const COUNTRY_COLORS: Record<string, string> = {
+const COUNTRIES = ["Netherlands", "Denmark", "Sweden"] as const;
+
+const COUNTRY_COLORS: Record<(typeof COUNTRIES)[number], string> = {
   Netherlands: colors.accent,
   Denmark: colors.cfo,
   Sweden: colors.cmo,
@@ -53,62 +63,81 @@ export function HomeMarketBenchmark() {
   const ratio = avgCombined > 0 ? outputs.estimatedMonthlyUnits / avgCombined : 0;
 
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">
-        The only real sales history LUMEN has
-      </p>
-      <p className="mt-0.5 text-xs text-foreground-faint">
+    <div className="card p-5">
+      <h3 className="card-title">The only real sales history LUMEN has</h3>
+      <p className="card-subtitle">
         78 weeks of actual units sold in the Netherlands, Denmark and Sweden —
         three markets with two to three years of brand building behind them.
         Germany has none of that, which is why this is the sanity check on any
         German projection.
       </p>
 
+      <ChartLegend
+        className="mt-4"
+        items={[
+          ...COUNTRIES.map((c) => ({ label: c, color: COUNTRY_COLORS[c] })),
+          { label: "Germany estimate", color: colors.ink, shape: "dashed" as const },
+        ]}
+      />
       <div
         className="mt-3 h-56"
         role="img"
         aria-label={`Combined home-market volume averages ${formatUnits(Math.round(avgCombined))} units per month. The current Germany estimate is ${formatUnits(outputs.estimatedMonthlyUnits)} units per month.`}
       >
         <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
-            <CartesianGrid stroke={colors.line} strokeDasharray="3 3" />
-            <XAxis dataKey="month" stroke={colors.inkFaint} fontSize={10} />
+          <AreaChart data={data} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
+            <CartesianGrid {...gridProps} />
+            <XAxis
+              {...xAxisProps}
+              dataKey="month"
+              tickFormatter={(v) => formatMonth(String(v))}
+              minTickGap={16}
+            />
             <YAxis
+              {...yAxisProps}
               tickFormatter={(v) => formatUnits(Number(v))}
-              stroke={colors.inkFaint}
-              fontSize={11}
-              width={54}
+              width={56}
             />
-            <Tooltip formatter={(value) => formatUnits(Number(value))} />
-            <Legend wrapperStyle={{ fontSize: 11 }} />
-            <ReferenceLine
-              y={outputs.estimatedMonthlyUnits}
-              stroke={colors.ink}
-              strokeDasharray="5 4"
-              label={{
-                value: "Germany estimate",
-                position: "insideTopRight",
-                fontSize: 10,
-                fill: colors.ink,
-              }}
+            <Tooltip
+              cursor={cursorLine}
+              isAnimationActive={false}
+              content={(p) => (
+                <ChartTooltip
+                  active={p.active}
+                  payload={p.payload}
+                  label={p.label}
+                  labelFormatter={(l) => formatMonth(String(l), "long")}
+                  valueFormatter={(v, e) => [formatUnits(Number(v)), String(e.name)]}
+                />
+              )}
             />
-            {(["Netherlands", "Denmark", "Sweden"] as const).map((country) => (
+            {COUNTRIES.map((country) => (
               <Area
                 key={country}
                 type="monotone"
                 dataKey={country}
                 stackId="1"
                 stroke={COUNTRY_COLORS[country]}
+                strokeWidth={1.5}
                 fill={COUNTRY_COLORS[country]}
-                fillOpacity={0.5}
+                fillOpacity={0.3}
+                activeDot={{ r: 3.5, strokeWidth: 2, stroke: colors.surface }}
+                isAnimationActive={false}
               />
             ))}
+            <ReferenceLine
+              y={outputs.estimatedMonthlyUnits}
+              stroke={colors.ink}
+              strokeWidth={1.5}
+              strokeDasharray="5 4"
+              label={refLabel("Germany estimate", "insideTopRight")}
+            />
           </AreaChart>
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-3 rounded-lg bg-surface-2 p-3 text-xs text-foreground-soft">
-        <strong className="text-foreground">
+      <div className="callout mt-4">
+        <strong>
           Your Germany estimate is {ratio.toFixed(1)}× LUMEN&apos;s entire current
           combined volume
         </strong>{" "}

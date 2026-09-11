@@ -2,7 +2,14 @@
 
 import { useScenarioStore, PRESET_INPUTS } from "@/lib/store";
 import { computeScenario } from "@/lib/engine/pricingEngine";
-import { PRESET_COLORS, PRESET_SOFT_COLORS } from "@/lib/theme";
+import { PRESET_COLORS } from "@/lib/theme";
+import { rangeStyle } from "@/components/ui/range";
+import { formatEuro } from "@/components/charts/format";
+import {
+  ArrowCounterclockwiseIcon,
+  CheckIcon,
+  ChevronUpDownIcon,
+} from "@/components/ui/icons";
 import type { PresetName } from "@/lib/types";
 
 const PRESETS: PresetName[] = ["CFO", "Compromise", "CMO"];
@@ -12,10 +19,90 @@ const MONTH_NAMES = [
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
 ];
 
-export function ScenarioPanel() {
+const CAPTURE_MIN = 0.0002;
+const CAPTURE_MAX = 0.005;
+const BUDGET_MIN = 2000;
+const BUDGET_MAX = 60000;
+
+// The quickest way in: pick one side of the trade-off, then fine-tune below.
+// A checkmark list rather than a segmented control, so each option has room
+// for the price and acceptance it would set before you choose it.
+export function ScenarioPresets() {
   const activePreset = useScenarioStore((s) => s.activePreset);
   const applyPreset = useScenarioStore((s) => s.applyPreset);
   const resetToDefault = useScenarioStore((s) => s.resetToDefault);
+  const isDefault = activePreset === "Compromise";
+
+  return (
+    <section className="p-5" aria-labelledby="preset-heading">
+      <div className="flex items-center justify-between gap-3">
+        <h2 id="preset-heading" className="eyebrow">
+          Scenario
+        </h2>
+        <div className="flex items-center gap-1.5">
+          {activePreset === "Custom" && (
+            <span className="rounded-full bg-fill px-2 py-0.5 text-2xs font-medium text-foreground-soft">
+              Custom
+            </span>
+          )}
+          <button
+            type="button"
+            onClick={resetToDefault}
+            disabled={isDefault}
+            className="pressable inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-footnote font-medium text-accent-ink hover:bg-accent-soft disabled:pointer-events-none disabled:text-foreground-faint disabled:opacity-60"
+          >
+            <ArrowCounterclockwiseIcon className="h-3 w-3" />
+            Reset
+          </button>
+        </div>
+      </div>
+
+      <div
+        role="group"
+        aria-labelledby="preset-heading"
+        className="mt-3 overflow-hidden rounded-xl bg-surface-2"
+      >
+        {PRESETS.map((preset, i) => {
+          const outputs = computeScenario(PRESET_INPUTS[preset]);
+          const active = activePreset === preset;
+          return (
+            <button
+              key={preset}
+              type="button"
+              onClick={() => applyPreset(preset)}
+              aria-label={`${preset} preset: €${PRESET_INPUTS[preset].priceEur.toFixed(2)}, ${outputs.blendedAcceptancePct.toFixed(0)} percent acceptance`}
+              aria-pressed={active}
+              className="relative flex w-full items-center gap-2.5 px-3 py-2.5 text-left transition-colors hover:bg-fill active:bg-fill-strong focus-visible:rounded-xl focus-visible:outline-offset-[-2px]"
+            >
+              {i > 0 && (
+                <span
+                  aria-hidden
+                  className="absolute left-7 right-0 top-0 h-px bg-line-soft"
+                />
+              )}
+              <span
+                aria-hidden
+                className="h-2.5 w-2.5 flex-none rounded-full"
+                style={{ backgroundColor: PRESET_COLORS[preset] }}
+              />
+              <span className="flex-1 text-sm font-semibold text-foreground">
+                {preset}
+              </span>
+              <span className="text-xs tabular-nums text-foreground-faint">
+                {`€${PRESET_INPUTS[preset].priceEur.toFixed(2)} · ${outputs.blendedAcceptancePct.toFixed(0)}%`}
+              </span>
+              <span className="w-4 flex-none text-accent-ink">
+                {active && <CheckIcon className="h-4 w-4" />}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+export function AssumptionControls() {
   const marketShareCapturePct = useScenarioStore(
     (s) => s.inputs.marketShareCapturePct
   );
@@ -38,80 +125,40 @@ export function ScenarioPanel() {
   );
 
   return (
-    <div className="space-y-6">
-      <div>
-        <div className="flex items-baseline justify-between">
-          <p className="text-sm font-medium text-foreground">Scenario preset</p>
-          <button
-            type="button"
-            onClick={resetToDefault}
-            className="text-xs text-foreground-faint underline underline-offset-2 hover:text-foreground-soft"
-          >
-            Reset
-          </button>
-        </div>
-        <div className="mt-2 grid grid-cols-3 gap-2">
-          {PRESETS.map((preset) => {
-            const outputs = computeScenario(PRESET_INPUTS[preset]);
-            const active = activePreset === preset;
-            return (
-              <button
-                key={preset}
-                type="button"
-                onClick={() => applyPreset(preset)}
-                aria-label={`${preset} preset: €${PRESET_INPUTS[preset].priceEur.toFixed(2)}, ${outputs.blendedAcceptancePct.toFixed(0)} percent acceptance`}
-                aria-pressed={active}
-                style={
-                  active
-                    ? {
-                        borderColor: PRESET_COLORS[preset],
-                        backgroundColor: PRESET_SOFT_COLORS[preset],
-                        boxShadow: `0 2px 10px -4px ${PRESET_COLORS[preset]}66`,
-                      }
-                    : undefined
-                }
-                className={`rounded-lg border px-3 py-2 text-left transition-all ${
-                  active ? "" : "border-line hover:border-foreground-faint"
-                }`}
-              >
-                <div className="flex items-center gap-1.5">
-                  <span
-                    aria-hidden
-                    className="h-2 w-2 rounded-full"
-                    style={{ backgroundColor: PRESET_COLORS[preset] }}
-                  />
-                  <span className="text-sm font-semibold">{preset}</span>
-                </div>
-                <p className="font-data mt-1 text-[11px] text-foreground-faint">
-                  {`€${PRESET_INPUTS[preset].priceEur.toFixed(2)} · ${outputs.blendedAcceptancePct.toFixed(0)}% acc.`}
-                </p>
-              </button>
-            );
-          })}
-        </div>
-      </div>
+    <section className="space-y-5 p-5" aria-labelledby="market-heading">
+      <h2 id="market-heading" className="eyebrow">
+        Market &amp; launch
+      </h2>
 
       <div>
-        <div className="flex items-baseline justify-between">
-          <label htmlFor="capture-slider" className="text-sm font-medium text-foreground">
-            Year-1 market share assumption
+        <div className="flex items-baseline justify-between gap-3">
+          <label
+            htmlFor="capture-slider"
+            className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-foreground"
+          >
+            Year-1 market share
+            <span className="rounded-full bg-warning-soft px-1.5 py-px text-2xs font-semibold text-warning-ink">
+              Assumption
+            </span>
           </label>
-          <span className="font-data text-sm">
+          <span className="text-sm font-semibold tabular-nums text-foreground">
             {(marketShareCapturePct * 100).toFixed(2)}%
           </span>
         </div>
         <input
           id="capture-slider"
           type="range"
-          min={0.0002}
-          max={0.005}
+          min={CAPTURE_MIN}
+          max={CAPTURE_MAX}
           step={0.0001}
           value={marketShareCapturePct}
           onChange={(e) => setMarketShareCapturePct(Number(e.target.value))}
           aria-valuetext={`${(marketShareCapturePct * 100).toFixed(2)} percent`}
-          className="mt-2"
+          aria-describedby="capture-note"
+          style={rangeStyle(marketShareCapturePct, CAPTURE_MIN, CAPTURE_MAX)}
+          className="mt-1"
         />
-        <p className="mt-1.5 text-xs text-foreground-faint">
+        <p id="capture-note" className="mt-1 text-xs text-foreground-faint text-pretty">
           This is an adjustable assumption, not a measured fact — the % of
           the addressable German category LUMEN could realistically win in
           Year 1. Every number below depends on it; stress-test it before
@@ -120,54 +167,67 @@ export function ScenarioPanel() {
       </div>
 
       <div>
-        <div className="flex items-baseline justify-between">
-          <label htmlFor="budget-slider" className="text-sm font-medium text-foreground">
+        <div className="flex items-baseline justify-between gap-3">
+          <label htmlFor="budget-slider" className="text-sm text-foreground">
             Monthly marketing budget
           </label>
-          <span className="font-data text-sm">
-            {`€${monthlyMarketingBudgetEur.toLocaleString("en-GB")}`}
+          <span className="text-sm font-semibold tabular-nums text-foreground">
+            {formatEuro(monthlyMarketingBudgetEur)}
           </span>
         </div>
         <input
           id="budget-slider"
           type="range"
-          min={2000}
-          max={60000}
+          min={BUDGET_MIN}
+          max={BUDGET_MAX}
           step={1000}
           value={monthlyMarketingBudgetEur}
           onChange={(e) => setMonthlyMarketingBudgetEur(Number(e.target.value))}
-          aria-valuetext={`€${monthlyMarketingBudgetEur.toLocaleString("en-GB")}`}
-          className="mt-2"
+          aria-valuetext={formatEuro(monthlyMarketingBudgetEur)}
+          style={rangeStyle(monthlyMarketingBudgetEur, BUDGET_MIN, BUDGET_MAX)}
+          className="mt-1"
         />
       </div>
 
-      <div>
-        <label htmlFor="month-select" className="text-sm font-medium text-foreground">
+      <div className="flex items-center justify-between gap-3">
+        <label htmlFor="month-select" className="text-sm text-foreground">
           Launch month
         </label>
-        <select
-          id="month-select"
-          value={launchMonth}
-          onChange={(e) => setLaunchMonth(Number(e.target.value))}
-          className="mt-2 w-full rounded-md border border-line bg-surface-2 px-2 py-1.5 text-sm"
-        >
-          {MONTH_NAMES.map((name, i) => (
-            <option key={name} value={i + 1}>
-              {name}
-            </option>
-          ))}
-        </select>
+        {/* A pop-up button: the native <select> for keyboard and screen
+            readers, with the chrome drawn to match the other controls. */}
+        <div className="relative">
+          <select
+            id="month-select"
+            value={launchMonth}
+            onChange={(e) => setLaunchMonth(Number(e.target.value))}
+            className="pressable appearance-none rounded-lg bg-fill py-1.5 pl-3 pr-8 text-sm font-medium text-foreground hover:bg-fill-strong"
+          >
+            {MONTH_NAMES.map((name, i) => (
+              <option key={name} value={i + 1}>
+                {name}
+              </option>
+            ))}
+          </select>
+          <ChevronUpDownIcon className="pointer-events-none absolute right-2.5 top-1/2 h-3 w-3 -translate-y-1/2 text-foreground-soft" />
+        </div>
       </div>
 
-      <label className="flex items-center gap-2 text-sm text-foreground-soft">
-        <input
-          type="checkbox"
-          checked={includeAdaptogenicCategory}
-          onChange={(e) => setIncludeAdaptogenicCategory(e.target.checked)}
-          className="h-4 w-4 rounded border-line accent-accent"
-        />
-        Include Plant-based / adaptogenic category in market sizing
-      </label>
-    </div>
+      <div className="flex items-center justify-between gap-4">
+        <label htmlFor="adaptogenic-switch" className="text-sm text-foreground text-pretty">
+          Include Plant-based / adaptogenic category in market sizing
+        </label>
+        <span className="switch">
+          <input
+            id="adaptogenic-switch"
+            type="checkbox"
+            role="switch"
+            checked={includeAdaptogenicCategory}
+            onChange={(e) => setIncludeAdaptogenicCategory(e.target.checked)}
+          />
+          <span aria-hidden className="switch-track" />
+          <span aria-hidden className="switch-knob" />
+        </span>
+      </div>
+    </section>
   );
 }

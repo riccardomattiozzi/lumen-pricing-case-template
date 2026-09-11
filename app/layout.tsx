@@ -1,29 +1,23 @@
-import type { Metadata } from "next";
-import { Fraunces, Manrope, IBM_Plex_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const fraunces = Fraunces({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["500", "600"],
-});
-
-const manrope = Manrope({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const plexMono = IBM_Plex_Mono({
-  variable: "--font-data",
-  subsets: ["latin"],
-  weight: ["400", "500"],
-});
+// No web fonts: the interface uses the platform's system typeface (SF Pro on
+// Apple devices), declared once in app/globals.css.
 
 export const metadata: Metadata = {
   title: "LUMEN Germany — Pricing & GTM Simulator",
   description:
     "Pricing and go-to-market simulator for LUMEN's German launch.",
+};
+
+// Lets Safari and mobile browsers tint their own chrome to match the page.
+// These two mirror --background in app/globals.css: a <meta> tag can't read
+// a CSS variable, so they are the one place a color is repeated.
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f5f5f7" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
+  ],
 };
 
 export default function RootLayout({
@@ -32,10 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${fraunces.variable} ${manrope.variable} ${plexMono.variable} h-full antialiased`}
-    >
+    <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

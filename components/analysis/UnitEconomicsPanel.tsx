@@ -3,53 +3,53 @@
 import { useScenario } from "@/lib/store";
 import { computeUnitEconomics } from "@/lib/analysis/unitEconomics";
 import { formatEuro } from "@/components/charts/format";
-import { colors } from "@/lib/theme";
+import { CHANNEL_COLORS } from "@/lib/theme";
 import type { SalesChannel } from "@/lib/types";
 
 const CHANNELS: SalesChannel[] = ["DTC Online", "Retail/Grocery", "Gym & Office"];
-const CHANNEL_COLORS: Record<SalesChannel, string> = {
-  "DTC Online": colors.accent,
-  "Retail/Grocery": colors.cfo,
-  "Gym & Office": colors.cmo,
-};
 
 function Waterfall({ priceEur, channel }: { priceEur: number; channel: SalesChannel }) {
   const econ = computeUnitEconomics(priceEur, channel);
   const max = priceEur;
+  const color = CHANNEL_COLORS[channel];
 
   return (
     <div>
-      <div className="flex items-baseline justify-between">
-        <p className="text-sm font-medium text-foreground">{channel}</p>
-        <p className="font-data text-sm font-semibold" style={{ color: CHANNEL_COLORS[channel] }}>
+      <div className="flex items-baseline justify-between gap-3">
+        <p className="flex items-center gap-2 text-sm font-semibold text-foreground">
+          <span aria-hidden className="h-2 w-2 rounded-full" style={{ backgroundColor: color }} />
+          {channel}
+        </p>
+        <p className="text-lg font-semibold tabular-nums text-foreground">
           {formatEuro(econ.unitContributionEur, 2)}
         </p>
       </div>
-      <div className="mt-2 space-y-1.5">
+      <div className="mt-3 space-y-2">
         {econ.steps.map((step, i) => {
-          const width = Math.max(2, (Math.abs(step.runningEur) / max) * 100);
+          const scale = Math.max(0.02, Math.abs(step.runningEur) / max);
           const isResult = step.kind === "result";
           return (
             <div key={`${step.label}-${i}`}>
-              <div className="flex items-baseline justify-between gap-2 text-[11px]">
-                <span className={isResult ? "font-medium text-foreground" : "text-foreground-soft"}>
+              <div className="flex items-baseline justify-between gap-2 text-xs">
+                <span className={isResult ? "font-semibold text-foreground" : "text-foreground-soft"}>
                   {step.label}
                   {step.kind === "deduction" && (
-                    <span className="text-foreground-faint"> −{formatEuro(Math.abs(step.amountEur), 2)}</span>
+                    <span className="tabular-nums text-foreground-faint">
+                      {" "}−{formatEuro(Math.abs(step.amountEur), 2)}
+                    </span>
                   )}
                 </span>
-                <span className="font-data text-foreground-soft">
+                <span className="tabular-nums text-foreground-soft">
                   {formatEuro(step.runningEur, 2)}
                 </span>
               </div>
-              <div className="mt-0.5 h-1.5 rounded-full bg-line">
+              <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-fill">
                 <div
-                  className="h-1.5 rounded-full"
+                  className="h-full rounded-full"
                   style={{
-                    width: `${width}%`,
-                    backgroundColor: isResult
-                      ? CHANNEL_COLORS[channel]
-                      : `${CHANNEL_COLORS[channel]}55`,
+                    width: `${scale * 100}%`,
+                    backgroundColor: color,
+                    opacity: isResult ? 1 : 0.4,
                   }}
                 />
               </div>
@@ -57,7 +57,7 @@ function Waterfall({ priceEur, channel }: { priceEur: number; channel: SalesChan
           );
         })}
       </div>
-      <p className="mt-2 text-[11px] text-foreground-faint">
+      <p className="mt-3 text-xs text-foreground-faint">
         {econ.contributionMarginPct.toFixed(0)}% of shelf price stays with LUMEN.
       </p>
     </div>
@@ -76,24 +76,22 @@ export function UnitEconomicsPanel() {
   const gap = best.unitContributionEur - worst.unitContributionEur;
 
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">
-        Where every euro of the shelf price goes
-      </p>
-      <p className="mt-0.5 text-xs text-foreground-faint">
+    <div className="card p-5">
+      <h3 className="card-title">Where every euro of the shelf price goes</h3>
+      <p className="card-subtitle">
         At your current €{inputs.priceEur.toFixed(2)}, traced from what the
         shopper pays down to what LUMEN keeps — the cuts come from
         channel_economics.csv, COGS from cost_breakdown.csv.
       </p>
 
-      <div className="mt-4 grid grid-cols-1 gap-5 md:grid-cols-3">
+      <div className="mt-5 grid grid-cols-1 gap-x-6 gap-y-6 @3xl:grid-cols-3">
         {CHANNELS.map((channel) => (
           <Waterfall key={channel} priceEur={inputs.priceEur} channel={channel} />
         ))}
       </div>
 
-      <div className="mt-4 rounded-lg bg-surface-2 p-3 text-xs text-foreground-soft">
-        <strong className="text-foreground">The channel gap is {formatEuro(gap, 2)} per can.</strong>{" "}
+      <div className="callout mt-5">
+        <strong>The channel gap is {formatEuro(gap, 2)} per can.</strong>{" "}
         {worst.channel} keeps {formatEuro(worst.unitContributionEur, 2)} against{" "}
         {best.channel}&apos;s {formatEuro(best.unitContributionEur, 2)}, because the
         retailer margin and distributor cut come off the top before LUMEN sees

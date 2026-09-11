@@ -8,42 +8,55 @@ const MONTH_NAMES = [
   "July", "August", "September", "October", "November", "December",
 ];
 
+// The page's one headline. It leads by type size alone — the largest text
+// in the column — with the three decisions (price, channel, month) picked
+// out in the tint, and a faint wash of the tint behind it.
 export function RecommendationBox() {
   const { inputs, outputs } = useScenario();
   const { recommendation } = computeTradeoff(inputs, outputs);
 
   return (
-    <div
-      className="card-shadow relative overflow-hidden rounded-2xl p-6 text-white sm:p-7"
-      style={{
-        background:
-          "linear-gradient(135deg, var(--accent-ink) 0%, var(--accent) 100%)",
-      }}
+    <section
+      aria-labelledby="recommendation-heading"
+      className="card relative overflow-hidden p-6 sm:p-8"
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-16 -top-20 h-56 w-56 rounded-full"
-        style={{ background: "radial-gradient(circle, rgba(255,255,255,0.16), transparent 70%)" }}
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(120% 90% at 0% 0%, color-mix(in srgb, var(--accent) 11%, transparent), transparent 62%)",
+        }}
       />
-      <p className="font-data text-[11px] uppercase tracking-[0.14em] text-white/70">
-        For this scenario
-      </p>
-      <p className="mt-2 max-w-2xl text-2xl font-semibold leading-snug sm:text-[1.75rem]">
-        Launch at {`€${recommendation.priceEur.toFixed(2)}`}, leading with{" "}
-        {recommendation.primaryChannel}, targeting{" "}
-        {MONTH_NAMES[recommendation.launchMonth - 1]}.
-      </p>
-      <p className="relative mt-4 max-w-2xl text-sm text-white/85">
-        {recommendation.rationale}
-      </p>
-      <div className="relative mt-4 border-t border-white/20 pt-4">
-        <p className="text-xs font-medium uppercase tracking-wide text-white/70">
-          What this deliberately doesn&apos;t optimize for
+      <div className="relative">
+        <p className="flex items-center gap-2 text-footnote font-semibold text-accent-ink">
+          <span aria-hidden className="h-2 w-2 rounded-full bg-accent" />
+          Recommendation for this scenario
         </p>
-        <p className="mt-1 max-w-2xl text-sm text-white/85">
-          {recommendation.whatWereNotOptimizingFor}
+        <h2
+          id="recommendation-heading"
+          className="mt-3 max-w-3xl text-2xl font-semibold text-foreground text-balance @xl:text-3xl"
+        >
+          Launch at{" "}
+          <span className="text-accent-ink">{`€${recommendation.priceEur.toFixed(2)}`}</span>,
+          leading with{" "}
+          <span className="text-accent-ink">{recommendation.primaryChannel}</span>,
+          targeting{" "}
+          <span className="text-accent-ink">
+            {MONTH_NAMES[recommendation.launchMonth - 1]}
+          </span>
+          .
+        </h2>
+        <p className="mt-4 max-w-3xl text-sm text-foreground-soft text-pretty @xl:text-base">
+          {recommendation.rationale}
         </p>
+        <div className="mt-6 max-w-3xl border-t border-line-soft pt-5">
+          <h3 className="eyebrow">What this deliberately doesn&apos;t optimize for</h3>
+          <p className="mt-1.5 text-sm text-foreground-soft text-pretty">
+            {recommendation.whatWereNotOptimizingFor}
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

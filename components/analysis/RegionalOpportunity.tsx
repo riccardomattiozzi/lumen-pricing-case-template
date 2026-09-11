@@ -3,6 +3,7 @@
 import { useScenario, useScenarioStore } from "@/lib/store";
 import { dataset, REGIONS } from "@/lib/engine/dataset";
 import { formatEuro } from "@/components/charts/format";
+import { CheckIcon } from "@/components/ui/icons";
 import type { Region } from "@/lib/types";
 
 export function RegionalOpportunity() {
@@ -58,51 +59,63 @@ export function RegionalOpportunity() {
   }
 
   return (
-    <div className="rounded-xl border border-line bg-surface card-shadow p-4">
-      <p className="text-sm font-medium text-foreground">
-        Where the German category value sits
-      </p>
-      <p className="mt-0.5 text-xs text-foreground-faint">
+    <div className="card p-5">
+      <h3 className="card-title">Where the German category value sits</h3>
+      <p className="card-subtitle">
         2026 category value split by region, with each region&apos;s own growth
         rate. Click a row to add or remove it from the launch footprint.
       </p>
 
-      <div className="mt-3 space-y-1.5">
+      {/* Selectable rows with a selection circle, as in a list in edit mode. */}
+      <div className="-mx-2 mt-4 space-y-0.5">
         {rows.map((row) => (
           <button
             key={row.region}
             type="button"
             onClick={() => toggle(row.region)}
             aria-pressed={row.selected}
-            className="w-full rounded-lg px-2 py-1.5 text-left transition-colors hover:bg-surface-2"
+            className="flex w-full items-center gap-3 rounded-xl px-2 py-2 text-left transition-colors hover:bg-surface-2 active:bg-fill"
           >
-            <div className="flex items-baseline justify-between gap-2 text-xs">
-              <span
-                className={row.selected ? "font-medium text-foreground" : "text-foreground-faint"}
-              >
-                {row.selected ? "● " : "○ "}
-                {row.region}
+            <span
+              aria-hidden
+              className={`flex h-5 w-5 flex-none items-center justify-center rounded-full transition-colors ${
+                row.selected
+                  ? "bg-accent text-white"
+                  : "border-[1.5px] border-foreground-faint/50"
+              }`}
+            >
+              {row.selected && <CheckIcon className="h-3 w-3" />}
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="flex items-baseline justify-between gap-2 text-xs">
+                <span
+                  className={`text-sm ${
+                    row.selected ? "font-medium text-foreground" : "text-foreground-soft"
+                  }`}
+                >
+                  {row.region}
+                </span>
+                <span className="tabular-nums text-foreground-faint">
+                  {formatEuro(row.valueEur)} · {(row.cagr * 100).toFixed(0)}% CAGR
+                </span>
               </span>
-              <span className="font-data text-foreground-soft">
-                {formatEuro(row.valueEur)} · {(row.cagr * 100).toFixed(0)}% CAGR
+              <span className="mt-1.5 block h-1.5 overflow-hidden rounded-full bg-fill">
+                <span
+                  className="block h-full rounded-full"
+                  style={{
+                    width: `${(row.valueEur / maxValue) * 100}%`,
+                    backgroundColor: row.selected ? "var(--accent)" : "var(--chart-neutral)",
+                  }}
+                />
               </span>
-            </div>
-            <div className="mt-1 h-1.5 rounded-full bg-line">
-              <div
-                className="h-1.5 rounded-full transition-all"
-                style={{
-                  width: `${(row.valueEur / maxValue) * 100}%`,
-                  backgroundColor: row.selected ? "var(--accent)" : "var(--line-soft)",
-                }}
-              />
-            </div>
+            </span>
           </button>
         ))}
       </div>
 
-      <p className="mt-3 rounded-lg bg-surface-2 p-3 text-xs text-foreground-soft">
+      <p className="callout mt-4">
         Selected footprint covers{" "}
-        <strong className="text-foreground">{formatEuro(selectedValue)}</strong> of
+        <strong>{formatEuro(selectedValue)}</strong> of
         2026 category value ({((selectedValue / (categoryEur || 1)) * 100).toFixed(0)}%
         of the country). Berlin and Munich carry the faster 9% growth rate; the
         &quot;Other Germany&quot; block is 40% of the value but the hardest to
