@@ -1,13 +1,22 @@
 import type { Metadata, Viewport } from "next";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-// No web fonts: the interface uses the platform's system typeface (SF Pro on
-// Apple devices), declared once in app/globals.css.
+// Manrope: a geometric, Scandinavian-feeling sans with clean tabular
+// numerals — the LUMEN brand typeface. Self-hosted by next/font (no
+// external request at runtime), exposed as a CSS variable that
+// app/globals.css layers in front of the system stack, so a failed font
+// load still renders legibly on the platform's own typeface.
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-lumen",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  title: "LUMEN Germany — Pricing & GTM Simulator",
+  title: "LUMEN — Germany Launch Simulator",
   description:
-    "Pricing and go-to-market simulator for LUMEN's German launch.",
+    "Bright energy. Clear decisions. An interactive pricing and go-to-market simulator for LUMEN's German market entry.",
 };
 
 // Lets Safari and mobile browsers tint their own chrome to match the page.
@@ -15,8 +24,8 @@ export const metadata: Metadata = {
 // a CSS variable, so they are the one place a color is repeated.
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f5f5f7" },
-    { media: "(prefers-color-scheme: dark)", color: "#000000" },
+    { media: "(prefers-color-scheme: light)", color: "#f6f2e9" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f120e" },
   ],
 };
 
@@ -26,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en" className={`h-full antialiased ${manrope.variable}`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

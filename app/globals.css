@@ -9,56 +9,60 @@
    var() there like any other CSS value, so the charts follow light and dark
    mode with the rest of the page and nothing has to be kept in sync by hand.
 
-   Surfaces follow Apple's grouped model: a gray page, white cards in light
-   mode; black page, #1c1c1e cards in dark mode. Series colors (--accent,
-   --cfo, --cmo, --chart-4) are Apple's system hues, each nudged in
-   lightness until the set passes the categorical checks for its mode:
-   lightness band, chroma floor, colour-vision separation, 3:1 on the card.
-   Text never wears a series color — it uses the ink tokens, all ≥ 4.5:1.
+   Brand palette — "Nordic luminous energy": a warm ivory/bone surface, deep
+   charcoal-forest ink, a botanical-lime accent for the current scenario and
+   the compromise position, mineral eucalyptus for the CFO (financial
+   efficiency) side of every trade-off visual, and muted sunlight amber for
+   the CMO (brand & growth) side — so the same two hues mean "CFO" and
+   "CMO" everywhere: preset chips, score bars, the spectrum, the channel
+   legend, every chart series. Warning and danger are kept visibly distinct
+   from the CMO amber (more red/terracotta) so a stress-test or
+   extrapolation notice never reads as a brand color. Text never wears a
+   series color — it uses the ink tokens, all ≥ 4.5:1 on their surface.
    ------------------------------------------------------------------------ */
 :root {
   color-scheme: light dark;
 
-  --background: #f5f5f7;
-  --surface: #ffffff;
-  --surface-2: rgba(118, 118, 128, 0.08);
+  --background: #f6f2e9;
+  --surface: #fffdf8;
+  --surface-2: rgba(90, 84, 64, 0.07);
   --elevated: #ffffff;
   --thumb: #ffffff;
-  --material: rgba(245, 245, 247, 0.72);
-  --fill: rgba(118, 118, 128, 0.12);
-  --fill-strong: rgba(118, 118, 128, 0.2);
+  --material: rgba(246, 242, 233, 0.74);
+  --fill: rgba(90, 84, 64, 0.09);
+  --fill-strong: rgba(90, 84, 64, 0.16);
 
-  --foreground: #1d1d1f;
-  --foreground-soft: #424245;
-  --foreground-faint: #6e6e73;
-  --line: #d2d2d7;
-  --line-soft: #e8e8ed;
+  --foreground: #1c2119;
+  --foreground-soft: #47503f;
+  --foreground-faint: #6d6852;
+  --line: #ddd4bf;
+  --line-soft: #ece5d3;
 
-  --accent: #00a940;
-  --accent-ink: #177a34;
-  --accent-soft: rgba(0, 169, 64, 0.12);
-  --cfo: #007aff;
-  --cfo-soft: rgba(0, 122, 255, 0.12);
-  --cmo: #d67c00;
-  --cmo-soft: rgba(214, 124, 0, 0.14);
-  --chart-4: #af52de;
-  --chart-neutral: #aeaeb2;
-  --chart-grid: #e8e8ed;
+  --accent: #8bbf3a;
+  --accent-ink: #4c6d1f;
+  --accent-soft: rgba(139, 191, 58, 0.15);
+  --cfo: #4b998a;
+  --cfo-soft: rgba(75, 153, 138, 0.14);
+  --cmo: #c1863d;
+  --cmo-soft: rgba(193, 134, 61, 0.16);
+  --chart-4: #7c87a8;
+  --chart-neutral: #b7ac95;
+  --chart-grid: #ece5d3;
 
-  --warning: #ff9500;
-  --warning-ink: #b25000;
-  --warning-soft: rgba(255, 149, 0, 0.14);
-  --danger: #ff3b30;
-  --danger-ink: #d70015;
-  --danger-soft: rgba(255, 59, 48, 0.12);
+  --warning: #a8672f;
+  --warning-ink: #7a4a20;
+  --warning-soft: rgba(168, 103, 47, 0.14);
+  --danger: #b8452e;
+  --danger-ink: #8a3320;
+  --danger-soft: rgba(184, 69, 46, 0.12);
 
-  --shadow-card: 0 0 0 0.5px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.04),
-    0 8px 24px -12px rgba(0, 0, 0, 0.1);
-  --shadow-raised: 0 0 0 0.5px rgba(0, 0, 0, 0.04), 0 3px 8px rgba(0, 0, 0, 0.12),
-    0 3px 1px rgba(0, 0, 0, 0.04);
-  --shadow-float: 0 0 0 0.5px rgba(0, 0, 0, 0.06), 0 12px 32px -8px rgba(0, 0, 0, 0.2);
-  --shadow-knob: 0 0 0 0.5px rgba(0, 0, 0, 0.04), 0 3px 8px rgba(0, 0, 0, 0.15),
-    0 3px 1px rgba(0, 0, 0, 0.06);
+  --shadow-card: 0 0 0 0.5px rgba(40, 32, 12, 0.05), 0 1px 2px rgba(40, 32, 12, 0.04),
+    0 8px 24px -12px rgba(40, 32, 12, 0.12);
+  --shadow-raised: 0 0 0 0.5px rgba(40, 32, 12, 0.05), 0 3px 8px rgba(40, 32, 12, 0.13),
+    0 3px 1px rgba(40, 32, 12, 0.05);
+  --shadow-float: 0 0 0 0.5px rgba(40, 32, 12, 0.07), 0 12px 32px -8px rgba(40, 32, 12, 0.22);
+  --shadow-knob: 0 0 0 0.5px rgba(40, 32, 12, 0.05), 0 3px 8px rgba(40, 32, 12, 0.16),
+    0 3px 1px rgba(40, 32, 12, 0.06);
 
   /* A critically damped spring (damping 1.0, response 0.35 s) sampled into
      linear(). No overshoot: nothing here is thrown, so nothing bounces. */
@@ -74,42 +78,42 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --surface: #1c1c1e;
-    --surface-2: rgba(118, 118, 128, 0.18);
-    --elevated: #2c2c2e;
-    --thumb: #636366;
-    --material: rgba(0, 0, 0, 0.72);
-    --fill: rgba(118, 118, 128, 0.24);
-    --fill-strong: rgba(118, 118, 128, 0.36);
+    --background: #0f120e;
+    --surface: #1a1e17;
+    --surface-2: rgba(200, 194, 170, 0.1);
+    --elevated: #232821;
+    --thumb: #4a5040;
+    --material: rgba(15, 18, 14, 0.74);
+    --fill: rgba(200, 194, 170, 0.14);
+    --fill-strong: rgba(200, 194, 170, 0.22);
 
-    --foreground: #f5f5f7;
-    --foreground-soft: #c7c7cc;
-    --foreground-faint: #98989d;
-    --line: #38383a;
-    --line-soft: #2c2c2e;
+    --foreground: #f3efe3;
+    --foreground-soft: #cbc6b3;
+    --foreground-faint: #98937f;
+    --line: #383e32;
+    --line-soft: #262b21;
 
-    --accent: #00a53e;
-    --accent-ink: #30d158;
-    --accent-soft: rgba(48, 209, 88, 0.16);
-    --cfo: #0a84ff;
-    --cfo-soft: rgba(10, 132, 255, 0.18);
-    --cmo: #d27900;
-    --cmo-soft: rgba(255, 159, 10, 0.16);
-    --chart-4: #bf5af2;
-    --chart-neutral: #636366;
-    --chart-grid: #2c2c2e;
+    --accent: #9ed94a;
+    --accent-ink: #b9ea72;
+    --accent-soft: rgba(158, 217, 74, 0.18);
+    --cfo: #62b3a2;
+    --cfo-soft: rgba(98, 179, 162, 0.2);
+    --cmo: #d9a05c;
+    --cmo-soft: rgba(217, 160, 92, 0.18);
+    --chart-4: #98a3c4;
+    --chart-neutral: #6c6754;
+    --chart-grid: #262b21;
 
-    --warning: #ff9f0a;
-    --warning-ink: #ffb340;
-    --warning-soft: rgba(255, 159, 10, 0.16);
-    --danger: #ff453a;
-    --danger-ink: #ff6961;
-    --danger-soft: rgba(255, 69, 58, 0.16);
+    --warning: #c9824c;
+    --warning-ink: #e3a878;
+    --warning-soft: rgba(201, 130, 76, 0.18);
+    --danger: #d97a5e;
+    --danger-ink: #ec9a82;
+    --danger-soft: rgba(217, 122, 94, 0.18);
 
-    --shadow-card: 0 0 0 0.5px rgba(255, 255, 255, 0.06);
-    --shadow-raised: 0 3px 8px rgba(0, 0, 0, 0.32), 0 3px 1px rgba(0, 0, 0, 0.12);
-    --shadow-float: 0 0 0 0.5px rgba(255, 255, 255, 0.1), 0 12px 32px -8px rgba(0, 0, 0, 0.6);
+    --shadow-card: 0 0 0 0.5px rgba(255, 250, 235, 0.06);
+    --shadow-raised: 0 3px 8px rgba(0, 0, 0, 0.34), 0 3px 1px rgba(0, 0, 0, 0.14);
+    --shadow-float: 0 0 0 0.5px rgba(255, 250, 235, 0.1), 0 12px 32px -8px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -117,23 +121,23 @@
    border on every card instead of a shadow. */
 @media (prefers-contrast: more) {
   :root {
-    --foreground-soft: #1d1d1f;
-    --foreground-faint: #3a3a3c;
-    --line: #8e8e93;
-    --line-soft: #aeaeb2;
-    --chart-grid: #c7c7cc;
-    --fill: rgba(118, 118, 128, 0.24);
-    --fill-strong: rgba(118, 118, 128, 0.4);
+    --foreground-soft: #1c2119;
+    --foreground-faint: #3a4032;
+    --line: #8f8770;
+    --line-soft: #a8a084;
+    --chart-grid: #beb69c;
+    --fill: rgba(90, 84, 64, 0.22);
+    --fill-strong: rgba(90, 84, 64, 0.38);
     --shadow-card: 0 0 0 1px var(--line);
   }
 }
 @media (prefers-contrast: more) and (prefers-color-scheme: dark) {
   :root {
-    --foreground-soft: #f5f5f7;
-    --foreground-faint: #d1d1d6;
-    --line: #8e8e93;
-    --line-soft: #636366;
-    --chart-grid: #48484a;
+    --foreground-soft: #f3efe3;
+    --foreground-faint: #ddd6c3;
+    --line: #8f8770;
+    --line-soft: #625c48;
+    --chart-grid: #4d4a3b;
   }
 }
 
@@ -165,13 +169,14 @@
   --color-danger-soft: var(--danger-soft);
 }
 
-/* The platform's own typeface: SF Pro on Apple devices (with its optical
-   sizes), Segoe UI on Windows, Roboto on Android. Tracking and leading are
-   set per size — tight on large text, near zero on body, slightly open on
-   the smallest captions — never one letter-spacing for every size. */
+/* Manrope (loaded in app/layout.tsx as --font-lumen) first, the platform
+   typeface as a safety net if the font hasn't painted yet. Tracking and
+   leading are set per size — tight on large text, near zero on body,
+   slightly open on the smallest captions — never one letter-spacing for
+   every size. */
 @theme {
-  --font-sans: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-lumen), -apple-system, BlinkMacSystemFont, system-ui,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
 
   --text-2xs: 0.6875rem;

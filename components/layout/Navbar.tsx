@@ -2,15 +2,16 @@
 
 import { useEffect, useRef, useState } from "react";
 
-function LumenMark() {
+// The LUMEN mark: a luminous point inside a halo ring, not a literal leaf,
+// bolt, or badge. The offset highlight reads as a light source rather than
+// a flat dot — the one recurring shape the rest of the brand motif system
+// (BrandHalo, chart accents) echoes at larger scale.
+function LumenMark({ size = 26 }: { size?: number }) {
   return (
-    <svg width="26" height="26" viewBox="0 0 30 30" fill="none" aria-hidden>
-      <rect width="30" height="30" rx="8" fill="var(--accent)" />
-      <path
-        d="M15 6.5 C 19 11.5, 21 14.8, 21 18 A 6 6 0 0 1 9 18 C 9 14.8, 11 11.5, 15 6.5 Z"
-        fill="#fff"
-        opacity="0.94"
-      />
+    <svg width={size} height={size} viewBox="0 0 32 32" fill="none" aria-hidden>
+      <circle cx="16" cy="16" r="14.25" stroke="var(--accent)" strokeWidth="1.25" opacity="0.4" />
+      <circle cx="16" cy="16" r="7.5" fill="var(--accent)" />
+      <circle cx="12.75" cy="12.5" r="2.35" fill="var(--surface)" opacity="0.92" />
     </svg>
   );
 }
@@ -42,8 +43,8 @@ export function Navbar() {
       >
         <div className="mx-auto flex h-[var(--nav-h)] max-w-7xl items-center gap-2.5 px-4 sm:px-6 lg:px-8">
           <LumenMark />
-          <span className="text-[0.9375rem] font-semibold tracking-[-0.01em] text-foreground">
-            LUMEN
+          <span className="text-[0.9375rem] font-bold uppercase tracking-[0.04em] text-foreground">
+            Lumen
           </span>
           <span
             className="toolbar-title min-w-0 truncate border-l border-line pl-2.5 text-sm text-foreground-soft"
@@ -54,22 +55,49 @@ export function Navbar() {
         </div>
       </header>
 
-      <div className="mx-auto w-full max-w-7xl px-4 pb-6 pt-7 sm:px-6 sm:pt-10 lg:px-8">
-        <p className="text-footnote font-semibold uppercase tracking-[0.02em] text-accent-ink">
-          Germany &middot; Year 1 &middot; Interactive decision simulator
-        </p>
-        <h1
-          ref={titleRef}
-          className="mt-1.5 text-3xl font-bold text-foreground sm:text-4xl"
-        >
-          LUMEN Germany Launch Simulator
-        </h1>
-        <p className="mt-2.5 max-w-2xl text-base text-foreground-soft text-pretty sm:text-lg">
-          Evaluate pricing, channel strategy, market-share assumptions,
-          customer economics and launch timing for LUMEN&apos;s German
-          market entry — every number updates live as you move a control.
-        </p>
+      <div className="relative overflow-hidden">
+        <BrandHalo />
+        <div className="relative mx-auto w-full max-w-7xl px-4 pb-6 pt-7 sm:px-6 sm:pt-10 lg:px-8">
+          <p className="text-footnote font-semibold uppercase tracking-[0.08em] text-accent-ink">
+            Germany &middot; Year 1 &middot; Interactive decision tool
+          </p>
+          <h1
+            ref={titleRef}
+            className="mt-2 text-5xl font-extrabold uppercase leading-none tracking-[0.01em] text-foreground sm:text-6xl"
+          >
+            Lumen
+          </h1>
+          <p className="mt-2 text-xl font-medium text-foreground-soft sm:text-2xl">
+            Pricing &amp; Go-to-Market Simulator
+          </p>
+          <p className="mt-3 text-sm font-semibold italic text-accent-ink">
+            Bright energy. Clear decisions.
+          </p>
+          <p className="mt-2.5 max-w-2xl text-base text-foreground-soft text-pretty sm:text-lg">
+            Evaluate pricing, channel strategy, market-share assumptions,
+            customer economics and launch timing for LUMEN&apos;s German
+            market entry — every number updates live as you move a control.
+          </p>
+        </div>
       </div>
     </>
+  );
+}
+
+// A single soft radial glow behind the hero, low enough in opacity to read
+// as daylight rather than decoration — the one place the brand halo motif
+// appears at full scale. Purely decorative: aria-hidden, never behind text
+// contrast, and static (no motion to respect prefers-reduced-motion by
+// simply not needing an exception).
+function BrandHalo() {
+  return (
+    <div
+      aria-hidden
+      className="pointer-events-none absolute -left-24 -top-40 h-96 w-96 rounded-full opacity-60"
+      style={{
+        background:
+          "radial-gradient(closest-side, color-mix(in srgb, var(--accent) 16%, transparent), transparent 72%)",
+      }}
+    />
   );
 }
