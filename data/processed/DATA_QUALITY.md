@@ -9,6 +9,14 @@ Confirmed present in the raw CSV —
 all three are dropped before writing `customerSurvey.json`. None of the
 processed files under `data/processed/` contain any of those three fields.
 
+## Seasonality-index normalization
+
+The raw `seasonality_index_100_avg` values have an unweighted monthly mean of
+**101.67**, rather than the 100 stated in the column name.
+The raw CSV is retained unchanged. Before writing `seasonalityAndWeather.json`, the
+pipeline scales every index by `100 / 101.6667`; this preserves
+the relative monthly pattern while making 100 a genuine year-average month in the app.
+
 ## Exact-duplicate rows
 
 `historical_sales_weekly.csv` contained **4** exact

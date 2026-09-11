@@ -100,12 +100,10 @@ export const DEFAULT_SCENARIO_INPUTS: ScenarioInputs = {
   ],
   launchMonth: 5,
   // 0.1% of the addressable Energy/focus category across all 6 regions.
-  // Calibrated, not arbitrary: at this default, the Compromise preset's
-  // estimated Germany Year-1 volume lands close to LUMEN's entire current
-  // combined NL+DK+SE volume (~66,600 units/month, from
-  // data/historical_sales_weekly.csv) — an aggressive but explainable
-  // Year-1 target, not a guess. Adjustable in the UI; stress-test it
-  // before trusting any recommendation built on it.
+  // This is an explicit, adjustable Year-1 penetration assumption, not a
+  // measured German result. Its resulting volume is scenario-dependent, so
+  // it must be stress-tested rather than treated as a match to home-market
+  // sales.
   marketShareCapturePct: 0.001,
   includeAdaptogenicCategory: false,
 };

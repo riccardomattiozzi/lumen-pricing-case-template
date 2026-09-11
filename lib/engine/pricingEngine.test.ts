@@ -65,6 +65,34 @@ describe("estimateAddressableDemand", () => {
     const all = estimateAddressableDemand(DEFAULT_SCENARIO_INPUTS);
     expect(all.units).toBeGreaterThanOrEqual(berlinOnly.units);
   });
+
+  it("caps launch volume at the customers the marketing budget can acquire", () => {
+    const noBudget = estimateAddressableDemand({
+      ...DEFAULT_SCENARIO_INPUTS,
+      monthlyMarketingBudgetEur: 0,
+    });
+    const smallBudget = estimateAddressableDemand({
+      ...DEFAULT_SCENARIO_INPUTS,
+      monthlyMarketingBudgetEur: 2_000,
+    });
+    const largerBudget = estimateAddressableDemand({
+      ...DEFAULT_SCENARIO_INPUTS,
+      monthlyMarketingBudgetEur: 60_000,
+    });
+
+    expect(noBudget.units).toBe(0);
+    expect(smallBudget.units).toBeGreaterThan(0);
+    expect(largerBudget.units).toBeGreaterThan(smallBudget.units);
+  });
+
+  it("uses a seasonality index whose monthly average is exactly 100", () => {
+    const averageIndex =
+      dataset.seasonalityAndWeather.reduce(
+        (sum, row) => sum + row.seasonalityIndex,
+        0
+      ) / dataset.seasonalityAndWeather.length;
+    expect(averageIndex).toBeCloseTo(100, 3);
+  });
 });
 
 describe("computeBlendedCacAndLtv", () => {

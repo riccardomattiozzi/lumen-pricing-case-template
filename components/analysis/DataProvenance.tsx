@@ -18,7 +18,7 @@ const LINEAGE: { exhibit: string; file: string; drives: string }[] = [
 
 const LIMITATIONS = [
   "No German sales data exists. Every volume figure is an estimate from comparable markets, German survey responses and competitor benchmarks — not a measurement.",
-  "The demand model doesn't cap volume by what the marketing budget can actually acquire at the blended CAC. Budget and demand are modelled separately.",
+  "The marketing budget caps launch-month volume using historical blended CAC, survey price acceptance and purchase frequency. It assumes CAC and purchase frequency stay constant as spend changes.",
   "LTV:CAC comes from the marketing funnel alone, so it doesn't move with price or channel mix — read it as a fixed reference against the ≈3:1 target, not a lever.",
   "Stated willingness-to-pay (Van Westendorp) skews low versus real purchase behaviour. It's shown because it disagrees with the profit-optimal price, not because either one is automatically right.",
   "The CFO/CMO scoring weights are a judgment call, written as named constants in lib/recommendationEngine.ts so they're easy to find and argue with.",
@@ -49,8 +49,8 @@ export function DataProvenance() {
       <div className="card p-5">
         <h3 className="card-title">Every number here traces to a file</h3>
         <p className="card-subtitle">
-          All twelve exhibits from the data room are in use. Nothing in this
-          tool is a placeholder or a round number someone liked.
+          All twelve case exhibits are in use. Outputs trace to supplied case
+          data and clearly labelled modelling assumptions.
         </p>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full text-left text-sm">

@@ -1,62 +1,62 @@
 [
   {
     "month": 1,
-    "seasonalityIndex": 78,
+    "seasonalityIndex": 76.7213,
     "avgTempCelsius": 2
   },
   {
     "month": 2,
-    "seasonalityIndex": 80,
+    "seasonalityIndex": 78.6885,
     "avgTempCelsius": 3
   },
   {
     "month": 3,
-    "seasonalityIndex": 88,
+    "seasonalityIndex": 86.5574,
     "avgTempCelsius": 7
   },
   {
     "month": 4,
-    "seasonalityIndex": 98,
+    "seasonalityIndex": 96.3934,
     "avgTempCelsius": 11
   },
   {
     "month": 5,
-    "seasonalityIndex": 118,
+    "seasonalityIndex": 116.0656,
     "avgTempCelsius": 15
   },
   {
     "month": 6,
-    "seasonalityIndex": 132,
+    "seasonalityIndex": 129.8361,
     "avgTempCelsius": 18
   },
   {
     "month": 7,
-    "seasonalityIndex": 138,
+    "seasonalityIndex": 135.7377,
     "avgTempCelsius": 19
   },
   {
     "month": 8,
-    "seasonalityIndex": 128,
+    "seasonalityIndex": 125.9016,
     "avgTempCelsius": 19
   },
   {
     "month": 9,
-    "seasonalityIndex": 104,
+    "seasonalityIndex": 102.2951,
     "avgTempCelsius": 15
   },
   {
     "month": 10,
-    "seasonalityIndex": 90,
+    "seasonalityIndex": 88.5246,
     "avgTempCelsius": 11
   },
   {
     "month": 11,
-    "seasonalityIndex": 82,
+    "seasonalityIndex": 80.6557,
     "avgTempCelsius": 6
   },
   {
     "month": 12,
-    "seasonalityIndex": 84,
+    "seasonalityIndex": 82.623,
     "avgTempCelsius": 3
   }
 ]

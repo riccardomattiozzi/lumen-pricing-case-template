@@ -175,8 +175,17 @@ export function AssumptionControls() {
 
       <div>
         <div className="flex items-baseline justify-between gap-3">
-          <label htmlFor="budget-slider" className="text-sm text-foreground">
+          <label
+            htmlFor="budget-slider"
+            className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-sm text-foreground"
+          >
             Monthly marketing budget
+            <InfoTip label="Monthly marketing budget">
+              This caps launch-month volume by the customers the budget can
+              acquire at the historical blended CAC, adjusted for survey price
+              acceptance and average monthly purchase frequency. It assumes
+              CAC and purchase frequency stay constant as spend changes.
+            </InfoTip>
           </label>
           <span className="text-sm font-semibold tabular-nums text-foreground">
             {formatEuro(monthlyMarketingBudgetEur)}

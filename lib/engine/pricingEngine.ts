@@ -106,9 +106,13 @@ export function interpolatePriceAcceptance(
 //                    the selected targetRegions
 //   SOM €          = regional € × marketShareCapturePct (EXPLICIT input,
 //                    not a fact — the UI must label it as an assumption)
-//   → units/year   = SOM € ÷ avg. competitor single-can price
-//   → units/month  = (units/year ÷ 12) × seasonality index for launchMonth
-//   → final units  = units/month × blended acceptance % at this price
+//   → market-potential units/year = SOM € ÷ avg. competitor single-can price
+//   → market-potential units/month = (units/year ÷ 12) × seasonality index
+//                                     × blended acceptance % at this price
+//   → acquisition capacity = monthly marketing budget ÷ historical blended CAC
+//                            × survey average monthly purchase frequency
+//                            × price acceptance
+//   → final units = the lower of market potential and acquisition capacity
 //
 // The low/high band flexes marketShareCapturePct by roughly ±50% around
 // its current value — a confidence range, not a promise.
@@ -172,10 +176,22 @@ export function estimateAddressableDemand(
     return unitsPerMonthPreAcceptance * (blendedAcceptancePct / 100);
   };
 
+  const { blendedCacEur } = computeBlendedCacAndLtv(dataset);
+  const avgPurchaseFrequency = averagePurchaseFrequency(dataset);
+  const acquisitionCapacityUnits =
+    inputs.monthlyMarketingBudgetEur > 0 && blendedCacEur > 0
+      ? (inputs.monthlyMarketingBudgetEur / blendedCacEur) *
+        avgPurchaseFrequency *
+        (blendedAcceptancePct / 100)
+      : 0;
+
+  const cappedUnits = (marketPotentialUnits: number) =>
+    Math.round(Math.min(marketPotentialUnits, acquisitionCapacityUnits));
+
   return {
-    units: Math.round(unitsFor(inputs.marketShareCapturePct)),
-    low: Math.round(unitsFor(inputs.marketShareCapturePct * 0.5)),
-    high: Math.round(unitsFor(inputs.marketShareCapturePct * 1.5)),
+    units: cappedUnits(unitsFor(inputs.marketShareCapturePct)),
+    low: cappedUnits(unitsFor(inputs.marketShareCapturePct * 0.5)),
+    high: cappedUnits(unitsFor(inputs.marketShareCapturePct * 1.5)),
   };
 }
 

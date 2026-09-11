@@ -32,10 +32,11 @@ for a number that isn't there.
 
 ## Worth knowing before you build
 
-- **The numbers are internally consistent by construction** (segment shares,
-  CAC, margins and elasticity all come from the same underlying model) — you
-  can trust that combining files won't produce nonsense, but you still have to
-  do the combining and the judgment calls yourself.
+- **The processed exhibits are internally consistent by construction**
+  (segment shares, CAC, margins and elasticity all come from the same
+  underlying model) — documented pipeline corrections are applied before the
+  app reads them. You can combine the processed data without introducing
+  mechanical contradictions, but still need to make the judgment calls.
 - **This dataset is not perfectly clean.** A few real-world imperfections are
   in there on purpose (duplicate rows, an unusual spike week). A good analyst
   notices and handles data-quality issues rather than taking every row at face
