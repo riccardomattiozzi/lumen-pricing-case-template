@@ -56,11 +56,16 @@ function SpectrumMarker({
   color,
   label,
   emphasis,
+  stackRow = 0,
 }: {
   position: number;
   color: string;
   label: string;
   emphasis?: boolean;
+  /** Vertical row (0, 1, ...) to stagger this marker's label into, so two
+      markers sitting close together on the spectrum don't render their
+      labels on top of each other. */
+  stackRow?: number;
 }) {
   return (
     <div
@@ -77,9 +82,10 @@ function SpectrumMarker({
         }}
       />
       <span
-        className={`mt-1.5 whitespace-nowrap text-2xs ${
+        className={`whitespace-nowrap text-2xs ${
           emphasis ? "font-semibold text-foreground" : "text-foreground-faint"
         }`}
+        style={{ marginTop: `${0.375 + stackRow * 1.125}rem` }}
       >
         {label}
       </span>
@@ -97,6 +103,9 @@ export function TradeoffMatrix() {
 
   const currentPosition = spectrumPosition(result.cfoScore, result.cmoScore);
   const compromisePosition = spectrumPosition(compromiseResult.cfoScore, compromiseResult.cmoScore);
+  // Below this % distance the two markers' labels would collide — stack
+  // "This scenario" onto a second row instead of overlapping "Compromise".
+  const markersAreClose = Math.abs(currentPosition - compromisePosition) < 14;
 
   const leaning =
     result.tradeoffGapPts <= 5
@@ -145,9 +154,12 @@ export function TradeoffMatrix() {
             color={colors.compromise}
             label="This scenario"
             emphasis
+            stackRow={markersAreClose ? 1 : 0}
           />
         </div>
-        <p className="mt-6 text-sm text-foreground-soft text-pretty">{interpretation}</p>
+        <p className={`${markersAreClose ? "mt-9" : "mt-6"} text-sm text-foreground-soft text-pretty`}>
+          {interpretation}
+        </p>
       </div>
 
       <div className="mt-5 border-t border-line-soft pt-5">
