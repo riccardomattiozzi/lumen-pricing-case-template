@@ -2,9 +2,8 @@
 
 import { useScenario, PRESET_INPUTS } from "@/lib/store";
 import { computeScenario } from "@/lib/engine/pricingEngine";
-import { computeTradeoff, stressTestAssumption } from "@/lib/recommendationEngine";
+import { computeTradeoff } from "@/lib/recommendationEngine";
 import { colors } from "@/lib/theme";
-import { InfoTip } from "@/components/ui/InfoTip";
 
 function ScoreBar({
   label,
@@ -85,7 +84,7 @@ function SpectrumMarker({
         className={`whitespace-nowrap text-2xs ${
           emphasis ? "font-semibold text-foreground" : "text-foreground-faint"
         }`}
-        style={{ marginTop: `${0.375 + stackRow * 1.125}rem` }}
+        style={{ marginTop: `${0.625 + stackRow * 1.5}rem` }}
       >
         {label}
       </span>
@@ -96,7 +95,6 @@ function SpectrumMarker({
 export function TradeoffMatrix() {
   const { inputs, outputs } = useScenario();
   const result = computeTradeoff(inputs, outputs);
-  const stress = stressTestAssumption(inputs);
 
   const compromiseOutputs = computeScenario(PRESET_INPUTS.Compromise);
   const compromiseResult = computeTradeoff(PRESET_INPUTS.Compromise, compromiseOutputs);
@@ -157,49 +155,9 @@ export function TradeoffMatrix() {
             stackRow={markersAreClose ? 1 : 0}
           />
         </div>
-        <p className={`${markersAreClose ? "mt-9" : "mt-6"} text-sm text-foreground-soft text-pretty`}>
+        <p className={`${markersAreClose ? "mt-11" : "mt-6"} text-sm text-foreground-soft text-pretty`}>
           {interpretation}
         </p>
-      </div>
-
-      <div className="mt-5 border-t border-line-soft pt-5">
-        <h4 className="flex items-center gap-1.5 text-sm font-semibold text-foreground">
-          Does this hold up? Stress-testing the market-share assumption
-          <InfoTip label="Market share stress test">
-            Year-1 market share is an assumption, not a measurement — there
-            is no German sales history yet. This reruns the scenario at
-            half and double the current assumption to show whether the
-            scores survive a more conservative or more optimistic guess.
-          </InfoTip>
-        </h4>
-        <p className="mt-1 text-sm text-foreground-faint">
-          Rerunning the recommendation at half and double the current
-          Year-1 capture-rate assumption ({(inputs.marketShareCapturePct * 100).toFixed(2)}%):
-        </p>
-        <div className="mt-3 grid grid-cols-3 gap-2">
-          {stress.map(({ multiplier, result: r }) => (
-            <div
-              key={multiplier}
-              className={`rounded-xl px-3 py-2.5 ${
-                multiplier === 1 ? "bg-surface-2 ring-1 ring-inset ring-line" : "bg-surface-2"
-              }`}
-            >
-              <p className="text-xs font-medium text-foreground-faint">
-                {multiplier}× {multiplier === 0.5 ? "downside" : multiplier === 2 ? "upside" : "(now)"}
-              </p>
-              <p className="mt-1 flex flex-wrap gap-x-2.5 text-sm tabular-nums">
-                <span>
-                  <span className="text-xs text-foreground-faint">CFO </span>
-                  <span className="font-semibold text-foreground">{r.cfoScore}</span>
-                </span>
-                <span>
-                  <span className="text-xs text-foreground-faint">CMO </span>
-                  <span className="font-semibold text-foreground">{r.cmoScore}</span>
-                </span>
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );
