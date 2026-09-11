@@ -21,8 +21,11 @@ import { computeScenario } from "@/lib/engine/pricingEngine";
 // over Retail/Grocery — it's specifically about price: CFO wants the
 // profit-maximizing €2.19, CMO wants to push toward the most premium
 // tested price (€2.59) for positioning even though that costs total
-// profit. Compromise keeps a meaningful Retail/Grocery share for the
-// market reach neither pure-margin scenario provides. Exported so
+// profit. Compromise therefore shares the CFO's channels and splits the
+// difference on price only. It used to keep 25% on Retail/Grocery "for
+// reach", which dragged it below the CFO preset on both scores at once —
+// the preset named Compromise had the lowest compromise score of the three.
+// recommendationEngine.test.ts now guards against that. Exported so
 // components/layout/ScenarioPanel.tsx can display real computed numbers
 // next to each preset, not just apply them.
 export const PRESET_INPUTS: Record<PresetName, ScenarioInputs> = {
@@ -48,9 +51,9 @@ export const PRESET_INPUTS: Record<PresetName, ScenarioInputs> = {
     ...DEFAULT_SCENARIO_INPUTS,
     priceEur: 2.39,
     salesChannelMix: {
-      "DTC Online": 0.35,
-      "Retail/Grocery": 0.25,
-      "Gym & Office": 0.4,
+      "DTC Online": 0.45,
+      "Retail/Grocery": 0.1,
+      "Gym & Office": 0.45,
     },
   },
 };
